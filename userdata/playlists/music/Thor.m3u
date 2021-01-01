@@ -1,0 +1,13 @@
+#EXTCPlayListM3U::M3U
+#EXTINF:0,Thor - A new king.mp3
+/var/media/sda1-usb-SanDisk_Cruzer_B/Music extra/Thor - A new king.mp3
+#EXTINF:0,Thor - Banishment.mp3
+/var/media/sda1-usb-SanDisk_Cruzer_B/Music extra/Thor - Banishment.mp3
+#EXTINF:0,Thor - Can you see jane.mp3
+/var/media/sda1-usb-SanDisk_Cruzer_B/Music extra/Thor - Can you see jane.mp3
+#EXTINF:0,Thor - Earth to Asgard.mp3
+/var/media/sda1-usb-SanDisk_Cruzer_B/Music extra/Thor - Earth to Asgard.mp3
+#EXTINF:0,Thor - Science and Magic.mp3
+/var/media/sda1-usb-SanDisk_Cruzer_B/Music extra/Thor - Science and Magic.mp3
+#EXTINF:0,Thor - Sons of Odin.mp3
+/var/media/sda1-usb-SanDisk_Cruzer_B/Music extra/Thor - Sons of Odin.mp3

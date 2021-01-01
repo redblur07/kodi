@@ -1,0 +1,25 @@
+<keymap>
+    <global>
+        <keyboard>
+            <F3>RunScript("/storage/.kodi/hello.py")</F3>
+            <F4>XBMC.ReloadSkin()</F4>
+            <F1>RunScript("/storage/.kodi/hello.py")</F1>
+            <F2>ReloadSkin()</F2>
+            <F5>PlayerControl(tempoup)</F5>
+            <z>ActivateWindow(10103)</z>
+        </keyboard>
+    </global> 
+    <FullscreenVideo>
+        <keyboard> 
+            <F6>PlayerControl(tempodown)</F6> 
+            <F7>PlayerControl(tempoup)</F7>
+            <F9>ActivateScreensaver()</F9>
+        </keyboard>
+    </FullscreenVideo>
+    <VideoMenu> 
+        <keyboard>
+            <F8>PlayerControl(tempoup)</F8>
+            <k>Pause</k>
+        </keyboard>
+    </VideoMenu>
+</keymap>

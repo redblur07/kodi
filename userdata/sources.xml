@@ -1,0 +1,60 @@
+<sources>
+    <programs>
+        <default pathversion="1"></default>
+    </programs>
+    <video>
+        <default pathversion="1"></default>
+        <source>
+            <name>videos</name>
+            <path pathversion="1">/media/UsbStorage/videos/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+    </video>
+    <music>
+        <default pathversion="1"></default>
+        <source>
+            <name>Music</name>
+            <path pathversion="1">/storage/music/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Music (2)</name>
+            <path pathversion="1">/home/osmc/Music/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+    </music>
+    <pictures>
+        <default pathversion="1"></default>
+        <source>
+            <name>Pictures</name>
+            <path pathversion="1">/storage/pictures/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>nn</name>
+            <path pathversion="1">/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+    </pictures>
+    <files>
+        <default pathversion="1"></default>
+        <source>
+            <name>OSMC USB</name>
+            <path pathversion="1">/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>OSMC</name>
+            <path pathversion="1">/home/osmc/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Videos</name>
+            <path pathversion="1">/home/osmc/Videos/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+    </files>
+    <games>
+        <default pathversion="1"></default>
+    </games>
+</sources>

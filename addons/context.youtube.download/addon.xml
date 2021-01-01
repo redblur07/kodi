@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="context.youtube.download" version="1.3.3" name="YouTube Download Context Menu" provider-name="anxdpanic">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="plugin.video.youtube" version="5.4.0"/>
+        <import addon="script.module.youtube.dl" version="17.709.0"/>
+    </requires>
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <menu>
+                <label>30001</label>
+                <item library="resources/lib/download_video_bg.py">
+                    <label>30002</label>
+                    <visible>
+                        String.IsEqual(Container.PluginName,plugin.video.youtube)+!ListItem.IsFolder+!String.IsEqual(Container.FolderPath,plugin://plugin.video.youtube/special/live/)
+                    </visible>
+                </item>
+                <item library="resources/lib/download_audio_bg.py">
+                    <label>30006</label>
+                    <visible>
+                        String.IsEqual(Container.PluginName,plugin.video.youtube)+!ListItem.IsFolder+!String.IsEqual(Container.FolderPath,plugin://plugin.video.youtube/special/live/)
+                    </visible>
+                </item>
+                <item library="resources/lib/download_video_fg.py">
+                    <label>30003</label>
+                    <visible>
+                        String.IsEqual(Container.PluginName,plugin.video.youtube)+!ListItem.IsFolder+!String.IsEqual(Container.FolderPath,plugin://plugin.video.youtube/special/live/)
+                    </visible>
+                </item>
+                <item library="resources/lib/download_audio_fg.py">
+                    <label>30007</label>
+                    <visible>
+                        String.IsEqual(Container.PluginName,plugin.video.youtube)+!ListItem.IsFolder+!String.IsEqual(Container.FolderPath,plugin://plugin.video.youtube/special/live/)
+                    </visible>
+                </item>
+                <item library="resources/lib/youtube_dl_settings.py">
+                    <label>30005</label>
+                    <visible>
+                        String.IsEqual(Container.PluginName,plugin.video.youtube)+!ListItem.IsFolder+!String.IsEqual(Container.FolderPath,plugin://plugin.video.youtube/special/live/)
+                    </visible>
+                </item>
+                <item library="resources/lib/youtube_dl_control.py">
+                    <label>30004</label>
+                    <visible>
+                        String.IsEqual(Container.PluginName,plugin.video.youtube)+!ListItem.IsFolder+!String.IsEqual(Container.FolderPath,plugin://plugin.video.youtube/special/live/)
+                    </visible>
+                </item>
+            </menu>
+        </menu>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <news>
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart></fanart>
+        </assets>
+        <summary lang="en_gb">Add Download to YouTube Add-on context menu</summary>
+        <description lang="en_gb">Download video(mp4) and audio(m4a) from YouTube using script.module.youtube.dl via context menu in the YouTube Kodi Add-on</description>
+        <summary lang="el_gr">Προσθήκη μενού για μεταφόρτωση από πρόσθετο Youtube</summary>
+        <description lang="el_gr">Μεταφόρτωση βίντεο (mp4) και ήχου (m4a) από Youtube χρησιμοποιώντας το script.module.youtube.dl μέσω δευτερεύοντος μενού εντός του πρόσθετου Youtube</description>
+        <summary lang="he_il">הוסף הורדה לתפריט ההקשר של YouTube</summary>
+        <description lang="he_il">הורד סרטון (mp4) ושמע (m4a) מ-YouTube באמצעות script.module.youtube.dl על ידי תפריט ההקשר בתוסף ל-YouTube של קודי</description>
+        <language></language>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum></forum>
+        <website>https://github.com/anxdpanic/context.youtube.download#youtube-download-context-menu</website>
+        <source>https://github.com/anxdpanic/context.youtube.download</source>
+    </extension>
+</addon>

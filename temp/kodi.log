@@ -636,3 +636,114 @@
 2021-01-01 03:49:00.210 T:1868558560 WARNING: ActiveAE - large audio sync error: -89428.742425
 2021-01-01 03:52:08.621 T:1868558560 WARNING: ActiveAE - large audio sync error: -89439.076906
 2021-01-01 03:55:30.000 T:1868558560 WARNING: ActiveAE - large audio sync error: -89440.708761
+2021-01-01 04:57:38.241 T:1899635632  NOTICE: CVideoPlayer::CloseFile()
+2021-01-01 04:57:38.254 T:1571807456  NOTICE: CVideoPlayer::OnExit()
+2021-01-01 04:57:38.254 T:1571807456  NOTICE: Closing stream player 1
+2021-01-01 04:57:38.254 T:1571807456  NOTICE: Waiting for audio thread to exit
+2021-01-01 04:57:38.264 T:1899635632  NOTICE: VideoPlayer: waiting for threads to exit
+2021-01-01 04:57:38.276 T:1528144096  NOTICE: thread end: CVideoPlayerAudio::OnExit()
+2021-01-01 04:57:38.276 T:1571807456  NOTICE: Closing audio device
+2021-01-01 04:57:38.327 T:1571807456  NOTICE: Deleting audio codec
+2021-01-01 04:57:38.333 T:1571807456  NOTICE: Closing stream player 2
+2021-01-01 04:57:38.333 T:1571807456  NOTICE: waiting for video thread to exit
+2021-01-01 04:57:38.341 T:1683980512  NOTICE: thread end: video_thread
+2021-01-01 04:57:38.343 T:1571807456  NOTICE: deleting video codec
+2021-01-01 04:57:38.349 T:1571807456  NOTICE: Closing stream player 3
+2021-01-01 04:57:38.366 T:1899635632  NOTICE: VideoPlayer: finished waiting
+2021-01-01 04:57:38.366 T:1899635632  NOTICE: CVideoPlayer::CloseFile()
+2021-01-01 04:57:38.366 T:1899635632  NOTICE: VideoPlayer: waiting for threads to exit
+2021-01-01 04:57:38.366 T:1899635632  NOTICE: VideoPlayer: finished waiting
+2021-01-01 04:57:38.774 T:1536536800 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-01-01 04:57:38.775 T:1536536800 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-01-01 04:57:38.830 T:1536536800 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-01-01 04:57:38.831 T:1536536800 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-01-01 04:57:38.844 T:1536536800 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-01-01 04:57:38.845 T:1536536800 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-01-01 04:57:43.861 T:1860165856  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2205)
+2021-01-01 04:57:48.764 T:1899635632  NOTICE: Previous line repeats 3 times.
+2021-01-01 04:57:48.764 T:1899635632 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-01-01 04:57:49.331 T:1860165856 WARNING: Previous line repeats 1 times.
+2021-01-01 04:57:49.332 T:1860165856  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2205)
+2021-01-01 04:57:49.605 T:1899635632  NOTICE: VideoPlayer::OpenFile: /media/UsbStorage/movies/Pride and Prejudice (2005).mp4
+2021-01-01 04:57:49.606 T:1598943456  NOTICE: Creating InputStream
+2021-01-01 04:57:49.611 T:1598943456  NOTICE: Creating Demuxer
+2021-01-01 04:57:50.393 T:1598943456  NOTICE: Opening stream: 0 source: 256
+2021-01-01 04:57:50.393 T:1598943456  NOTICE: Creating video codec with codec id: 27
+2021-01-01 04:57:50.405 T:1598943456  NOTICE: Creating video thread
+2021-01-01 04:57:50.405 T:1528144096  NOTICE: running thread: video_thread
+2021-01-01 04:57:50.405 T:1598943456  NOTICE: Opening stream: 1 source: 256
+2021-01-01 04:57:50.405 T:1598943456  NOTICE: Finding audio codec for: 86018
+2021-01-01 04:57:50.407 T:1598943456  NOTICE: CDVDAudioCodecFFmpeg::Open() Successful opened audio decoder aac
+2021-01-01 04:57:50.407 T:1598943456  NOTICE: Creating audio thread
+2021-01-01 04:57:50.407 T:1598943456  NOTICE: Opening stream: 0 source: 1024
+2021-01-01 04:57:50.408 T:1498407136  NOTICE: running thread: CVideoPlayerAudio::Process()
+2021-01-01 04:57:50.700 T:1498407136  NOTICE: Creating audio stream (codec id: 86018, channels: 2, sample rate: 48000, no pass-through)
+2021-01-01 04:57:52.441 T:1899635632  NOTICE: CVideoPlayer::CloseFile()
+2021-01-01 04:57:52.449 T:1598943456  NOTICE: CVideoPlayer::OnExit()
+2021-01-01 04:57:52.449 T:1598943456  NOTICE: Closing stream player 1
+2021-01-01 04:57:52.449 T:1598943456  NOTICE: Waiting for audio thread to exit
+2021-01-01 04:57:52.464 T:1899635632  NOTICE: VideoPlayer: waiting for threads to exit
+2021-01-01 04:57:52.473 T:1498407136  NOTICE: thread end: CVideoPlayerAudio::OnExit()
+2021-01-01 04:57:52.473 T:1598943456  NOTICE: Closing audio device
+2021-01-01 04:57:52.525 T:1598943456  NOTICE: Deleting audio codec
+2021-01-01 04:57:52.525 T:1598943456  NOTICE: Closing stream player 2
+2021-01-01 04:57:52.526 T:1598943456  NOTICE: waiting for video thread to exit
+2021-01-01 04:57:52.541 T:1528144096  NOTICE: thread end: video_thread
+2021-01-01 04:57:52.542 T:1598943456  NOTICE: deleting video codec
+2021-01-01 04:57:52.551 T:1598943456  NOTICE: Closing stream player 3
+2021-01-01 04:57:52.568 T:1899635632  NOTICE: VideoPlayer: finished waiting
+2021-01-01 04:57:52.569 T:1899635632  NOTICE: CVideoPlayer::CloseFile()
+2021-01-01 04:57:52.569 T:1899635632  NOTICE: VideoPlayer: waiting for threads to exit
+2021-01-01 04:57:52.569 T:1899635632  NOTICE: VideoPlayer: finished waiting
+2021-01-01 04:57:53.975 T:1899635632 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-01-01 04:57:54.465 T:1633624288 WARNING: Previous line repeats 1 times.
+2021-01-01 04:57:54.465 T:1633624288  NOTICE: [plugin.video.elementum] [33mWARN  main         ▶ Notification     [0mOnPlay. No active player found
+2021-01-01 04:57:55.350 T:1860165856  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2205)
+2021-01-01 04:58:10.383 T:1571807456  NOTICE: Previous line repeats 14 times.
+2021-01-01 04:58:10.383 T:1571807456 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-01-01 04:58:10.384 T:1571807456 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-01-01 04:58:10.435 T:1571807456 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-01-01 04:58:10.436 T:1571807456 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-01-01 04:58:10.452 T:1571807456 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-01-01 04:58:10.452 T:1571807456 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-01-01 04:58:10.808 T:1860165856  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2205)
+2021-01-01 08:34:40.323 T:1633624288  NOTICE: Previous line repeats 6 times.
+2021-01-01 08:34:40.323 T:1633624288  NOTICE: [plugin.video.elementum] INFO  library      ▶ updateLibraryShows  [0mLibrary updated in 56.302µs
+2021-01-01 08:34:41.419 T:1536536800  NOTICE: VideoInfoScanner: Starting scan ..
+2021-01-01 08:34:41.449 T:1536536800 WARNING: Process directory '/media/UsbStorage/tvshows/spiderman/' does not exist - skipping scan.
+2021-01-01 08:34:41.459 T:1536536800  NOTICE: VideoInfoScanner: Finished scan. Scanning for video info took 00:00
+2021-01-01 08:57:01.821 T:1899635632 WARNING: CGUIWindowManager - HandleAction - ignoring action 92, because topmost modal dialog closing animation is running
+2021-01-01 08:57:03.962 T:1860165856 WARNING: Previous line repeats 1 times.
+2021-01-01 08:57:03.962 T:1860165856  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2205)
+2021-01-01 08:57:04.718 T:1899635632  NOTICE: Stopping player
+2021-01-01 08:57:04.718 T:1899635632  NOTICE: Storing total System Uptime
+2021-01-01 08:57:04.719 T:1899635632  NOTICE: Saving settings
+2021-01-01 08:57:04.725 T:1899635632  NOTICE: Saving skin settings
+2021-01-01 08:57:04.727 T:1899635632  NOTICE: Stopping all
+2021-01-01 08:57:04.728 T:1899635632  NOTICE: ES: Stopping event server
+2021-01-01 08:57:04.728 T:1899635632  NOTICE: stopping zeroconf publishing
+2021-01-01 08:57:05.466 T:1650409696  NOTICE: ES: UDP Event server stopped
+2021-01-01 08:57:05.617 T:1899635632  NOTICE: stop dvd detect media
+2021-01-01 08:57:05.629 T:1633624288  NOTICE: [plugin.video.elementum] INFO  main         ▶ func1            [0mShutting down...
+2021-01-01 08:57:05.631 T:1633624288  NOTICE: [plugin.video.elementum] INFO  library      ▶ CloseLibrary     [0mClosing library...
+2021-01-01 08:57:05.632 T:1633624288  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ Close            [0mStopping BT Services...
+2021-01-01 08:57:05.633 T:1633624288  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ stopServices     [0mStopping internal proxy
+2021-01-01 08:57:05.768 T:1625231584  NOTICE: [plugin.video.elementum] elementum: exiting jsonrpc service
+2021-01-01 08:57:06.130 T:1633624288  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ stopServices     [0mStopping LSD...
+2021-01-01 08:57:06.130 T:1633624288  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ stopServices     [0mStopping DHT...
+2021-01-01 08:57:06.131 T:1633624288  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ stopServices     [0mStopping UPNP...
+2021-01-01 08:57:06.132 T:1633624288  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ stopServices     [0mStopping NATPMP...
+2021-01-01 08:57:06.134 T:1633624288  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ stopServices     [0mDeleting port mapping 6899: 2
+2021-01-01 08:57:06.137 T:1633624288  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ stopServices     [0mDeleting port mapping 6894: 3
+2021-01-01 08:57:06.139 T:1633624288  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ CloseSession     [0mClosing Session
+2021-01-01 08:57:06.614 T:1633624288  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ alertsConsumer   [0mClosing all alert channels...
+2021-01-01 08:57:06.618 T:1633624288  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ Close            [0mClosed service in 989.111822ms
+2021-01-01 08:57:06.619 T:1633624288  NOTICE: [plugin.video.elementum] INFO  main         ▶ func1            [0mGoodbye
+2021-01-01 08:57:06.627 T:1667195104  NOTICE: [plugin.video.elementum] elementumd: exiting elementumd daemon
+2021-01-01 08:57:06.627 T:1667195104  NOTICE: [plugin.video.elementum] elementumd: elementumd daemon exited
+2021-01-01 08:57:06.629 T:1675587808  NOTICE: [plugin.video.elementum] elementum: exiting elementumd
+2021-01-01 08:57:06.805 T:1899635632  NOTICE: Application stopped
+2021-01-01 08:57:07.045 T:1899635632  NOTICE: XBApplicationEx: destroying...
+2021-01-01 08:57:07.177 T:1899635632  NOTICE: unload skin
+2021-01-01 08:57:07.220 T:1899635632 WARNING: Cleanup: Having to cleanup texture lists/focus.png
+2021-01-01 08:57:07.304 T:1899635632  NOTICE: unload sections

@@ -1,0 +1,11 @@
+<keymap>
+    <global>
+        <keyboard>
+            <F11>Notification(ha,ha,5)</F11>
+            <F4>XBMC.ReloadSkin()</F4>
+            <F6>Skin.ToggleSetting(DebugGrid)</F6>
+            <F7>Skin.ToggleSetting(HideDebugInfo)</F7>
+            <F3>XMBC.Notification("Hello","Test", 5000)</F3>
+        </keyboard>
+    </global>
+</keymap>

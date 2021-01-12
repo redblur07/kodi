@@ -1,7 +1,5 @@
 <settings version="2">
-    <setting id="ad.chk.cached" default="true">true</setting>
     <setting id="ad.remove.uncached">true</setting>
-    <setting id="addon_debug" default="true">false</setting>
     <setting id="alldebrid.enable">true</setting>
     <setting id="alldebrid.priority">10</setting>
     <setting id="alldebrid.saveToCloud" default="true">false</setting>
@@ -14,19 +12,8 @@
     <setting id="autoTraktOnStart" default="true">false</setting>
     <setting id="bookmarks">true</setting>
     <setting id="bookmarks.auto" default="true">false</setting>
-    <setting id="bookmarks.trakt" default="true">false</setting>
     <setting id="cf.disable" default="true">false</setting>
-    <setting id="clear.all.cache" default="true"></setting>
-    <setting id="clear.bookmarks.cache" default="true"></setting>
-    <setting id="clear.cache1" default="true"></setting>
-    <setting id="clear.cache2" default="true"></setting>
-    <setting id="clear.metacache1" default="true"></setting>
-    <setting id="clear.metacache2" default="true"></setting>
-    <setting id="clear.search.cache" default="true"></setting>
-    <setting id="clear.sources1" default="true"></setting>
-    <setting id="clear.sources2" default="true"></setting>
     <setting id="crefresh" default="true">false</setting>
-    <setting id="debrid.only" default="true">false</setting>
     <setting id="debug.enabled" default="true">false</setting>
     <setting id="debug.location">1</setting>
     <setting id="dev.disable.season.filter" default="true">false</setting>
@@ -42,11 +29,9 @@
     <setting id="downloads.message1" default="true"></setting>
     <setting id="downloads.message2" default="true"></setting>
     <setting id="enable.resquality.icons" default="true">false</setting>
-    <setting id="enable.season.packs" default="true">false</setting>
     <setting id="enable.upnext" default="true">false</setting>
     <setting id="fanart">true</setting>
     <setting id="fanart.tv.api.key" default="true"></setting>
-    <setting id="fanart.tv.user" default="true"></setting>
     <setting id="first.info" default="true">false</setting>
     <setting id="flatten.tvshows" default="true">false</setting>
     <setting id="general.checkAddonUpdates">true</setting>
@@ -61,13 +46,6 @@
     <setting id="index.labels">true</setting>
     <setting id="indicators" default="true">0</setting>
     <setting id="indicators.alt">1</setting>
-    <setting id="label11" default="true"></setting>
-    <setting id="label12" default="true"></setting>
-    <setting id="label16" default="true"></setting>
-    <setting id="label29" default="true"></setting>
-    <setting id="label30" default="true"></setting>
-    <setting id="label31" default="true"></setting>
-    <setting id="label32" default="true"></setting>
     <setting id="library.check">true</setting>
     <setting id="library.check_episode" default="true">false</setting>
     <setting id="library.check_movie" default="true">false</setting>
@@ -79,11 +57,6 @@
     <setting id="library.service.update" default="true">false</setting>
     <setting id="library.tv" default="true">special://userdata/addon_data/plugin.video.venom/TVShows</setting>
     <setting id="library.update">true</setting>
-    <setting id="message1" default="true"></setting>
-    <setting id="message2" default="true"></setting>
-    <setting id="message3" default="true"></setting>
-    <setting id="message4" default="true"></setting>
-    <setting id="module.provider" default="true">Openscrapers Scrapers</setting>
     <setting id="movie.download.path">/home/osmc/Movies/</setting>
     <setting id="movie.unaired.identify">8</setting>
     <setting id="multi.unwatched.enabled" default="true">false</setting>
@@ -136,16 +109,8 @@
     <setting id="navi.tv.tvmaze.networks">true</setting>
     <setting id="navi.xmascollections" default="true">false</setting>
     <setting id="navi.youtube" default="true">false</setting>
-    <setting id="newmovies.widget" default="true">5</setting>
     <setting id="notification.sound" default="true">false</setting>
-    <setting id="open.resolveurl.ad" default="true"></setting>
-    <setting id="open.resolveurl.pm" default="true"></setting>
-    <setting id="open.resolveurl.rd" default="true"></setting>
-    <setting id="open.resolveurl.settings" default="true"></setting>
-    <setting id="open.settings" default="true"></setting>
-    <setting id="open.UpNext" default="true"></setting>
     <setting id="page.item.limit">20</setting>
-    <setting id="pm.chk.cached" default="true">true</setting>
     <setting id="pm.remove.uncached">true</setting>
     <setting id="preemptive.limit">25</setting>
     <setting id="preemptive.res">2</setting>
@@ -157,10 +122,7 @@
     <setting id="premiumize.token" default="true"></setting>
     <setting id="premiumize.username" default="true"></setting>
     <setting id="progress.dialog" default="true">0</setting>
-    <setting id="progress.dialog.free.color" default="true">1</setting>
     <setting id="progress.dialog.prem.color">5</setting>
-    <setting id="providers.lang" default="true">English</setting>
-    <setting id="rd.chk.cached" default="true">true</setting>
     <setting id="rd.remove.uncached">true</setting>
     <setting id="realdebrid.client_id" default="true"></setting>
     <setting id="realdebrid.enable">true</setting>
@@ -177,9 +139,7 @@
     <setting id="remove.duplicates.logging">true</setting>
     <setting id="remove.hevc" default="true">false</setting>
     <setting id="resume.source" default="true">0</setting>
-    <setting id="reuse.languageinvoker" default="true"></setting>
     <setting id="schedTraktTime" default="true">0</setting>
-    <setting id="schedTraktTime.message" default="true"></setting>
     <setting id="scrapers.timeout.1">60</setting>
     <setting id="sec.identify">4</setting>
     <setting id="sec.identify2" default="true">magnet title</setting>
@@ -207,17 +167,14 @@
     <setting id="subtitles.lang.2" default="true">English</setting>
     <setting id="subtitles.message1" default="true"></setting>
     <setting id="subtitles.utf" default="true">false</setting>
-    <setting id="tm.user" default="true"></setting>
     <setting id="tmdb.api.key" default="true"></setting>
     <setting id="tmdb.password" default="true"></setting>
     <setting id="tmdb.session_id" default="true"></setting>
     <setting id="tmdb.username" default="true"></setting>
-    <setting id="torrent.enabled" default="true">true</setting>
     <setting id="torrent.group.sort">1</setting>
     <setting id="torrent.identify">5</setting>
     <setting id="torrent.min.seeders">1</setting>
     <setting id="torrent.size.sort">true</setting>
-    <setting id="trakt.auth" default="true"></setting>
     <setting id="trakt.general.notifications">true</setting>
     <setting id="trakt.isauthed" default="true"></setting>
     <setting id="trakt.message1" default="true"></setting>
@@ -228,13 +185,9 @@
     <setting id="trakt.scrobble.notify" default="true">false</setting>
     <setting id="trakt.server.notifications">true</setting>
     <setting id="trakt.token" default="true"></setting>
-    <setting id="trakt.user" default="true"></setting>
-    <setting id="trakt.userHidden" default="true"></setting>
     <setting id="trakt.username" default="true"></setting>
     <setting id="tv.download.path">/home/osmc/TV Shows/</setting>
     <setting id="tv.specials">true</setting>
-    <setting id="tv.widget" default="true">1</setting>
-    <setting id="tv.widget.alt" default="true">2</setting>
     <setting id="tvdb.api.key">MDZjZmYzMDY5MGY5Yjk2MjI5NTcwNDRmMjE1OWZmYWU=</setting>
     <setting id="tvdb.jw" default="true"></setting>
     <setting id="tvshows.air.bold">true</setting>

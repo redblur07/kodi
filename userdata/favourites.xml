@@ -156,4 +156,5 @@
     <favourite name="The Spectacular Spider-Man" thumb="https://assets.fanart.tv/fanart/tv/81494/tvposter/the-spectacular-spider-man-5cdb964f5702b.jpg">ActivateWindow(10025,&quot;plugin://plugin.video.venom/?action=seasons&amp;imdb=tt0976192&amp;tmdb=3854&amp;tvdb=81494&amp;tvshowtitle=The%20Spectacular%20Spider-Man&amp;year=2008&quot;,return)</favourite>
     <favourite name="Marshmello - Here With Me Feat. CHVRCHES (Official Audio + Lyrics)" thumb="https://i.ytimg.com/vi/coQ7AYQoZ7E/hqdefault.jpg">PlayMedia(&quot;plugin://plugin.video.youtube/play/?video_id=coQ7AYQoZ7E&quot;)</favourite>
     <favourite name="lofi hip hop radio - beats to relax/study to" thumb="https://i.ytimg.com/vi/5qap5aO4i9A/hqdefault_live.jpg?ct=1606793400.0">PlayMedia(&quot;plugin://plugin.video.youtube/play/?video_id=5qap5aO4i9A&quot;)</favourite>
+    <favourite name="Gilmore Girls" thumb="https://assets.fanart.tv/fanart/tv/76568/tvposter/gilmore-girls-5b62fc09967af.jpg">ActivateWindow(10025,&quot;plugin://plugin.video.venom/?action=seasons&amp;imdb=tt0238784&amp;tmdb=4586&amp;tvdb=76568&amp;tvshowtitle=Gilmore%20Girls&amp;year=2000&quot;,return)</favourite>
 </favourites>

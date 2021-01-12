@@ -2288,3 +2288,7 @@ msgstr ""
 msgctxt "#30639"
 msgid "Show Specials in season listings"
 msgstr ""
+
+msgctxt "#30640"
+msgid "Bitrate"
+msgstr ""

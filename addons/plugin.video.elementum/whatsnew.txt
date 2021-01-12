@@ -7,6 +7,14 @@
     - Source is open, so you can fork everything.
     - Some bug fixes or updates can come, to keep things working and have the latest versions.    
 
+[B][COLOR red]0.1.65[/COLOR][/B]
+    - Added handling of Kodi region for proper certification detection.
+    - Changed permissions management for lockfile on Windows to use ACL.
+    - Added languages for images requests on TMDB.
+    - Added MPAA/Countries information.
+    - Removed memory leaks with libtorrent usage.
+    - Added Bitrate information to pause status printer.
+
 [B][COLOR red]0.1.63-64[/COLOR][/B]
     - Added initial integration with UpNext addon to notify about next episode/file.
     - Reorganized Arts collection from Fanart.tv, to make it faster and properly selected.

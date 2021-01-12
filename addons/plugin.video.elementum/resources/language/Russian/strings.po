@@ -2290,3 +2290,7 @@ msgstr ""
 msgctxt "#30639"
 msgid "Show Specials in season listings"
 msgstr "Показывать Specials в списках сезонов"
+
+msgctxt "#30640"
+msgid "Bitrate"
+msgstr "Битрейт"

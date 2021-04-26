@@ -1,6 +1,2 @@
 #LWP-Cookies-2.0
-Set-Cookie3: __cfduid=d60809792efb4823ad369e903deaf48a31610107268; path="/"; domain=".1337x.to"; path_spec; domain_dot; secure; expires="2021-02-07 12:01:08Z"; HttpOnly=None; SameSite=Lax; version=0
-Set-Cookie3: __cfduid=dd42dca3fa659c5e972fcbc2f7c3b7bc91610011641; path="/"; domain=".thepiratebay10.org"; path_spec; domain_dot; secure; expires="2021-02-06 09:27:21Z"; HttpOnly=None; SameSite=Lax; version=0
-Set-Cookie3: __cfduid=d5b803455d1166c9c763ee6448f1007611610011647; path="/"; domain=".torrentdownloads.info"; path_spec; domain_dot; secure; expires="2021-02-06 09:27:27Z"; HttpOnly=None; SameSite=Lax; version=0
-Set-Cookie3: cf_ob_info="522:60e698112ccad9d8:SIN"; path="/"; domain="torrentz2.is"; path_spec; expires="2021-01-08 14:27:32Z"; version=0
-Set-Cookie3: cf_use_ob=443; path="/"; domain="torrentz2.is"; path_spec; expires="2021-01-08 14:27:32Z"; version=0
+Set-Cookie3: __cfduid=df0580a713e93dab446393fd42c0536fc1615354934; path="/"; domain=".torrentdownloads.info"; path_spec; domain_dot; secure; expires="2021-04-09 05:42:14Z"; HttpOnly=None; SameSite=Lax; version=0

@@ -44,14 +44,15 @@
     <setting id="disable_utp" default="true">false</setting>
     <setting id="disk_cache_size">12</setting>
     <setting id="do_not_disturb" default="true">false</setting>
-    <setting id="download_path">/media/UsbStorage/movies/</setting>
+    <setting id="download_file_strategy" default="true">0</setting>
+    <setting id="download_path">/root/</setting>
     <setting id="download_storage">0</setting>
     <setting id="enable_overlay_status">true</setting>
     <setting id="encryption_policy" default="true">0</setting>
     <setting id="end_buffer_size">4</setting>
     <setting id="force_link_type" default="true">false</setting>
     <setting id="force_use_trakt" default="true">false</setting>
-    <setting id="greeting_enabled" default="true">true</setting>
+    <setting id="greeting_enabled">true</setting>
     <setting id="internal_dns_enabled">true</setting>
     <setting id="internal_dns_help" default="true"></setting>
     <setting id="internal_dns_skip_ipv6">true</setting>
@@ -64,15 +65,19 @@
     <setting id="label0" default="true"></setting>
     <setting id="label1" default="true"></setting>
     <setting id="label14" default="true"></setting>
+    <setting id="label15" default="true"></setting>
     <setting id="label17" default="true"></setting>
     <setting id="label18" default="true"></setting>
+    <setting id="label19" default="true"></setting>
     <setting id="label2" default="true"></setting>
     <setting id="label21" default="true"></setting>
     <setting id="label22" default="true"></setting>
+    <setting id="label23" default="true"></setting>
     <setting id="label3" default="true"></setting>
     <setting id="label4" default="true"></setting>
     <setting id="label5" default="true"></setting>
     <setting id="label6" default="true"></setting>
+    <setting id="label7" default="true"></setting>
     <setting id="library_auto_scan">true</setting>
     <setting id="library_enabled">true</setting>
     <setting id="library_nfo_movies">true</setting>
@@ -92,6 +97,7 @@
     <setting id="listen_port_min">6891</setting>
     <setting id="local_only_client" default="true">false</setting>
     <setting id="local_port">65221</setting>
+    <setting id="log_level">2</setting>
     <setting id="logger_silent" default="true">false</setting>
     <setting id="magnet_resolve_timeout">20</setting>
     <setting id="magnet_trackers" default="true">0</setting>
@@ -113,7 +119,8 @@
     <setting id="outgoing_interfaces" default="true"></setting>
     <setting id="overlay_status_offset">150</setting>
     <setting id="percentage_additional_seeders">25</setting>
-    <setting id="play_resume">true</setting>
+    <setting id="play_resume" default="true">true</setting>
+    <setting id="play_resume_action">1</setting>
     <setting id="play_resume_back" default="true">0</setting>
     <setting id="playback_percent">85</setting>
     <setting id="preload_timeout">5</setting>
@@ -132,6 +139,7 @@
     <setting id="results_per_page">9</setting>
     <setting id="seasons_all">true</setting>
     <setting id="seasons_order" default="true">0</setting>
+    <setting id="seasons_specials">true</setting>
     <setting id="seed_forever" default="true">false</setting>
     <setting id="seed_time_limit">2</setting>
     <setting id="seed_time_ratio_limit">200</setting>
@@ -146,8 +154,8 @@
     <setting id="sorting_mode_movies">2</setting>
     <setting id="sorting_mode_shows">2</setting>
     <setting id="spoof_user_agent" default="true">0</setting>
-    <setting id="store_resume">true</setting>
-    <setting id="store_resume_action">2</setting>
+    <setting id="store_resume" default="true">true</setting>
+    <setting id="store_resume_action" default="true">2</setting>
     <setting id="strm_language" default="true">Original</setting>
     <setting id="tmdb_api_key" default="true"></setting>
     <setting id="torrent_history_size">200</setting>

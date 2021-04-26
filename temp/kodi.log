@@ -1,28 +1,28 @@
-﻿2021-01-12 03:08:43.463 T:1900352432  NOTICE: -----------------------------------------------------------------------
-2021-01-12 03:08:43.463 T:1900352432  NOTICE: Starting Kodi (18.7 Git:20200612-e2aefdbee4). Platform: Linux ARM 32-bit
-2021-01-12 03:08:43.463 T:1900352432  NOTICE: Using Release Kodi x32 build (version for Raspberry Pi)
-2021-01-12 03:08:43.463 T:1900352432  NOTICE: Kodi compiled 2020-06-12 by GCC 8.3.0 for Linux ARM 32-bit version 4.18.20 (266772)
-2021-01-12 03:08:43.463 T:1900352432  NOTICE: Running on Raspbian GNU/Linux 10 (buster), kernel: Linux ARM 32-bit version 5.4.72-v7+
-2021-01-12 03:08:43.472 T:1900352432  NOTICE: FFmpeg version/source: 4.0.4-Kodi
-2021-01-12 03:08:43.472 T:1900352432  NOTICE: Host CPU: ARMv7 Processor rev 4 (v7l), 4 cores available
-2021-01-12 03:08:43.472 T:1900352432  NOTICE: ARM Features: Neon enabled
-2021-01-12 03:08:43.472 T:1900352432  NOTICE: special://xbmc/ is mapped to: /usr/share/kodi
-2021-01-12 03:08:43.472 T:1900352432  NOTICE: special://xbmcbin/ is mapped to: /usr/lib/arm-linux-gnueabihf/kodi
-2021-01-12 03:08:43.472 T:1900352432  NOTICE: special://xbmcbinaddons/ is mapped to: /usr/lib/arm-linux-gnueabihf/kodi/addons
-2021-01-12 03:08:43.472 T:1900352432  NOTICE: special://masterprofile/ is mapped to: /root/.kodi/userdata
-2021-01-12 03:08:43.472 T:1900352432  NOTICE: special://envhome/ is mapped to: /root
-2021-01-12 03:08:43.472 T:1900352432  NOTICE: special://home/ is mapped to: /root/.kodi
-2021-01-12 03:08:43.472 T:1900352432  NOTICE: special://temp/ is mapped to: /root/.kodi/temp
-2021-01-12 03:08:43.472 T:1900352432  NOTICE: special://logpath/ is mapped to: /root/.kodi/temp
-2021-01-12 03:08:43.472 T:1900352432  NOTICE: The executable running is: /usr/lib/arm-linux-gnueabihf/kodi/kodi.bin_v7
-2021-01-12 03:08:43.472 T:1900352432  NOTICE: Local hostname: DietPi
-2021-01-12 03:08:43.472 T:1900352432  NOTICE: Log File is located: /root/.kodi/temp/kodi.log
-2021-01-12 03:08:43.476 T:1900352432  NOTICE: -----------------------------------------------------------------------
-2021-01-12 03:08:43.487 T:1900352432    INFO: loading settings
-2021-01-12 03:08:43.490 T:1900352432  NOTICE: special://profile/ is mapped to: special://masterprofile/
-2021-01-12 03:08:43.517 T:1900352432   DEBUG: CSkinSettings: no <skinsettings> tag found
-2021-01-12 03:08:43.523 T:1900352432  NOTICE: Loaded settings file from special://xbmc/system/advancedsettings.xml
-2021-01-12 03:08:43.524 T:1900352432  NOTICE: Contents of special://xbmc/system/advancedsettings.xml are...
+﻿2021-04-26 08:45:43.788 T:1900450736  NOTICE: -----------------------------------------------------------------------
+2021-04-26 08:45:43.789 T:1900450736  NOTICE: Starting Kodi (18.7 Git:20200612-e2aefdbee4). Platform: Linux ARM 32-bit
+2021-04-26 08:45:43.789 T:1900450736  NOTICE: Using Release Kodi x32 build (version for Raspberry Pi)
+2021-04-26 08:45:43.789 T:1900450736  NOTICE: Kodi compiled 2020-06-12 by GCC 8.3.0 for Linux ARM 32-bit version 4.18.20 (266772)
+2021-04-26 08:45:43.789 T:1900450736  NOTICE: Running on Raspbian GNU/Linux 10 (buster), kernel: Linux ARM 32-bit version 5.4.72-v7+
+2021-04-26 08:45:43.798 T:1900450736  NOTICE: FFmpeg version/source: 4.0.4-Kodi
+2021-04-26 08:45:43.798 T:1900450736  NOTICE: Host CPU: ARMv7 Processor rev 4 (v7l), 4 cores available
+2021-04-26 08:45:43.798 T:1900450736  NOTICE: ARM Features: Neon enabled
+2021-04-26 08:45:43.798 T:1900450736  NOTICE: special://xbmc/ is mapped to: /usr/share/kodi
+2021-04-26 08:45:43.798 T:1900450736  NOTICE: special://xbmcbin/ is mapped to: /usr/lib/arm-linux-gnueabihf/kodi
+2021-04-26 08:45:43.798 T:1900450736  NOTICE: special://xbmcbinaddons/ is mapped to: /usr/lib/arm-linux-gnueabihf/kodi/addons
+2021-04-26 08:45:43.798 T:1900450736  NOTICE: special://masterprofile/ is mapped to: /root/.kodi/userdata
+2021-04-26 08:45:43.798 T:1900450736  NOTICE: special://envhome/ is mapped to: /root
+2021-04-26 08:45:43.798 T:1900450736  NOTICE: special://home/ is mapped to: /root/.kodi
+2021-04-26 08:45:43.798 T:1900450736  NOTICE: special://temp/ is mapped to: /root/.kodi/temp
+2021-04-26 08:45:43.798 T:1900450736  NOTICE: special://logpath/ is mapped to: /root/.kodi/temp
+2021-04-26 08:45:43.798 T:1900450736  NOTICE: The executable running is: /usr/lib/arm-linux-gnueabihf/kodi/kodi.bin_v7
+2021-04-26 08:45:43.798 T:1900450736  NOTICE: Local hostname: DietPi
+2021-04-26 08:45:43.798 T:1900450736  NOTICE: Log File is located: /root/.kodi/temp/kodi.log
+2021-04-26 08:45:43.802 T:1900450736  NOTICE: -----------------------------------------------------------------------
+2021-04-26 08:45:43.813 T:1900450736    INFO: loading settings
+2021-04-26 08:45:43.816 T:1900450736  NOTICE: special://profile/ is mapped to: special://masterprofile/
+2021-04-26 08:45:43.843 T:1900450736   DEBUG: CSkinSettings: no <skinsettings> tag found
+2021-04-26 08:45:43.850 T:1900450736  NOTICE: Loaded settings file from special://xbmc/system/advancedsettings.xml
+2021-04-26 08:45:43.850 T:1900450736  NOTICE: Contents of special://xbmc/system/advancedsettings.xml are...
                                             <?xml version="1.0" encoding="UTF-8" ?>
                                             <advancedsettings>
                                               <fanartres>720</fanartres>
@@ -37,147 +37,147 @@
                                                 <memorysize>31457280</memorysize>
                                               </cache>
                                             </advancedsettings>
-2021-01-12 03:08:43.524 T:1900352432 WARNING: CSettingsManager: missing version attribute
-2021-01-12 03:08:43.525 T:1900352432  NOTICE: No settings file to load (special://masterprofile/advancedsettings.xml)
-2021-01-12 03:08:43.525 T:1900352432  NOTICE: Default Video Player: VideoPlayer
-2021-01-12 03:08:43.525 T:1900352432  NOTICE: Default Audio Player: paplayer
-2021-01-12 03:08:43.525 T:1900352432  NOTICE: Disabled debug logging due to GUI setting. Level 0.
-2021-01-12 03:08:43.525 T:1900352432  NOTICE: Log level changed to "LOG_LEVEL_NORMAL"
-2021-01-12 03:08:43.526 T:1900352432  NOTICE: CMediaSourceSettings: loading media sources from special://masterprofile/sources.xml
-2021-01-12 03:08:43.730 T:1900352432  NOTICE: Running database version Addons27
-2021-01-12 03:08:44.015 T:1900352432  NOTICE: ADDON: audioencoder.kodi.builtin.aac v1.0.0 installed
-2021-01-12 03:08:44.015 T:1900352432  NOTICE: ADDON: audioencoder.kodi.builtin.wma v1.0.0 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: context.youtube.download v1.3.3 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: game.controller.default v1.0.8 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: game.controller.snes v1.0.8 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: inputstream.adaptive v2.4.4 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: inputstream.adaptive.testing v2.6.0 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: inputstream.rtmp v2.0.6 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: kodi.binary.global.audioengine v1.0.1 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: kodi.binary.global.filesystem v1.0.2 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: kodi.binary.global.general v1.0.3 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: kodi.binary.global.gui v5.12.0 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: kodi.binary.global.main v1.0.14 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: kodi.binary.global.network v1.0.0 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: kodi.binary.instance.audiodecoder v2.0.0 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: kodi.binary.instance.audioencoder v2.0.0 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: kodi.binary.instance.game v1.1.0 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: kodi.binary.instance.imagedecoder v2.0.0 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: kodi.binary.instance.inputstream v2.0.8 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: kodi.binary.instance.peripheral v1.3.7 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: kodi.binary.instance.pvr v5.10.3 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: kodi.binary.instance.screensaver v2.0.0 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: kodi.binary.instance.vfs v2.0.0 installed
-2021-01-12 03:08:44.016 T:1900352432  NOTICE: ADDON: kodi.binary.instance.videocodec v1.0.1 installed
-2021-01-12 03:08:44.017 T:1900352432  NOTICE: ADDON: kodi.binary.instance.visualization v2.0.1 installed
-2021-01-12 03:08:44.017 T:1900352432  NOTICE: ADDON: kodi.resource v1.0.0 installed
-2021-01-12 03:08:44.017 T:1900352432  NOTICE: ADDON: metadata.album.universal v3.1.3 installed
-2021-01-12 03:08:44.017 T:1900352432  NOTICE: ADDON: metadata.artists.universal v4.3.3 installed
-2021-01-12 03:08:44.017 T:1900352432  NOTICE: ADDON: metadata.common.allmusic.com v3.2.2 installed
-2021-01-12 03:08:44.017 T:1900352432  NOTICE: ADDON: metadata.common.fanart.tv v3.6.3 installed
-2021-01-12 03:08:44.017 T:1900352432  NOTICE: ADDON: metadata.common.imdb.com v3.1.6 installed
-2021-01-12 03:08:44.017 T:1900352432  NOTICE: ADDON: metadata.common.musicbrainz.org v2.2.4 installed
-2021-01-12 03:08:44.017 T:1900352432  NOTICE: ADDON: metadata.common.theaudiodb.com v2.0.3 installed
-2021-01-12 03:08:44.017 T:1900352432  NOTICE: ADDON: metadata.common.themoviedb.org v3.2.13 installed
-2021-01-12 03:08:44.017 T:1900352432  NOTICE: ADDON: metadata.local v1.0.0 installed
-2021-01-12 03:08:44.017 T:1900352432  NOTICE: ADDON: metadata.themoviedb.org v5.2.6 installed
-2021-01-12 03:08:44.017 T:1900352432  NOTICE: ADDON: metadata.tvshows.themoviedb.org v3.5.12 installed
-2021-01-12 03:08:44.017 T:1900352432  NOTICE: ADDON: plugin.video.elementum v0.1.65 installed
-2021-01-12 03:08:44.017 T:1900352432  NOTICE: ADDON: plugin.video.venom v4.2.6 installed
-2021-01-12 03:08:44.017 T:1900352432  NOTICE: ADDON: plugin.video.youtube v6.8.9 installed
-2021-01-12 03:08:44.017 T:1900352432  NOTICE: ADDON: repository.anxdpanic v2.0.0 installed
-2021-01-12 03:08:44.017 T:1900352432  NOTICE: ADDON: repository.elementum v0.1.58 installed
-2021-01-12 03:08:44.017 T:1900352432  NOTICE: ADDON: repository.xbmc.org v3.1.6 installed
-2021-01-12 03:08:44.017 T:1900352432  NOTICE: ADDON: resource.images.skinbackgrounds.metrocity v1.1.0 installed
-2021-01-12 03:08:44.018 T:1900352432  NOTICE: ADDON: resource.images.weathericons.default v1.1.8 installed
-2021-01-12 03:08:44.018 T:1900352432  NOTICE: ADDON: resource.language.en_gb v2.0.1 installed
-2021-01-12 03:08:44.018 T:1900352432  NOTICE: ADDON: resource.uisounds.appletv v0.0.2 installed
-2021-01-12 03:08:44.018 T:1900352432  NOTICE: ADDON: resource.uisounds.kodi v1.0.0 installed
-2021-01-12 03:08:44.018 T:1900352432  NOTICE: ADDON: screensaver.xbmc.builtin.black v1.0.33 installed
-2021-01-12 03:08:44.018 T:1900352432  NOTICE: ADDON: screensaver.xbmc.builtin.dim v1.0.59 installed
-2021-01-12 03:08:44.018 T:1900352432  NOTICE: ADDON: script.elementum.burst v0.0.55 installed
-2021-01-12 03:08:44.018 T:1900352432  NOTICE: ADDON: script.image.resource.select v2.0.4 installed
-2021-01-12 03:08:44.018 T:1900352432  NOTICE: ADDON: script.module.addon.signals v0.0.6 installed
-2021-01-12 03:08:44.018 T:1900352432  NOTICE: ADDON: script.module.certifi v2019.9.11 installed
-2021-01-12 03:08:44.018 T:1900352432  NOTICE: ADDON: script.module.chardet v3.0.4 installed
-2021-01-12 03:08:44.018 T:1900352432  NOTICE: ADDON: script.module.future v0.17.1 installed
-2021-01-12 03:08:44.018 T:1900352432  NOTICE: ADDON: script.module.idna v2.8 installed
-2021-01-12 03:08:44.018 T:1900352432  NOTICE: ADDON: script.module.inputstreamhelper v0.5.2 installed
-2021-01-12 03:08:44.018 T:1900352432  NOTICE: ADDON: script.module.kodi-six v0.1.3 installed
-2021-01-12 03:08:44.018 T:1900352432  NOTICE: ADDON: script.module.pil v1.1.7 installed
-2021-01-12 03:08:44.018 T:1900352432  NOTICE: ADDON: script.module.pycryptodome v3.4.3 installed
-2021-01-12 03:08:44.018 T:1900352432  NOTICE: ADDON: script.module.requests v2.22.0 installed
-2021-01-12 03:08:44.018 T:1900352432  NOTICE: ADDON: script.module.six v1.13.0 installed
-2021-01-12 03:08:44.018 T:1900352432  NOTICE: ADDON: script.module.urllib3 v1.25.6 installed
-2021-01-12 03:08:44.018 T:1900352432  NOTICE: ADDON: script.module.youtube.dl v20.616.0 installed
-2021-01-12 03:08:44.019 T:1900352432  NOTICE: ADDON: service.subtitles.opensubtitles_by_opensubtitles v5.2.14 installed
-2021-01-12 03:08:44.019 T:1900352432  NOTICE: ADDON: service.xbmc.versioncheck v0.5.12 installed
-2021-01-12 03:08:44.019 T:1900352432  NOTICE: ADDON: skin.estouchy v2.0.28 installed
-2021-01-12 03:08:44.019 T:1900352432  NOTICE: ADDON: skin.estuary v2.0.27 installed
-2021-01-12 03:08:44.019 T:1900352432  NOTICE: ADDON: webinterface.default v18.x-2.4.6 installed
-2021-01-12 03:08:44.019 T:1900352432  NOTICE: ADDON: xbmc.addon v18.7 installed
-2021-01-12 03:08:44.019 T:1900352432  NOTICE: ADDON: xbmc.core v0.1.0 installed
-2021-01-12 03:08:44.019 T:1900352432  NOTICE: ADDON: xbmc.gui v5.14.0 installed
-2021-01-12 03:08:44.019 T:1900352432  NOTICE: ADDON: xbmc.json v10.3.0 installed
-2021-01-12 03:08:44.019 T:1900352432  NOTICE: ADDON: xbmc.metadata v2.1.0 installed
-2021-01-12 03:08:44.019 T:1900352432  NOTICE: ADDON: xbmc.python v2.26.0 installed
-2021-01-12 03:08:44.019 T:1900352432  NOTICE: ADDON: xbmc.webinterface v1.0.0 installed
-2021-01-12 03:08:44.562 T:1900352432   ERROR: DBus error: org.freedesktop.DBus.Error.InvalidArgs - No such property “CanSuspend”
-2021-01-12 03:08:44.563 T:1900352432   ERROR: DBus error: org.freedesktop.DBus.Error.InvalidArgs - No such property “CanHibernate”
-2021-01-12 03:08:44.606 T:1869607136  NOTICE: Found 2 Lists of Devices
-2021-01-12 03:08:44.606 T:1869607136  NOTICE: Enumerated ALSA devices:
-2021-01-12 03:08:44.606 T:1869607136  NOTICE:     Device 1
-2021-01-12 03:08:44.610 T:1869607136  NOTICE:         m_deviceName      : @
-2021-01-12 03:08:44.610 T:1869607136  NOTICE:         m_displayName     : Default (bcm2835 Headphones bcm2835 Headphones)
-2021-01-12 03:08:44.610 T:1869607136  NOTICE:         m_displayNameExtra:
-2021-01-12 03:08:44.610 T:1869607136  NOTICE:         m_deviceType      : AE_DEVTYPE_PCM
-2021-01-12 03:08:44.610 T:1869607136  NOTICE:         m_channels        : FL, FR
-2021-01-12 03:08:44.610 T:1869607136  NOTICE:         m_sampleRates     : 8000,11025,16000,22050,32000,44100,48000,64000,88200,96000,176400,192000
-2021-01-12 03:08:44.610 T:1869607136  NOTICE:         m_dataFormats     : AE_FMT_S16NE,AE_FMT_S16LE,AE_FMT_U8
-2021-01-12 03:08:44.610 T:1869607136  NOTICE:         m_streamTypes     : No passthrough capabilities
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:     Device 2
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_deviceName      : sysdefault:CARD=Headphones
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_displayName     : bcm2835 Headphones
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_displayNameExtra: bcm2835 Headphones
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_deviceType      : AE_DEVTYPE_PCM
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_channels        : FL, FR
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_sampleRates     : 8000,11025,16000,22050,32000,44100,48000,64000,88200,96000,176400,192000
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_dataFormats     : AE_FMT_S16NE,AE_FMT_S16LE,AE_FMT_U8
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_streamTypes     : No passthrough capabilities
-2021-01-12 03:08:44.611 T:1869607136  NOTICE: Enumerated PI devices:
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:     Device 1
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_deviceName      : HDMI
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_displayName     : HDMI
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_displayNameExtra:
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_deviceType      : AE_DEVTYPE_HDMI
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_channels        : FL, FR
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_sampleRates     : 8000,11025,16000,22050,24000,32000,44100,48000,88200,96000,176400,192000
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_dataFormats     : AE_FMT_FLOAT,AE_FMT_S32NE,AE_FMT_S16NE,AE_FMT_S32LE,AE_FMT_S16LE,AE_FMT_FLOATP,AE_FMT_S32NEP,AE_FMT_S16NEP,AE_FMT_RAW
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_streamTypes     : STREAM_TYPE_AC3,STREAM_TYPE_EAC3,STREAM_TYPE_DTSHD_CORE,STREAM_TYPE_DTS_2048,STREAM_TYPE_DTS_1024,STREAM_TYPE_DTS_512
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:     Device 2
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_deviceName      : Analogue
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_displayName     : Analogue
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_displayNameExtra:
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_deviceType      : AE_DEVTYPE_PCM
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_channels        : FL, FR
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_sampleRates     : 48000
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_dataFormats     : AE_FMT_FLOAT,AE_FMT_S32LE,AE_FMT_S16LE,AE_FMT_FLOATP,AE_FMT_S32NEP,AE_FMT_S16NEP
-2021-01-12 03:08:44.611 T:1869607136  NOTICE:         m_streamTypes     : No passthrough capabilities
-2021-01-12 03:08:44.612 T:1869607136  NOTICE:     Device 3
-2021-01-12 03:08:44.612 T:1869607136  NOTICE:         m_deviceName      : Both
-2021-01-12 03:08:44.612 T:1869607136  NOTICE:         m_displayName     : HDMI and Analogue
-2021-01-12 03:08:44.612 T:1869607136  NOTICE:         m_displayNameExtra:
-2021-01-12 03:08:44.612 T:1869607136  NOTICE:         m_deviceType      : AE_DEVTYPE_PCM
-2021-01-12 03:08:44.612 T:1869607136  NOTICE:         m_channels        : FL, FR
-2021-01-12 03:08:44.612 T:1869607136  NOTICE:         m_sampleRates     : 48000
-2021-01-12 03:08:44.612 T:1869607136  NOTICE:         m_dataFormats     : AE_FMT_FLOAT,AE_FMT_S32LE,AE_FMT_S16LE,AE_FMT_FLOATP,AE_FMT_S32NEP,AE_FMT_S16NEP
-2021-01-12 03:08:44.612 T:1869607136  NOTICE:         m_streamTypes     : No passthrough capabilities
-2021-01-12 03:08:44.712 T:1900352432  NOTICE: Raspberry PI firmware version: Oct 22 2020 14:06:02 
+2021-04-26 08:45:43.850 T:1900450736 WARNING: CSettingsManager: missing version attribute
+2021-04-26 08:45:43.851 T:1900450736  NOTICE: No settings file to load (special://masterprofile/advancedsettings.xml)
+2021-04-26 08:45:43.851 T:1900450736  NOTICE: Default Video Player: VideoPlayer
+2021-04-26 08:45:43.851 T:1900450736  NOTICE: Default Audio Player: paplayer
+2021-04-26 08:45:43.852 T:1900450736  NOTICE: Disabled debug logging due to GUI setting. Level 0.
+2021-04-26 08:45:43.852 T:1900450736  NOTICE: Log level changed to "LOG_LEVEL_NORMAL"
+2021-04-26 08:45:43.852 T:1900450736  NOTICE: CMediaSourceSettings: loading media sources from special://masterprofile/sources.xml
+2021-04-26 08:45:44.055 T:1900450736  NOTICE: Running database version Addons27
+2021-04-26 08:45:44.367 T:1900450736  NOTICE: ADDON: audioencoder.kodi.builtin.aac v1.0.0 installed
+2021-04-26 08:45:44.367 T:1900450736  NOTICE: ADDON: audioencoder.kodi.builtin.wma v1.0.0 installed
+2021-04-26 08:45:44.367 T:1900450736  NOTICE: ADDON: context.youtube.download v1.3.3 installed
+2021-04-26 08:45:44.367 T:1900450736  NOTICE: ADDON: game.controller.default v1.0.8 installed
+2021-04-26 08:45:44.367 T:1900450736  NOTICE: ADDON: game.controller.snes v1.0.8 installed
+2021-04-26 08:45:44.367 T:1900450736  NOTICE: ADDON: inputstream.adaptive v2.4.4 installed
+2021-04-26 08:45:44.367 T:1900450736  NOTICE: ADDON: inputstream.adaptive.testing v2.6.0 installed
+2021-04-26 08:45:44.367 T:1900450736  NOTICE: ADDON: inputstream.rtmp v2.0.6 installed
+2021-04-26 08:45:44.367 T:1900450736  NOTICE: ADDON: kodi.binary.global.audioengine v1.0.1 installed
+2021-04-26 08:45:44.367 T:1900450736  NOTICE: ADDON: kodi.binary.global.filesystem v1.0.2 installed
+2021-04-26 08:45:44.368 T:1900450736  NOTICE: ADDON: kodi.binary.global.general v1.0.3 installed
+2021-04-26 08:45:44.368 T:1900450736  NOTICE: ADDON: kodi.binary.global.gui v5.12.0 installed
+2021-04-26 08:45:44.368 T:1900450736  NOTICE: ADDON: kodi.binary.global.main v1.0.14 installed
+2021-04-26 08:45:44.368 T:1900450736  NOTICE: ADDON: kodi.binary.global.network v1.0.0 installed
+2021-04-26 08:45:44.368 T:1900450736  NOTICE: ADDON: kodi.binary.instance.audiodecoder v2.0.0 installed
+2021-04-26 08:45:44.368 T:1900450736  NOTICE: ADDON: kodi.binary.instance.audioencoder v2.0.0 installed
+2021-04-26 08:45:44.368 T:1900450736  NOTICE: ADDON: kodi.binary.instance.game v1.1.0 installed
+2021-04-26 08:45:44.368 T:1900450736  NOTICE: ADDON: kodi.binary.instance.imagedecoder v2.0.0 installed
+2021-04-26 08:45:44.368 T:1900450736  NOTICE: ADDON: kodi.binary.instance.inputstream v2.0.8 installed
+2021-04-26 08:45:44.368 T:1900450736  NOTICE: ADDON: kodi.binary.instance.peripheral v1.3.7 installed
+2021-04-26 08:45:44.368 T:1900450736  NOTICE: ADDON: kodi.binary.instance.pvr v5.10.3 installed
+2021-04-26 08:45:44.368 T:1900450736  NOTICE: ADDON: kodi.binary.instance.screensaver v2.0.0 installed
+2021-04-26 08:45:44.368 T:1900450736  NOTICE: ADDON: kodi.binary.instance.vfs v2.0.0 installed
+2021-04-26 08:45:44.368 T:1900450736  NOTICE: ADDON: kodi.binary.instance.videocodec v1.0.1 installed
+2021-04-26 08:45:44.368 T:1900450736  NOTICE: ADDON: kodi.binary.instance.visualization v2.0.1 installed
+2021-04-26 08:45:44.368 T:1900450736  NOTICE: ADDON: kodi.resource v1.0.0 installed
+2021-04-26 08:45:44.368 T:1900450736  NOTICE: ADDON: metadata.album.universal v3.1.4 installed
+2021-04-26 08:45:44.368 T:1900450736  NOTICE: ADDON: metadata.artists.universal v4.3.3 installed
+2021-04-26 08:45:44.368 T:1900450736  NOTICE: ADDON: metadata.common.allmusic.com v3.2.2 installed
+2021-04-26 08:45:44.368 T:1900450736  NOTICE: ADDON: metadata.common.fanart.tv v3.6.3 installed
+2021-04-26 08:45:44.368 T:1900450736  NOTICE: ADDON: metadata.common.imdb.com v3.1.6 installed
+2021-04-26 08:45:44.369 T:1900450736  NOTICE: ADDON: metadata.common.musicbrainz.org v2.2.4 installed
+2021-04-26 08:45:44.369 T:1900450736  NOTICE: ADDON: metadata.common.theaudiodb.com v2.0.3 installed
+2021-04-26 08:45:44.369 T:1900450736  NOTICE: ADDON: metadata.common.themoviedb.org v3.2.14 installed
+2021-04-26 08:45:44.369 T:1900450736  NOTICE: ADDON: metadata.local v1.0.0 installed
+2021-04-26 08:45:44.369 T:1900450736  NOTICE: ADDON: metadata.themoviedb.org v5.2.6 installed
+2021-04-26 08:45:44.369 T:1900450736  NOTICE: ADDON: metadata.tvshows.themoviedb.org v3.5.13 installed
+2021-04-26 08:45:44.369 T:1900450736  NOTICE: ADDON: plugin.video.elementum v0.1.76 installed
+2021-04-26 08:45:44.369 T:1900450736  NOTICE: ADDON: plugin.video.venom v4.2.6 installed
+2021-04-26 08:45:44.369 T:1900450736  NOTICE: ADDON: plugin.video.youtube v6.8.10 installed
+2021-04-26 08:45:44.369 T:1900450736  NOTICE: ADDON: repository.anxdpanic v2.0.0 installed
+2021-04-26 08:45:44.369 T:1900450736  NOTICE: ADDON: repository.elementum v0.1.69 installed
+2021-04-26 08:45:44.369 T:1900450736  NOTICE: ADDON: repository.xbmc.org v3.1.6 installed
+2021-04-26 08:45:44.369 T:1900450736  NOTICE: ADDON: resource.images.skinbackgrounds.metrocity v1.1.0 installed
+2021-04-26 08:45:44.369 T:1900450736  NOTICE: ADDON: resource.images.weathericons.default v1.1.8 installed
+2021-04-26 08:45:44.369 T:1900450736  NOTICE: ADDON: resource.language.en_gb v2.0.1 installed
+2021-04-26 08:45:44.369 T:1900450736  NOTICE: ADDON: resource.uisounds.appletv v0.0.2 installed
+2021-04-26 08:45:44.369 T:1900450736  NOTICE: ADDON: resource.uisounds.kodi v1.0.0 installed
+2021-04-26 08:45:44.369 T:1900450736  NOTICE: ADDON: screensaver.xbmc.builtin.black v1.0.33 installed
+2021-04-26 08:45:44.369 T:1900450736  NOTICE: ADDON: screensaver.xbmc.builtin.dim v1.0.59 installed
+2021-04-26 08:45:44.369 T:1900450736  NOTICE: ADDON: script.elementum.burst v0.0.65 installed
+2021-04-26 08:45:44.370 T:1900450736  NOTICE: ADDON: script.image.resource.select v2.0.4 installed
+2021-04-26 08:45:44.370 T:1900450736  NOTICE: ADDON: script.module.addon.signals v0.0.6 installed
+2021-04-26 08:45:44.370 T:1900450736  NOTICE: ADDON: script.module.certifi v2019.9.11 installed
+2021-04-26 08:45:44.370 T:1900450736  NOTICE: ADDON: script.module.chardet v3.0.4 installed
+2021-04-26 08:45:44.370 T:1900450736  NOTICE: ADDON: script.module.future v0.17.1 installed
+2021-04-26 08:45:44.370 T:1900450736  NOTICE: ADDON: script.module.idna v2.8 installed
+2021-04-26 08:45:44.370 T:1900450736  NOTICE: ADDON: script.module.inputstreamhelper v0.5.2 installed
+2021-04-26 08:45:44.370 T:1900450736  NOTICE: ADDON: script.module.kodi-six v0.1.3 installed
+2021-04-26 08:45:44.370 T:1900450736  NOTICE: ADDON: script.module.pil v1.1.7 installed
+2021-04-26 08:45:44.370 T:1900450736  NOTICE: ADDON: script.module.pycryptodome v3.4.3 installed
+2021-04-26 08:45:44.370 T:1900450736  NOTICE: ADDON: script.module.requests v2.22.0 installed
+2021-04-26 08:45:44.370 T:1900450736  NOTICE: ADDON: script.module.six v1.15.0 installed
+2021-04-26 08:45:44.370 T:1900450736  NOTICE: ADDON: script.module.urllib3 v1.25.6 installed
+2021-04-26 08:45:44.370 T:1900450736  NOTICE: ADDON: script.module.youtube.dl v21.303.0 installed
+2021-04-26 08:45:44.370 T:1900450736  NOTICE: ADDON: service.subtitles.opensubtitles_by_opensubtitles v5.2.14 installed
+2021-04-26 08:45:44.370 T:1900450736  NOTICE: ADDON: service.xbmc.versioncheck v0.5.14 installed
+2021-04-26 08:45:44.370 T:1900450736  NOTICE: ADDON: skin.estouchy v2.0.28 installed
+2021-04-26 08:45:44.370 T:1900450736  NOTICE: ADDON: skin.estuary v2.0.27 installed
+2021-04-26 08:45:44.370 T:1900450736  NOTICE: ADDON: webinterface.default v18.x-2.4.6 installed
+2021-04-26 08:45:44.370 T:1900450736  NOTICE: ADDON: xbmc.addon v18.7 installed
+2021-04-26 08:45:44.370 T:1900450736  NOTICE: ADDON: xbmc.core v0.1.0 installed
+2021-04-26 08:45:44.371 T:1900450736  NOTICE: ADDON: xbmc.gui v5.14.0 installed
+2021-04-26 08:45:44.371 T:1900450736  NOTICE: ADDON: xbmc.json v10.3.0 installed
+2021-04-26 08:45:44.371 T:1900450736  NOTICE: ADDON: xbmc.metadata v2.1.0 installed
+2021-04-26 08:45:44.371 T:1900450736  NOTICE: ADDON: xbmc.python v2.26.0 installed
+2021-04-26 08:45:44.371 T:1900450736  NOTICE: ADDON: xbmc.webinterface v1.0.0 installed
+2021-04-26 08:45:44.915 T:1900450736   ERROR: DBus error: org.freedesktop.DBus.Error.InvalidArgs - No such property “CanSuspend”
+2021-04-26 08:45:44.916 T:1900450736   ERROR: DBus error: org.freedesktop.DBus.Error.InvalidArgs - No such property “CanHibernate”
+2021-04-26 08:45:44.961 T:1869607136  NOTICE: Found 2 Lists of Devices
+2021-04-26 08:45:44.961 T:1869607136  NOTICE: Enumerated ALSA devices:
+2021-04-26 08:45:44.961 T:1869607136  NOTICE:     Device 1
+2021-04-26 08:45:44.965 T:1869607136  NOTICE:         m_deviceName      : @
+2021-04-26 08:45:44.965 T:1869607136  NOTICE:         m_displayName     : Default (bcm2835 Headphones bcm2835 Headphones)
+2021-04-26 08:45:44.965 T:1869607136  NOTICE:         m_displayNameExtra:
+2021-04-26 08:45:44.965 T:1869607136  NOTICE:         m_deviceType      : AE_DEVTYPE_PCM
+2021-04-26 08:45:44.965 T:1869607136  NOTICE:         m_channels        : FL, FR
+2021-04-26 08:45:44.965 T:1869607136  NOTICE:         m_sampleRates     : 8000,11025,16000,22050,32000,44100,48000,64000,88200,96000,176400,192000
+2021-04-26 08:45:44.965 T:1869607136  NOTICE:         m_dataFormats     : AE_FMT_S16NE,AE_FMT_S16LE,AE_FMT_U8
+2021-04-26 08:45:44.965 T:1869607136  NOTICE:         m_streamTypes     : No passthrough capabilities
+2021-04-26 08:45:44.965 T:1869607136  NOTICE:     Device 2
+2021-04-26 08:45:44.965 T:1869607136  NOTICE:         m_deviceName      : sysdefault:CARD=Headphones
+2021-04-26 08:45:44.965 T:1869607136  NOTICE:         m_displayName     : bcm2835 Headphones
+2021-04-26 08:45:44.965 T:1869607136  NOTICE:         m_displayNameExtra: bcm2835 Headphones
+2021-04-26 08:45:44.965 T:1869607136  NOTICE:         m_deviceType      : AE_DEVTYPE_PCM
+2021-04-26 08:45:44.965 T:1869607136  NOTICE:         m_channels        : FL, FR
+2021-04-26 08:45:44.965 T:1869607136  NOTICE:         m_sampleRates     : 8000,11025,16000,22050,32000,44100,48000,64000,88200,96000,176400,192000
+2021-04-26 08:45:44.965 T:1869607136  NOTICE:         m_dataFormats     : AE_FMT_S16NE,AE_FMT_S16LE,AE_FMT_U8
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_streamTypes     : No passthrough capabilities
+2021-04-26 08:45:44.966 T:1869607136  NOTICE: Enumerated PI devices:
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:     Device 1
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_deviceName      : HDMI
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_displayName     : HDMI
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_displayNameExtra:
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_deviceType      : AE_DEVTYPE_HDMI
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_channels        : FL, FR
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_sampleRates     : 8000,11025,16000,22050,24000,32000,44100,48000,88200,96000,176400,192000
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_dataFormats     : AE_FMT_FLOAT,AE_FMT_S32NE,AE_FMT_S16NE,AE_FMT_S32LE,AE_FMT_S16LE,AE_FMT_FLOATP,AE_FMT_S32NEP,AE_FMT_S16NEP,AE_FMT_RAW
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_streamTypes     : STREAM_TYPE_AC3,STREAM_TYPE_EAC3,STREAM_TYPE_DTSHD_CORE,STREAM_TYPE_DTS_2048,STREAM_TYPE_DTS_1024,STREAM_TYPE_DTS_512
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:     Device 2
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_deviceName      : Analogue
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_displayName     : Analogue
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_displayNameExtra:
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_deviceType      : AE_DEVTYPE_PCM
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_channels        : FL, FR
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_sampleRates     : 48000
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_dataFormats     : AE_FMT_FLOAT,AE_FMT_S32LE,AE_FMT_S16LE,AE_FMT_FLOATP,AE_FMT_S32NEP,AE_FMT_S16NEP
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_streamTypes     : No passthrough capabilities
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:     Device 3
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_deviceName      : Both
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_displayName     : HDMI and Analogue
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_displayNameExtra:
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_deviceType      : AE_DEVTYPE_PCM
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_channels        : FL, FR
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_sampleRates     : 48000
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_dataFormats     : AE_FMT_FLOAT,AE_FMT_S32LE,AE_FMT_S16LE,AE_FMT_FLOATP,AE_FMT_S32NEP,AE_FMT_S16NEP
+2021-04-26 08:45:44.966 T:1869607136  NOTICE:         m_streamTypes     : No passthrough capabilities
+2021-04-26 08:45:45.069 T:1900450736  NOTICE: Raspberry PI firmware version: Oct 22 2020 14:06:02 
                                             Copyright (c) 2012 Broadcom
                                             version 74e754ff8947c58d2773253f77f6f68a303188f8 (clean) (release) (start)
-2021-01-12 03:08:44.713 T:1900352432  NOTICE: ARM mem: 768MB GPU mem: 256MB MPG2:0 WVC1:0
-2021-01-12 03:08:44.713 T:1900352432  NOTICE: cache.memorysize: 30MB
-2021-01-12 03:08:44.713 T:1900352432  NOTICE: Config:
+2021-04-26 08:45:45.069 T:1900450736  NOTICE: ARM mem: 768MB GPU mem: 256MB MPG2:0 WVC1:0
+2021-04-26 08:45:45.070 T:1900450736  NOTICE: cache.memorysize: 30MB
+2021-04-26 08:45:45.070 T:1900450736  NOTICE: Config:
                                             aphy_params_current=819
                                             arm_freq=1400
                                             audio_pwm_mode=514
@@ -202,7 +202,7 @@
                                             initial_turbo=20
                                             lcd_framerate=60
                                             over_voltage_avs=31250
-                                            over_voltage_avs_boost=0x1b774
+                                            over_voltage_avs_boost=0x1cfde
                                             overscan_bottom=5
                                             overscan_left=16
                                             overscan_right=5
@@ -215,7 +215,7 @@
                                             hdmi_force_cec_address:0=65535
                                             hdmi_force_cec_address:1=65535
                                             hdmi_pixel_freq_limit:0=0x9a7ec80
-2021-01-12 03:08:44.713 T:1900352432  NOTICE: Config:
+2021-04-26 08:45:45.070 T:1900450736  NOTICE: Config:
                                             device_tree=-
                                             overlay_prefix=overlays/
                                             hdmi_cvt:0=
@@ -224,73 +224,71 @@
                                             hdmi_edid_filename:1=
                                             hdmi_timings:0=
                                             hdmi_timings:1=
-2021-01-12 03:08:44.713 T:1900352432  NOTICE: Found resolution 720 x 576 with 720 x 576i @ 50.000000 Hz
-2021-01-12 03:08:44.713 T:1900352432  NOTICE: Found (720x576i@50.000000) at 16, setting to RES_DESKTOP at 16
-2021-01-12 03:08:44.714 T:1900352432  NOTICE: EGL_VERSION = 1.4
-2021-01-12 03:08:44.714 T:1900352432  NOTICE: EGL_VENDOR = Broadcom
-2021-01-12 03:08:44.714 T:1900352432  NOTICE: EGL_EXTENSIONS = EGL_KHR_image EGL_KHR_image_base EGL_KHR_image_pixmap EGL_KHR_vg_parent_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_lock_surface
-2021-01-12 03:08:44.714 T:1900352432  NOTICE: EGL_CLIENT_EXTENSIONS = NULL
-2021-01-12 03:08:44.717 T:1900352432  NOTICE: Checking resolution 16
-2021-01-12 03:08:44.762 T:1900352432  NOTICE: GL_VENDOR = Broadcom
-2021-01-12 03:08:44.762 T:1900352432  NOTICE: GL_RENDERER = VideoCore IV HW
-2021-01-12 03:08:44.762 T:1900352432  NOTICE: GL_VERSION = OpenGL ES 2.0
-2021-01-12 03:08:44.762 T:1900352432  NOTICE: GL_SHADING_LANGUAGE_VERSION = OpenGL ES GLSL ES 1.00
-2021-01-12 03:08:44.763 T:1900352432  NOTICE: GL_EXTENSIONS = GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_paletted_texture GL_OES_texture_npot GL_OES_depth24 GL_OES_vertex_half_float GL_OES_EGL_image GL_OES_EGL_image_external GL_EXT_discard_framebuffer GL_OES_rgb8_rgba8 GL_OES_depth32 GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_APPLE_rgb_422 GL_EXT_debug_marker
-2021-01-12 03:08:45.051 T:1900352432 WARNING: COMXImageFile::GetCodingType progressive images not supported by decoder
-2021-01-12 03:08:45.051 T:1900352432  NOTICE: LoadJpeg: unable to load /usr/share/kodi/media/splash.jpg
-2021-01-12 03:08:45.769 T:1900352432 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:45.770 T:1900352432 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:45.891 T:1775505632  NOTICE: Running database version Addons27
-2021-01-12 03:08:45.895 T:1775505632  NOTICE: Running database version ViewModes6
-2021-01-12 03:08:45.899 T:1775505632  NOTICE: Running database version Textures13
-2021-01-12 03:08:45.909 T:1775505632  NOTICE: Running database version MyMusic72
-2021-01-12 03:08:45.924 T:1775505632  NOTICE: Running database version MyVideos116
-2021-01-12 03:08:45.929 T:1775505632  NOTICE: Running database version TV32
-2021-01-12 03:08:45.932 T:1775505632  NOTICE: Running database version Epg12
-2021-01-12 03:08:45.933 T:1900352432  NOTICE: start dvd mediatype detection
-2021-01-12 03:08:45.984 T:1775505632 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:45.985 T:1775505632 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:45.995 T:1900352432  NOTICE:   load skin from: /usr/share/kodi/addons/skin.estuary (version: 2.0.27)
-2021-01-12 03:08:46.816 T:1900352432 WARNING: JSONRPC: Could not parse type "Setting.Details.SettingList"
-2021-01-12 03:08:46.941 T:1900352432  NOTICE: Register - new keyboard device registered on application->keyboard: Keyboard (0000:0000)
-2021-01-12 03:08:46.943 T:1900352432  NOTICE: Register - new mouse device registered on application->mouse: Mouse (0000:0000)
-2021-01-12 03:08:46.947 T:1900352432  NOTICE: Loading player core factory settings from special://xbmc/system/playercorefactory.xml.
-2021-01-12 03:08:46.949 T:1900352432  NOTICE: Loaded playercorefactory configuration
-2021-01-12 03:08:46.949 T:1900352432  NOTICE: Loading player core factory settings from special://masterprofile/playercorefactory.xml.
-2021-01-12 03:08:46.950 T:1900352432  NOTICE: special://masterprofile/playercorefactory.xml does not exist. Skipping.
-2021-01-12 03:08:46.964 T:1900352432 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:46.965 T:1900352432 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:46.969 T:1900352432 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:46.971 T:1900352432 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:47.019 T:1900352432  NOTICE: initialize done
-2021-01-12 03:08:47.020 T:1900352432  NOTICE: Running the application...
-2021-01-12 03:08:47.026 T:1900352432  NOTICE: starting zeroconf publishing
-2021-01-12 03:08:47.027 T:1651458272  NOTICE: ES: Starting UDP Event server on port 9777
-2021-01-12 03:08:47.027 T:1651458272  NOTICE: UDP: Listening on port 9777 (ipv6 : true)
-2021-01-12 03:08:47.049 T:1900352432  NOTICE: VideoPlayer::OpenFile: /var/run/lirc/lircd
-2021-01-12 03:08:47.071 T:1608257760  NOTICE: Creating InputStream
-2021-01-12 03:08:47.071 T:1608257760   ERROR: CVideoPlayer::OpenInputStream - error opening [/var/run/lirc/lircd]
-2021-01-12 03:08:47.072 T:1608257760  NOTICE: CVideoPlayer::OnExit()
-2021-01-12 03:08:47.247 T:1726992608  NOTICE: Register - new cec device registered on cec->RPI: CEC Adapter (2708:1001)
-2021-01-12 03:08:47.338 T:1599865056 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:47.341 T:1599865056 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:47.456 T:1599865056 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:47.457 T:1599865056 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:47.473 T:1599865056 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:47.474 T:1599865056 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:47.644 T:1900352432  NOTICE: CVideoPlayer::CloseFile()
-2021-01-12 03:08:47.645 T:1900352432  NOTICE: VideoPlayer: waiting for threads to exit
-2021-01-12 03:08:47.645 T:1900352432  NOTICE: VideoPlayer: finished waiting
-2021-01-12 03:08:49.586 T:1861214432  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2205)
-2021-01-12 03:08:49.857 T:1634672864  NOTICE: [plugin.video.elementum] elementum: starting jsonrpc service
-2021-01-12 03:08:49.925 T:1616650464  NOTICE: [plugin.video.elementum] elementumd: starting elementumd
-2021-01-12 03:08:49.949 T:1616650464  NOTICE: [plugin.video.elementum] Kodi's JSON-RPC service is available, starting up...
-2021-01-12 03:08:50.252 T:1668243680  NOTICE: [ plugin.video.venom ]  service started
-2021-01-12 03:08:50.253 T:1616650464  NOTICE: [plugin.video.elementum] Binary detection. Source: /root/.kodi/addons/plugin.video.elementum/resources/bin/linux_armv7/elementum, Destination: /root/.kodi/userdata/addon_data/plugin.video.elementum/bin/linux_armv7/elementum
-2021-01-12 03:08:50.253 T:1668243680  NOTICE: /root/.kodi/userdata/addon_data/plugin.video.venom/ : already exists
-2021-01-12 03:08:50.265 T:1668243680  NOTICE: /root/.kodi/userdata/addon_data/plugin.video.venom/settings.xml : already exists
-2021-01-12 03:08:50.300 T:1668243680  NOTICE: [ plugin.video.venom ]  Sync "My Accounts" Service Starting...
-2021-01-12 03:08:50.312 T:1668243680   ERROR: EXCEPTION Thrown (PythonToCppException) : -->Python callback/script returned the following error<--
+2021-04-26 08:45:45.070 T:1900450736  NOTICE: Found resolution 720 x 576 with 720 x 576i @ 50.000000 Hz
+2021-04-26 08:45:45.070 T:1900450736  NOTICE: Found (720x576i@50.000000) at 16, setting to RES_DESKTOP at 16
+2021-04-26 08:45:45.071 T:1900450736  NOTICE: EGL_VERSION = 1.4
+2021-04-26 08:45:45.071 T:1900450736  NOTICE: EGL_VENDOR = Broadcom
+2021-04-26 08:45:45.071 T:1900450736  NOTICE: EGL_EXTENSIONS = EGL_KHR_image EGL_KHR_image_base EGL_KHR_image_pixmap EGL_KHR_vg_parent_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_lock_surface
+2021-04-26 08:45:45.071 T:1900450736  NOTICE: EGL_CLIENT_EXTENSIONS = NULL
+2021-04-26 08:45:45.074 T:1900450736  NOTICE: Checking resolution 16
+2021-04-26 08:45:45.119 T:1900450736  NOTICE: GL_VENDOR = Broadcom
+2021-04-26 08:45:45.119 T:1900450736  NOTICE: GL_RENDERER = VideoCore IV HW
+2021-04-26 08:45:45.119 T:1900450736  NOTICE: GL_VERSION = OpenGL ES 2.0
+2021-04-26 08:45:45.119 T:1900450736  NOTICE: GL_SHADING_LANGUAGE_VERSION = OpenGL ES GLSL ES 1.00
+2021-04-26 08:45:45.119 T:1900450736  NOTICE: GL_EXTENSIONS = GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_paletted_texture GL_OES_texture_npot GL_OES_depth24 GL_OES_vertex_half_float GL_OES_EGL_image GL_OES_EGL_image_external GL_EXT_discard_framebuffer GL_OES_rgb8_rgba8 GL_OES_depth32 GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_APPLE_rgb_422 GL_EXT_debug_marker
+2021-04-26 08:45:45.407 T:1900450736 WARNING: COMXImageFile::GetCodingType progressive images not supported by decoder
+2021-04-26 08:45:45.407 T:1900450736  NOTICE: LoadJpeg: unable to load /usr/share/kodi/media/splash.jpg
+2021-04-26 08:45:46.122 T:1900450736 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:45:46.123 T:1900450736 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:45:46.246 T:1775505632  NOTICE: Running database version Addons27
+2021-04-26 08:45:46.249 T:1775505632  NOTICE: Running database version ViewModes6
+2021-04-26 08:45:46.254 T:1775505632  NOTICE: Running database version Textures13
+2021-04-26 08:45:46.264 T:1775505632  NOTICE: Running database version MyMusic72
+2021-04-26 08:45:46.278 T:1775505632  NOTICE: Running database version MyVideos116
+2021-04-26 08:45:46.283 T:1775505632  NOTICE: Running database version TV32
+2021-04-26 08:45:46.286 T:1775505632  NOTICE: Running database version Epg12
+2021-04-26 08:45:46.287 T:1900450736  NOTICE: start dvd mediatype detection
+2021-04-26 08:45:46.337 T:1775505632 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:45:46.338 T:1775505632 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:45:46.348 T:1900450736  NOTICE:   load skin from: /usr/share/kodi/addons/skin.estuary (version: 2.0.27)
+2021-04-26 08:45:47.165 T:1900450736 WARNING: JSONRPC: Could not parse type "Setting.Details.SettingList"
+2021-04-26 08:45:47.258 T:1900450736  NOTICE: Register - new keyboard device registered on application->keyboard: Keyboard (0000:0000)
+2021-04-26 08:45:47.259 T:1900450736  NOTICE: Register - new mouse device registered on application->mouse: Mouse (0000:0000)
+2021-04-26 08:45:47.269 T:1900450736  NOTICE: Loading player core factory settings from special://xbmc/system/playercorefactory.xml.
+2021-04-26 08:45:47.271 T:1900450736  NOTICE: Loaded playercorefactory configuration
+2021-04-26 08:45:47.271 T:1900450736  NOTICE: Loading player core factory settings from special://masterprofile/playercorefactory.xml.
+2021-04-26 08:45:47.271 T:1900450736  NOTICE: special://masterprofile/playercorefactory.xml does not exist. Skipping.
+2021-04-26 08:45:47.279 T:1900450736 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:45:47.280 T:1900450736 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:45:47.291 T:1900450736 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:45:47.292 T:1900450736 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:45:47.346 T:1900450736  NOTICE: initialize done
+2021-04-26 08:45:47.347 T:1900450736  NOTICE: Running the application...
+2021-04-26 08:45:47.358 T:1900450736  NOTICE: starting zeroconf publishing
+2021-04-26 08:45:47.360 T:1651458272  NOTICE: ES: Starting UDP Event server on port 9777
+2021-04-26 08:45:47.360 T:1651458272  NOTICE: UDP: Listening on port 9777 (ipv6 : true)
+2021-04-26 08:45:47.390 T:1900450736  NOTICE: VideoPlayer::OpenFile: /var/run/lirc/lircd
+2021-04-26 08:45:47.401 T:1608257760  NOTICE: Creating InputStream
+2021-04-26 08:45:47.402 T:1608257760   ERROR: CVideoPlayer::OpenInputStream - error opening [/var/run/lirc/lircd]
+2021-04-26 08:45:47.402 T:1608257760  NOTICE: CVideoPlayer::OnExit()
+2021-04-26 08:45:47.632 T:1726992608  NOTICE: Register - new cec device registered on cec->RPI: CEC Adapter (2708:1001)
+2021-04-26 08:45:47.744 T:1764253920 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:45:47.746 T:1764253920 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:45:47.855 T:1764253920 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:45:47.856 T:1764253920 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:45:47.869 T:1764253920 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:45:47.869 T:1764253920 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:45:47.963 T:1900450736  NOTICE: CVideoPlayer::CloseFile()
+2021-04-26 08:45:47.963 T:1900450736  NOTICE: VideoPlayer: waiting for threads to exit
+2021-04-26 08:45:47.963 T:1900450736  NOTICE: VideoPlayer: finished waiting
+2021-04-26 08:45:49.965 T:1668243680  NOTICE: [ plugin.video.venom ]  service started
+2021-04-26 08:45:50.069 T:1668243680  NOTICE: /root/.kodi/userdata/addon_data/plugin.video.venom/ : already exists
+2021-04-26 08:45:50.069 T:1668243680  NOTICE: /root/.kodi/userdata/addon_data/plugin.video.venom/settings.xml : already exists
+2021-04-26 08:45:50.520 T:1668243680  NOTICE: [ plugin.video.venom ]  Sync "My Accounts" Service Starting...
+2021-04-26 08:45:50.527 T:1616650464  NOTICE: [plugin.video.elementum] elementumd: starting elementumd
+2021-04-26 08:45:50.530 T:1634672864  NOTICE: [plugin.video.elementum] elementum: starting jsonrpc service
+2021-04-26 08:45:50.531 T:1616650464  NOTICE: [plugin.video.elementum] Kodi's JSON-RPC service is available, starting up...
+2021-04-26 08:45:50.558 T:1668243680   ERROR: EXCEPTION Thrown (PythonToCppException) : -->Python callback/script returned the following error<--
                                              - NOTE: IGNORING THIS CAN LEAD TO MEMORY LEAKS!
                                             Error Type: <type 'exceptions.ImportError'>
                                             Error Contents: No module named myaccounts
@@ -303,345 +301,523 @@
                                                 import myaccounts
                                             ImportError: No module named myaccounts
                                             -->End of Python script error report<--
-2021-01-12 03:08:50.441 T:1861214432  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2205)
-2021-01-12 03:08:51.902 T:1616650464  NOTICE: [plugin.video.elementum] Deleting stale files set([])
-2021-01-12 03:08:51.902 T:1616650464  NOTICE: [plugin.video.elementum] Binary detection: [ Source: /root/.kodi/addons/plugin.video.elementum/resources/bin/linux_armv7/elementum, Destination: /root/.kodi/userdata/addon_data/plugin.video.elementum/bin/linux_armv7/elementum ]
-2021-01-12 03:08:51.903 T:1616650464  NOTICE: [plugin.video.elementum] Binary dir: /root/.kodi/userdata/addon_data/plugin.video.elementum/bin/linux_armv7, item: /root/.kodi/userdata/addon_data/plugin.video.elementum/bin/linux_armv7/elementum
-2021-01-12 03:08:51.903 T:1616650464 WARNING: [plugin.video.elementum] Existing process found from lockfile, killing...
-2021-01-12 03:08:51.916 T:1616650464  NOTICE: [plugin.video.elementum] elementumd: start args: ['/root/.kodi/userdata/addon_data/plugin.video.elementum/bin/linux_armv7/elementum'], kw: {'close_fds': True, 'env': {'NO_AT_BRIDGE': '1', '__GL_YIELD': 'USLEEP', 'GODEBUG': 'madvdontneed=1', 'KODI_BIN_HOME': '/usr/lib/arm-linux-gnueabihf/kodi', 'XDG_SESSION_TYPE': 'tty', 'HUSHLOGIN': 'FALSE', 'LOGNAME': 'root', 'USER': 'root', 'HOME': '/root', 'XDG_VTNR': '1', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LD_LIBRARY_PATH': '/root/.kodi/userdata/addon_data/plugin.video.elementum/bin/linux_armv7:', 'TERM': 'linux', 'SHELL': '/bin/bash', 'TZ': ':Europe/London', 'SHLVL': '1', 'LIRC_SOCKET_PATH': '/var/run/lirc/lircd', 'SSL_CERT_FILE': '/usr/share/kodi/system/certs/cacert.pem', 'PYTHONOPTIMIZE': '1', 'XDG_SESSION_CLASS': 'user', 'XDG_RUNTIME_DIR': '/run/user/0', 'KODI_HOME': '/usr/share/kodi', 'LC_ALL': 'C.UTF-8', 'XDG_SESSION_ID': '1', '_': '/usr/bin/kodi', 'MALLOC_MMAP_THRESHOLD_': '131072', 'PWD': '/root', 'MAIL': '/var/mail/root', 'OS': 'Linux', 'XDG_SEAT': 'seat0'}, 'cwd': '/root/.kodi/userdata/addon_data/plugin.video.elementum/bin/linux_armv7', 'stderr': -2, 'stdout': -1}
-2021-01-12 03:08:51.982 T:1616650464  NOTICE: [plugin.video.elementum] INFO  main         ▶ main             [0mStarting Elementum daemon
-2021-01-12 03:08:51.987 T:1616650464  NOTICE: [plugin.video.elementum] INFO  main         ▶ main             [0mVersion: 0.1.65 LibTorrent: 1.1.14.0 Go: go1.15.6, Threads: 4
-2021-01-12 03:08:51.992 T:1616650464  NOTICE: [plugin.video.elementum] INFO  config       ▶ Reload           [0mReloading configuration...
-2021-01-12 03:08:51.993 T:1616650464  NOTICE: [plugin.video.elementum] INFO  config       ▶ Reload           [0mSetting remote address to 127.0.0.1:65221
-2021-01-12 03:08:52.097 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  config       ▶ Reload           [0mPaths translated by Kodi: Download = /media/UsbStorage/movies , Library = /root/.kodi/temp/elementum_library , Torrents = /root/.kodi/temp/elementum_torrents , Storage = 0
-2021-01-12 03:08:52.100 T:1616650464  NOTICE: [plugin.video.elementum] INFO  config       ▶ Reload           [0mUsing download path: /media/UsbStorage/movies
-2021-01-12 03:08:52.102 T:1616650464  NOTICE: [plugin.video.elementum] INFO  config       ▶ Reload           [0mUsing library path: /root/.kodi/temp/elementum_library
-2021-01-12 03:08:52.103 T:1616650464  NOTICE: [plugin.video.elementum] INFO  config       ▶ Reload           [0mUsing torrents path: /root/.kodi/temp/elementum_torrents
-2021-01-12 03:08:52.223 T:1616650464  NOTICE: [plugin.video.elementum] INFO  config       ▶ Reload           [0mUsing configuration: &config.Configuration{
-2021-01-12 03:08:52.224 T:1616650464  NOTICE: [plugin.video.elementum]   DownloadPath: "/media/UsbStorage/movies",
-2021-01-12 03:08:52.225 T:1616650464  NOTICE: [plugin.video.elementum]   TorrentsPath: "/root/.kodi/temp/elementum_torrents",
-2021-01-12 03:08:52.225 T:1616650464  NOTICE: [plugin.video.elementum]   LibraryPath: "/root/.kodi/temp/elementum_library",
-2021-01-12 03:08:52.226 T:1616650464  NOTICE: [plugin.video.elementum]   Info: &xbmc.AddonInfo{
-2021-01-12 03:08:52.226 T:1616650464  NOTICE: [plugin.video.elementum]     Author: "elgatito",
-2021-01-12 03:08:52.227 T:1616650464  NOTICE: [plugin.video.elementum]     Changelog: "",
-2021-01-12 03:08:52.228 T:1616650464  NOTICE: [plugin.video.elementum]     Description: "Elementum is a torrent finding and streaming engine. It doesn't go on torrent websites for legal reasons. However, it calls specially crafted add-ons (called providers) that are installed separately.[CR]This project is a fork of the well known, but no longer maintained Pulsar/Quasar projects from steeve and scakemyer.",
-2021-01-12 03:08:52.229 T:1616650464  NOTICE: [plugin.video.elementum]     Disclaimer: "The author does not own or host any content found within this Addon. The author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.",
-2021-01-12 03:08:52.229 T:1616650464  NOTICE: [plugin.video.elementum]     Fanart: "/root/.kodi/addons/plugin.video.elementum/fanart.png",
-2021-01-12 03:08:52.229 T:1616650464  NOTICE: [plugin.video.elementum]     Home: "/root/.kodi/",
-2021-01-12 03:08:52.230 T:1616650464  NOTICE: [plugin.video.elementum]     Icon: "/root/.kodi/addons/plugin.video.elementum/icon.png",
-2021-01-12 03:08:52.230 T:1616650464  NOTICE: [plugin.video.elementum]     ID: "plugin.video.elementum",
-2021-01-12 03:08:52.231 T:1616650464  NOTICE: [plugin.video.elementum]     Name: "Elementum",
-2021-01-12 03:08:52.231 T:1616650464  NOTICE: [plugin.video.elementum]     Path: "/root/.kodi/addons/plugin.video.elementum",
-2021-01-12 03:08:52.232 T:1616650464  NOTICE: [plugin.video.elementum]     Profile: "/root/.kodi/userdata/addon_data/plugin.video.elementum/",
-2021-01-12 03:08:52.232 T:1616650464  NOTICE: [plugin.video.elementum]     TempPath: "/root/.kodi/temp/elementum",
-2021-01-12 03:08:52.233 T:1616650464  NOTICE: [plugin.video.elementum]     Stars: "-1",
-2021-01-12 03:08:52.233 T:1616650464  NOTICE: [plugin.video.elementum]     Summary: "Elementum: Media streaming",
-2021-01-12 03:08:52.234 T:1616650464  NOTICE: [plugin.video.elementum]     Type: "xbmc.python.pluginsource",
-2021-01-12 03:08:52.234 T:1616650464  NOTICE: [plugin.video.elementum]     Version: "0.1.65",
-2021-01-12 03:08:52.235 T:1616650464  NOTICE: [plugin.video.elementum]     Xbmc: "/usr/share/kodi/",
-2021-01-12 03:08:52.236 T:1616650464  NOTICE: [plugin.video.elementum]   },
-2021-01-12 03:08:52.236 T:1616650464  NOTICE: [plugin.video.elementum]   Platform: &xbmc.Platform{
-2021-01-12 03:08:52.237 T:1616650464  NOTICE: [plugin.video.elementum]     OS: "linux",
-2021-01-12 03:08:52.237 T:1616650464  NOTICE: [plugin.video.elementum]     Arch: "armv7",
-2021-01-12 03:08:52.238 T:1616650464  NOTICE: [plugin.video.elementum]     Version: "",
-2021-01-12 03:08:52.238 T:1616650464  NOTICE: [plugin.video.elementum]     Kodi: 18,
-2021-01-12 03:08:52.239 T:1616650464  NOTICE: [plugin.video.elementum]     Build: "18.7 Git:20200612-e2aefdbee4",
-2021-01-12 03:08:52.239 T:1616650464  NOTICE: [plugin.video.elementum]   },
-2021-01-12 03:08:52.239 T:1616650464  NOTICE: [plugin.video.elementum]   Language: "en",
-2021-01-12 03:08:52.239 T:1616650464  NOTICE: [plugin.video.elementum]   Region: "US",
-2021-01-12 03:08:52.240 T:1616650464  NOTICE: [plugin.video.elementum]   TemporaryPath: "/root/.kodi/temp/elementum",
-2021-01-12 03:08:52.240 T:1616650464  NOTICE: [plugin.video.elementum]   ProfilePath: "/root/.kodi/userdata/addon_data/plugin.video.elementum/",
-2021-01-12 03:08:52.241 T:1616650464  NOTICE: [plugin.video.elementum]   HomePath: "/root/.kodi/",
-2021-01-12 03:08:52.242 T:1616650464  NOTICE: [plugin.video.elementum]   XbmcPath: "/usr/share/kodi/",
-2021-01-12 03:08:52.242 T:1616650464  NOTICE: [plugin.video.elementum]   SpoofUserAgent: 0,
-2021-01-12 03:08:52.243 T:1616650464  NOTICE: [plugin.video.elementum]   KeepDownloading: 1,
-2021-01-12 03:08:52.243 T:1616650464  NOTICE: [plugin.video.elementum]   KeepFilesPlaying: 0,
-2021-01-12 03:08:52.244 T:1616650464  NOTICE: [plugin.video.elementum]   KeepFilesFinished: 0,
-2021-01-12 03:08:52.244 T:1616650464  NOTICE: [plugin.video.elementum]   UseTorrentHistory: true,
-2021-01-12 03:08:52.245 T:1616650464  NOTICE: [plugin.video.elementum]   TorrentHistorySize: 200,
-2021-01-12 03:08:52.245 T:1616650464  NOTICE: [plugin.video.elementum]   UseFanartTv: false,
-2021-01-12 03:08:52.245 T:1616650464  NOTICE: [plugin.video.elementum]   DisableBgProgress: false,
-2021-01-12 03:08:52.246 T:1616650464  NOTICE: [plugin.video.elementum]   DisableBgProgressPlayback: true,
-2021-01-12 03:08:52.246 T:1616650464  NOTICE: [plugin.video.elementum]   ForceUseTrakt: false,
-2021-01-12 03:08:52.246 T:1616650464  NOTICE: [plugin.video.elementum]   UseCacheSelection: true,
-2021-01-12 03:08:52.246 T:1616650464  NOTICE: [plugin.video.elementum]   UseCacheSearch: false,
-2021-01-12 03:08:52.247 T:1616650464  NOTICE: [plugin.video.elementum]   UseCacheTorrents: true,
-2021-01-12 03:08:52.247 T:1616650464  NOTICE: [plugin.video.elementum]   CacheSearchDuration: 180,
-2021-01-12 03:08:52.248 T:1616650464  NOTICE: [plugin.video.elementum]   ShowFilesWatched: true,
-2021-01-12 03:08:52.248 T:1616650464  NOTICE: [plugin.video.elementum]   ResultsPerPage: 9,
-2021-01-12 03:08:52.248 T:1616650464  NOTICE: [plugin.video.elementum]   GreetingEnabled: true,
-2021-01-12 03:08:52.249 T:1616650464  NOTICE: [plugin.video.elementum]   EnableOverlayStatus: true,
-2021-01-12 03:08:52.249 T:1616650464  NOTICE: [plugin.video.elementum]   SilentStreamStart: false,
-2021-01-12 03:08:52.250 T:1616650464  NOTICE: [plugin.video.elementum]   AutoYesEnabled: false,
-2021-01-12 03:08:52.250 T:1616650464  NOTICE: [plugin.video.elementum]   AutoYesTimeout: 5,
-2021-01-12 03:08:52.251 T:1616650464  NOTICE: [plugin.video.elementum]   ChooseStreamAutoMovie: false,
-2021-01-12 03:08:52.252 T:1616650464  NOTICE: [plugin.video.elementum]   ChooseStreamAutoShow: false,
-2021-01-12 03:08:52.253 T:1616650464  NOTICE: [plugin.video.elementum]   ChooseStreamAutoSearch: false,
-2021-01-12 03:08:52.254 T:1616650464  NOTICE: [plugin.video.elementum]   ForceLinkType: false,
-2021-01-12 03:08:52.255 T:1616650464  NOTICE: [plugin.video.elementum]   UseOriginalTitle: false,
-2021-01-12 03:08:52.258 T:1616650464  NOTICE: [plugin.video.elementum]   UseAnimeEnTitle: true,
-2021-01-12 03:08:52.262 T:1616650464  NOTICE: [plugin.video.elementum]   UseLowestReleaseDate: true,
-2021-01-12 03:08:52.265 T:1616650464  NOTICE: [plugin.video.elementum]   AddSpecials: false,
-2021-01-12 03:08:52.269 T:1616650464  NOTICE: [plugin.video.elementum]   AddEpisodeNumbers: false,
-2021-01-12 03:08:52.273 T:1616650464  NOTICE: [plugin.video.elementum]   ShowUnairedSeasons: false,
-2021-01-12 03:08:52.276 T:1616650464  NOTICE: [plugin.video.elementum]   ShowUnairedEpisodes: false,
-2021-01-12 03:08:52.277 T:1616650464  NOTICE: [plugin.video.elementum]   ShowSeasonsAll: true,
-2021-01-12 03:08:52.277 T:1643065568 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:52.278 T:1616650464 WARNING: Previous line repeats 1 times.
-2021-01-12 03:08:52.278 T:1616650464  NOTICE: [plugin.video.elementum]   ShowSeasonsOrder: 0,
-2021-01-12 03:08:52.278 T:1616650464  NOTICE: [plugin.video.elementum]   ShowSeasonsSpecials: true,
-2021-01-12 03:08:52.279 T:1616650464  NOTICE: [plugin.video.elementum]   SmartEpisodeStart: false,
-2021-01-12 03:08:52.279 T:1616650464  NOTICE: [plugin.video.elementum]   SmartEpisodeMatch: false,
-2021-01-12 03:08:52.279 T:1616650464  NOTICE: [plugin.video.elementum]   SmartEpisodeChoose: false,
-2021-01-12 03:08:52.280 T:1616650464  NOTICE: [plugin.video.elementum]   LibraryEnabled: true,
-2021-01-12 03:08:52.280 T:1616650464  NOTICE: [plugin.video.elementum]   LibrarySyncEnabled: true,
-2021-01-12 03:08:52.282 T:1616650464  NOTICE: [plugin.video.elementum]   LibrarySyncPlaybackEnabled: true,
-2021-01-12 03:08:52.283 T:1616650464  NOTICE: [plugin.video.elementum]   LibraryUpdate: 0,
-2021-01-12 03:08:52.284 T:1616650464  NOTICE: [plugin.video.elementum]   StrmLanguage: "en",
-2021-01-12 03:08:52.284 T:1616650464  NOTICE: [plugin.video.elementum]   LibraryNFOMovies: true,
-2021-01-12 03:08:52.287 T:1643065568 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:52.290 T:1616650464 WARNING: Previous line repeats 1 times.
-2021-01-12 03:08:52.290 T:1616650464  NOTICE: [plugin.video.elementum]   LibraryNFOShows: true,
-2021-01-12 03:08:52.294 T:1616650464  NOTICE: [plugin.video.elementum]   PlaybackPercent: 85,
-2021-01-12 03:08:52.296 T:1616650464  NOTICE: [plugin.video.elementum]   DownloadStorage: 0,
-2021-01-12 03:08:52.296 T:1616650464  NOTICE: [plugin.video.elementum]   SkipBurstSearch: false,
-2021-01-12 03:08:52.298 T:1616650464  NOTICE: [plugin.video.elementum]   AutoMemorySize: true,
-2021-01-12 03:08:52.298 T:1616650464  NOTICE: [plugin.video.elementum]   AutoKodiBufferSize: true,
-2021-01-12 03:08:52.301 T:1616650464  NOTICE: [plugin.video.elementum]   AutoAdjustMemorySize: true,
-2021-01-12 03:08:52.302 T:1616650464  NOTICE: [plugin.video.elementum]   AutoMemorySizeStrategy: 2,
-2021-01-12 03:08:52.303 T:1616650464  NOTICE: [plugin.video.elementum]   MemorySize: 104857600,
-2021-01-12 03:08:52.303 T:1616650464  NOTICE: [plugin.video.elementum]   AutoAdjustBufferSize: false,
-2021-01-12 03:08:52.303 T:1616650464  NOTICE: [plugin.video.elementum]   MinCandidateSize: 104857600,
-2021-01-12 03:08:52.304 T:1616650464  NOTICE: [plugin.video.elementum]   MinCandidateShowSize: 1048576,
-2021-01-12 03:08:52.304 T:1616650464  NOTICE: [plugin.video.elementum]   BufferTimeout: 60,
-2021-01-12 03:08:52.305 T:1616650464  NOTICE: [plugin.video.elementum]   BufferSize: 20971520,
-2021-01-12 03:08:52.305 T:1616650464  NOTICE: [plugin.video.elementum]   EndBufferSize: 4194304,
-2021-01-12 03:08:52.305 T:1616650464  NOTICE: [plugin.video.elementum]   KodiBufferSize: 0,
-2021-01-12 03:08:52.306 T:1616650464  NOTICE: [plugin.video.elementum]   UploadRateLimit: 10240,
-2021-01-12 03:08:52.306 T:1616650464  NOTICE: [plugin.video.elementum]   DownloadRateLimit: 0,
-2021-01-12 03:08:52.307 T:1616650464  NOTICE: [plugin.video.elementum]   AutoloadTorrents: true,
-2021-01-12 03:08:52.307 T:1616650464  NOTICE: [plugin.video.elementum]   AutoloadTorrentsPaused: true,
-2021-01-12 03:08:52.309 T:1616650464  NOTICE: [plugin.video.elementum]   LimitAfterBuffering: false,
-2021-01-12 03:08:52.310 T:1616650464  NOTICE: [plugin.video.elementum]   ConnectionsLimit: 0,
-2021-01-12 03:08:52.311 T:1616650464  NOTICE: [plugin.video.elementum]   ConnTrackerLimit: 0,
-2021-01-12 03:08:52.317 T:1616650464  NOTICE: [plugin.video.elementum]   ConnTrackerLimitAuto: true,
-2021-01-12 03:08:52.318 T:1616650464  NOTICE: [plugin.video.elementum]   SessionSave: 15,
-2021-01-12 03:08:52.322 T:1616650464  NOTICE: [plugin.video.elementum]   SeedForever: false,
-2021-01-12 03:08:52.325 T:1616650464  NOTICE: [plugin.video.elementum]   ShareRatioLimit: 25,
-2021-01-12 03:08:52.325 T:1726992608  NOTICE: [plugin.video.elementum] Cleaning up dialogs
-2021-01-12 03:08:52.328 T:1616650464  NOTICE: [plugin.video.elementum]   SeedTimeRatioLimit: 200,
-2021-01-12 03:08:52.330 T:1616650464  NOTICE: [plugin.video.elementum]   SeedTimeLimit: 7200,
-2021-01-12 03:08:52.331 T:1616650464  NOTICE: [plugin.video.elementum]   DisableUpload: false,
-2021-01-12 03:08:52.331 T:1616650464  NOTICE: [plugin.video.elementum]   DisableDHT: false,
-2021-01-12 03:08:52.333 T:1616650464  NOTICE: [plugin.video.elementum]   DisableTCP: false,
-2021-01-12 03:08:52.337 T:1616650464  NOTICE: [plugin.video.elementum]   DisableUTP: false,
-2021-01-12 03:08:52.344 T:1726992608  NOTICE: [plugin.video.elementum] Resetting RPC objects...
-2021-01-12 03:08:52.346 T:1616650464  NOTICE: [plugin.video.elementum]   DisableUPNP: false,
-2021-01-12 03:08:52.346 T:1900352432 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:52.347 T:1900352432 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:52.347 T:1616650464  NOTICE: [plugin.video.elementum]   EncryptionPolicy: 0,
-2021-01-12 03:08:52.348 T:1616650464  NOTICE: [plugin.video.elementum]   ListenPortMin: 6891,
-2021-01-12 03:08:52.349 T:1616650464  NOTICE: [plugin.video.elementum]   ListenPortMax: 6899,
-2021-01-12 03:08:52.350 T:1616650464  NOTICE: [plugin.video.elementum]   ListenInterfaces: "",
-2021-01-12 03:08:52.351 T:1616650464  NOTICE: [plugin.video.elementum]   ListenAutoDetectIP: true,
-2021-01-12 03:08:52.352 T:1616650464  NOTICE: [plugin.video.elementum]   ListenAutoDetectPort: true,
-2021-01-12 03:08:52.354 T:1616650464  NOTICE: [plugin.video.elementum]   OutgoingInterfaces: "",
-2021-01-12 03:08:52.355 T:1616650464  NOTICE: [plugin.video.elementum]   TunedStorage: false,
-2021-01-12 03:08:52.356 T:1616650464  NOTICE: [plugin.video.elementum]   DiskCacheSize: 12582912,
-2021-01-12 03:08:52.357 T:1616650464  NOTICE: [plugin.video.elementum]   UseLibtorrentConfig: true,
-2021-01-12 03:08:52.358 T:1616650464  NOTICE: [plugin.video.elementum]   UseLibtorrentLogging: false,
-2021-01-12 03:08:52.359 T:1616650464  NOTICE: [plugin.video.elementum]   UseLibtorrentDeadlines: false,
-2021-01-12 03:08:52.359 T:1616650464  NOTICE: [plugin.video.elementum]   UseLibtorrentPauseResume: false,
-2021-01-12 03:08:52.360 T:1616650464  NOTICE: [plugin.video.elementum]   LibtorrentProfile: 0,
-2021-01-12 03:08:52.361 T:1616650464  NOTICE: [plugin.video.elementum]   MagnetTrackers: 0,
-2021-01-12 03:08:52.362 T:1616650464  NOTICE: [plugin.video.elementum]   MagnetResolveTimeout: 20,
-2021-01-12 03:08:52.364 T:1616650464  NOTICE: [plugin.video.elementum]   Scrobble: false,
-2021-01-12 03:08:52.365 T:1616650464  NOTICE: [plugin.video.elementum]   AutoScrapeEnabled: false,
-2021-01-12 03:08:52.366 T:1616650464  NOTICE: [plugin.video.elementum]   AutoScrapeLibraryEnabled: false,
-2021-01-12 03:08:52.369 T:1616650464  NOTICE: [plugin.video.elementum]   AutoScrapeStrategy: 0,
-2021-01-12 03:08:52.371 T:1616650464  NOTICE: [plugin.video.elementum]   AutoScrapeStrategyExpect: 3,
-2021-01-12 03:08:52.372 T:1616650464  NOTICE: [plugin.video.elementum]   AutoScrapePerHours: 12,
-2021-01-12 03:08:52.373 T:1616650464  NOTICE: [plugin.video.elementum]   AutoScrapeLimitMovies: 50,
-2021-01-12 03:08:52.373 T:1616650464  NOTICE: [plugin.video.elementum]   AutoScrapeInterval: 30,
-2021-01-12 03:08:52.374 T:1616650464  NOTICE: [plugin.video.elementum]   TraktAuthorized: false,
-2021-01-12 03:08:52.374 T:1616650464  NOTICE: [plugin.video.elementum]   TraktUsername: "",
-2021-01-12 03:08:52.374 T:1616650464  NOTICE: [plugin.video.elementum]   TraktToken: "",
-2021-01-12 03:08:52.375 T:1616650464  NOTICE: [plugin.video.elementum]   TraktRefreshToken: "",
-2021-01-12 03:08:52.382 T:1616650464  NOTICE: [plugin.video.elementum]   TraktTokenExpiry: 0,
-2021-01-12 03:08:52.383 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncEnabled: true,
-2021-01-12 03:08:52.384 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncPlaybackEnabled: true,
-2021-01-12 03:08:52.384 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncFrequencyMin: 5,
-2021-01-12 03:08:52.385 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncCollections: true,
-2021-01-12 03:08:52.386 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncWatchlist: true,
-2021-01-12 03:08:52.387 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncUserlists: true,
-2021-01-12 03:08:52.388 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncPlaybackProgress: true,
-2021-01-12 03:08:52.389 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncHidden: true,
-2021-01-12 03:08:52.390 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncWatched: true,
-2021-01-12 03:08:52.393 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncWatchedBack: true,
-2021-01-12 03:08:52.394 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncAddedMovies: true,
-2021-01-12 03:08:52.395 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncAddedMoviesLocation: 0,
-2021-01-12 03:08:52.396 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncAddedMoviesList: 0,
-2021-01-12 03:08:52.396 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncAddedShows: true,
-2021-01-12 03:08:52.397 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncAddedShowsLocation: 0,
-2021-01-12 03:08:52.397 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncAddedShowsList: 0,
-2021-01-12 03:08:52.398 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncRemovedMovies: true,
-2021-01-12 03:08:52.399 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncRemovedMoviesLocation: 0,
-2021-01-12 03:08:52.399 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncRemovedMoviesList: 0,
-2021-01-12 03:08:52.399 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncRemovedShows: true,
-2021-01-12 03:08:52.400 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncRemovedShowsLocation: 0,
-2021-01-12 03:08:52.400 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncRemovedShowsList: 0,
-2021-01-12 03:08:52.400 T:1616650464  NOTICE: [plugin.video.elementum]   TraktProgressUnaired: true,
-2021-01-12 03:08:52.401 T:1616650464  NOTICE: [plugin.video.elementum]   TraktProgressSort: 0,
-2021-01-12 03:08:52.402 T:1616650464  NOTICE: [plugin.video.elementum]   TraktProgressDateFormat: "yyyy-mm-dd",
-2021-01-12 03:08:52.404 T:1616650464  NOTICE: [plugin.video.elementum]   TraktProgressColorDate: "yellow",
-2021-01-12 03:08:52.405 T:1616650464  NOTICE: [plugin.video.elementum]   TraktProgressColorShow: "none",
-2021-01-12 03:08:52.406 T:1616650464  NOTICE: [plugin.video.elementum]   TraktProgressColorEpisode: "skyblue",
-2021-01-12 03:08:52.407 T:1616650464  NOTICE: [plugin.video.elementum]   TraktProgressColorUnaired: "deeppink",
-2021-01-12 03:08:52.407 T:1616650464  NOTICE: [plugin.video.elementum]   TraktCalendarsDateFormat: "yyyy-mm-dd",
-2021-01-12 03:08:52.408 T:1616650464  NOTICE: [plugin.video.elementum]   TraktCalendarsColorDate: "yellow",
-2021-01-12 03:08:52.408 T:1616650464  NOTICE: [plugin.video.elementum]   TraktCalendarsColorShow: "none",
-2021-01-12 03:08:52.409 T:1616650464  NOTICE: [plugin.video.elementum]   TraktCalendarsColorEpisode: "skyblue",
-2021-01-12 03:08:52.409 T:1616650464  NOTICE: [plugin.video.elementum]   TraktCalendarsColorUnaired: "deeppink",
-2021-01-12 03:08:52.409 T:1616650464  NOTICE: [plugin.video.elementum]   UpdateFrequency: 6,
-2021-01-12 03:08:52.410 T:1616650464  NOTICE: [plugin.video.elementum]   UpdateDelay: 300,
-2021-01-12 03:08:52.410 T:1616650464  NOTICE: [plugin.video.elementum]   UpdateAutoScan: true,
-2021-01-12 03:08:52.410 T:1616650464  NOTICE: [plugin.video.elementum]   PlayResume: true,
-2021-01-12 03:08:52.411 T:1616650464  NOTICE: [plugin.video.elementum]   PlayResumeBack: 0,
-2021-01-12 03:08:52.411 T:1616650464  NOTICE: [plugin.video.elementum]   StoreResume: true,
-2021-01-12 03:08:52.411 T:1616650464  NOTICE: [plugin.video.elementum]   StoreResumeAction: 2,
-2021-01-12 03:08:52.412 T:1616650464  NOTICE: [plugin.video.elementum]   TMDBApiKey: "",
-2021-01-12 03:08:52.412 T:1616650464  NOTICE: [plugin.video.elementum]   OSDBUser: "",
-2021-01-12 03:08:52.412 T:1616650464  NOTICE: [plugin.video.elementum]   OSDBPass: "",
-2021-01-12 03:08:52.413 T:1616650464  NOTICE: [plugin.video.elementum]   OSDBLanguage: "en",
-2021-01-12 03:08:52.413 T:1616650464  NOTICE: [plugin.video.elementum]   OSDBAutoLanguage: true,
-2021-01-12 03:08:52.413 T:1616650464  NOTICE: [plugin.video.elementum]   OSDBAutoLoad: false,
-2021-01-12 03:08:52.414 T:1616650464  NOTICE: [plugin.video.elementum]   OSDBAutoLoadCount: 1,
-2021-01-12 03:08:52.414 T:1616650464  NOTICE: [plugin.video.elementum]   OSDBAutoLoadDelete: true,
-2021-01-12 03:08:52.414 T:1616650464  NOTICE: [plugin.video.elementum]   OSDBAutoLoadSkipExists: true,
-2021-01-12 03:08:52.415 T:1616650464  NOTICE: [plugin.video.elementum]   OSDBIncludedEnabled: true,
-2021-01-12 03:08:52.415 T:1616650464  NOTICE: [plugin.video.elementum]   OSDBIncludedSkipExists: true,
-2021-01-12 03:08:52.415 T:1616650464  NOTICE: [plugin.video.elementum]   SortingModeMovies: 2,
-2021-01-12 03:08:52.416 T:1616650464  NOTICE: [plugin.video.elementum]   SortingModeShows: 2,
-2021-01-12 03:08:52.416 T:1616650464  NOTICE: [plugin.video.elementum]   ResolutionPreferenceMovies: 0,
-2021-01-12 03:08:52.416 T:1616650464  NOTICE: [plugin.video.elementum]   ResolutionPreferenceShows: 0,
-2021-01-12 03:08:52.417 T:1616650464  NOTICE: [plugin.video.elementum]   PercentageAdditionalSeeders: 25,
-2021-01-12 03:08:52.417 T:1616650464  NOTICE: [plugin.video.elementum]   CustomProviderTimeoutEnabled: true,
-2021-01-12 03:08:52.417 T:1616650464  NOTICE: [plugin.video.elementum]   CustomProviderTimeout: 110,
-2021-01-12 03:08:52.418 T:1616650464  NOTICE: [plugin.video.elementum]   InternalDNSEnabled: true,
-2021-01-12 03:08:52.418 T:1616650464  NOTICE: [plugin.video.elementum]   InternalDNSSkipIPv6: true,
-2021-01-12 03:08:52.419 T:1616650464  NOTICE: [plugin.video.elementum]   InternalProxyEnabled: true,
-2021-01-12 03:08:52.419 T:1616650464  NOTICE: [plugin.video.elementum]   InternalProxyLogging: false,
-2021-01-12 03:08:52.419 T:1616650464  NOTICE: [plugin.video.elementum]   InternalProxyLoggingBody: false,
-2021-01-12 03:08:52.420 T:1616650464  NOTICE: [plugin.video.elementum]   ProxyURL: "",
-2021-01-12 03:08:52.421 T:1616650464  NOTICE: [plugin.video.elementum]   ProxyType: 1,
-2021-01-12 03:08:52.422 T:1616650464  NOTICE: [plugin.video.elementum]   ProxyEnabled: false,
-2021-01-12 03:08:52.422 T:1616650464  NOTICE: [plugin.video.elementum]   ProxyHost: "",
-2021-01-12 03:08:52.422 T:1616650464  NOTICE: [plugin.video.elementum]   ProxyPort: 1080,
-2021-01-12 03:08:52.423 T:1616650464  NOTICE: [plugin.video.elementum]   ProxyLogin: "",
-2021-01-12 03:08:52.423 T:1616650464  NOTICE: [plugin.video.elementum]   ProxyPassword: "",
-2021-01-12 03:08:52.424 T:1616650464  NOTICE: [plugin.video.elementum]   ProxyUseHTTP: true,
-2021-01-12 03:08:52.424 T:1616650464  NOTICE: [plugin.video.elementum]   ProxyUseTracker: true,
-2021-01-12 03:08:52.425 T:1616650464  NOTICE: [plugin.video.elementum]   ProxyUseDownload: true,
-2021-01-12 03:08:52.425 T:1616650464  NOTICE: [plugin.video.elementum]   CompletedMove: false,
-2021-01-12 03:08:52.426 T:1616650464  NOTICE: [plugin.video.elementum]   CompletedMoviesPath: "/home/osmc/Movies/",
-2021-01-12 03:08:52.426 T:1616650464  NOTICE: [plugin.video.elementum]   CompletedShowsPath: "/home/osmc/TV Shows/",
-2021-01-12 03:08:52.426 T:1616650464  NOTICE: [plugin.video.elementum]   LocalOnlyClient: false,
-2021-01-12 03:08:52.427 T:1616650464  NOTICE: [plugin.video.elementum]   LogLevel: 2,
-2021-01-12 03:08:52.427 T:1616650464  NOTICE: [plugin.video.elementum] }
-2021-01-12 03:08:52.427 T:1616650464  NOTICE: [plugin.video.elementum] INFO  main         ▶ main             [0mAddon: plugin.video.elementum v0.1.65
-2021-01-12 03:08:52.428 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ configure        [0mConfiguring client...
-2021-01-12 03:08:52.428 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ configure        [0mStarting internal proxy
-2021-01-12 03:08:52.429 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ configure        [0mApplying session settings...
-2021-01-12 03:08:52.429 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ configure        [0mUserAgent: Elementum/0.1.65, PeerID: -GT0001-
-2021-01-12 03:08:52.430 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ configure        [0mRate limiting upload to 10 kB
-2021-01-12 03:08:52.430 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ configure        [0mApplying encryption settings...
-2021-01-12 03:08:52.431 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ configure        [0mDownloadStorage: File
-2021-01-12 03:08:52.431 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ configure        [0mListening on: 0.0.0.0:6896,0.0.0.0:6893
-2021-01-12 03:08:52.432 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ RestoreLimits    [0mRate limiting upload to 10 kB
-2021-01-12 03:08:52.432 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ startServices    [0mStarting LSD...
-2021-01-12 03:08:52.433 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ alertsConsumer   [0mConsuming alerts...
-2021-01-12 03:08:52.433 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ startServices    [0mStarting DHT...
-2021-01-12 03:08:52.433 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ startServices    [0mStarting UPNP...
-2021-01-12 03:08:52.434 T:1616650464  NOTICE: [plugin.video.elementum] INFO  tmdb         ▶ CheckAPIKey      [0mChecking TMDB API key...
-2021-01-12 03:08:52.434 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ startServices    [0mStarting NATPMP...
-2021-01-12 03:08:52.435 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ loadTorrentFiles  [0mLoading torrents from: /root/.kodi/temp/elementum_torrents
-2021-01-12 03:08:52.435 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ cleanStaleFiles  [0mCleaning up stale .parts files at /media/UsbStorage/movies ...
-2021-01-12 03:08:52.436 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ cleanStaleFiles  [0mCleaning up stale .fastresume files at /root/.kodi/temp/elementum_torrents ...
-2021-01-12 03:08:52.436 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ func1            [0mService started in 10.785312ms
-2021-01-12 03:08:52.437 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  bittorrent   ▶ logAlerts        [0mlisten_succeeded_alert: successfully listening on [TCP] [::]:6896
-2021-01-12 03:08:52.437 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  bittorrent   ▶ logAlerts        [0mlisten_succeeded_alert: successfully listening on [TCP] 0.0.0.0:6896
-2021-01-12 03:08:52.438 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  bittorrent   ▶ logAlerts        [0mlisten_succeeded_alert: successfully listening on [TCP] [::]:6893
-2021-01-12 03:08:52.438 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  bittorrent   ▶ logAlerts        [0mlisten_succeeded_alert: successfully listening on [TCP] 0.0.0.0:6893
-2021-01-12 03:08:52.439 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  bittorrent   ▶ logAlerts        [0mlisten_succeeded_alert: successfully listening on [UDP] 0.0.0.0:6893
-2021-01-12 03:08:52.439 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ startServices    [0mAdding port mapping 6896: 2
-2021-01-12 03:08:52.440 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ startServices    [0mAdding port mapping 6893: 3
-2021-01-12 03:08:52.440 T:1616650464  NOTICE: [plugin.video.elementum] INFO  main         ▶ main             [0mPrepared in 293.800989ms
-2021-01-12 03:08:52.441 T:1616650464  NOTICE: [plugin.video.elementum] INFO  main         ▶ main             [0mStarting HTTP server
-2021-01-12 03:08:52.442 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  library      ▶ Init             [0mWarming up caches...
-2021-01-12 03:08:52.442 T:1616650464  NOTICE: [plugin.video.elementum] INFO  main         ▶ func10           [0mUpdating Kodi add-on repositories...
-2021-01-12 03:08:52.498 T:1861214432  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2205)
-2021-01-12 03:08:52.501 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  library      ▶ Init             [0mCaches warmed up in 225.730781ms
-2021-01-12 03:08:52.557 T:1616650464  NOTICE: [plugin.video.elementum] INFO  database     ▶ func1            [0mStorm Database backup saved at: /root/.kodi/userdata/addon_data/plugin.video.elementum/storm-backup.db
-2021-01-12 03:08:52.871 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  bittorrent   ▶ logAlerts        [0mexternal_ip_alert: external IP received 157.XX.XX.XX
-2021-01-12 03:08:53.499 T:1861214432  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2205)
-2021-01-12 03:08:54.794 T:1616650464  NOTICE: Previous line repeats 3 times.
-2021-01-12 03:08:54.794 T:1616650464  NOTICE: [plugin.video.elementum] INFO  database     ▶ func1            [0mBolt Database backup saved at: /root/.kodi/userdata/addon_data/plugin.video.elementum/cache-backup.db
-2021-01-12 03:08:55.624 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  tmdb         ▶ CheckAPIKey      [0mTMDB API key check passed, using ae4bd1b...
-2021-01-12 03:08:56.319 T:1861214432  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2205)
-2021-01-12 03:08:57.480 T:1775505632 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:57.489 T:1775505632 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:57.559 T:1775505632 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:57.560 T:1775505632 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:57.580 T:1775505632 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:57.580 T:1775505632 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:59.398 T:1616650464  NOTICE: [plugin.video.elementum] INFO  repository   ▶ GetAddonsXMLChecksum  [0mLast available release of plugin.video.elementum: v0.1.65
-2021-01-12 03:08:59.399 T:1616650464  NOTICE: [plugin.video.elementum] INFO  repository   ▶ GetAddonsXMLChecksum  [0mLast available release of script.elementum.burst: v0.0.55
-2021-01-12 03:08:59.400 T:1616650464  NOTICE: [plugin.video.elementum] INFO  repository   ▶ GetAddonsXMLChecksum  [0mLast available release of context.elementum: v0.0.3
-2021-01-12 03:08:59.401 T:1616650464  NOTICE: [plugin.video.elementum] [GIN] 2021/01/12 - 03:08:59 | 200 |  7.031372862s |       127.0.0.1 | GET      "/repository/elgatito/plugin.video.elementum/addons.xml.md5"
-2021-01-12 03:08:59.471 T:1755861216 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:59.472 T:1755861216 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:59.506 T:1755861216 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:59.507 T:1755861216 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:59.534 T:1755861216 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:59.534 T:1755861216 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:59.538 T:1755861216 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:08:59.539 T:1755861216 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
-2021-01-12 03:13:52.279 T:1616650464  NOTICE: [plugin.video.elementum] INFO  library      ▶ updateLibraryShows  [0mLibrary updated in 95µs
-2021-01-12 03:13:52.592 T:1775505632  NOTICE: VideoInfoScanner: Starting scan ..
-2021-01-12 03:13:53.613 T:1775505632 WARNING: No information found for item '/media/UsbStorage/movies/[ www.torrenting.com ] - Gilmore.Girls.S01E01.WS.HDTV.x264-REGRET/gilmore.girls.s01e01.ws.hdtv.x264-regret.mkv', it won't be added to the library.
-2021-01-12 03:13:54.429 T:1775505632 WARNING: No information found for item '/media/UsbStorage/movies/Gilmore.Girls.2016.S01E01.WEBRip.x264/Gilmore.Girls.2016.S01E01.WEBRip.x264-.mp4', it won't be added to the library.
-2021-01-12 03:13:54.488 T:1775505632 WARNING: Process directory '/media/UsbStorage/tvshows/spiderman/' does not exist - skipping scan.
-2021-01-12 03:13:54.497 T:1775505632  NOTICE: VideoInfoScanner: Finished scan. Scanning for video info took 00:01
-2021-01-12 03:53:55.501 T:1861214432  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2205)
-2021-01-12 04:45:33.643 T:1900352432  NOTICE: Previous line repeats 3 times.
-2021-01-12 04:45:33.643 T:1900352432  NOTICE: Stopping player
-2021-01-12 04:45:33.643 T:1900352432  NOTICE: Storing total System Uptime
-2021-01-12 04:45:33.643 T:1900352432  NOTICE: Saving settings
-2021-01-12 04:45:33.650 T:1900352432  NOTICE: Saving skin settings
-2021-01-12 04:45:33.652 T:1900352432  NOTICE: Stopping all
-2021-01-12 04:45:33.652 T:1900352432  NOTICE: ES: Stopping event server
-2021-01-12 04:45:33.652 T:1900352432  NOTICE: stopping zeroconf publishing
-2021-01-12 04:45:33.954 T:1651458272  NOTICE: ES: UDP Event server stopped
-2021-01-12 04:45:33.969 T:1900352432  NOTICE: stop dvd detect media
-2021-01-12 04:45:34.071 T:1616650464  NOTICE: [plugin.video.elementum] INFO  main         ▶ func1            [0mShutting down...
-2021-01-12 04:45:34.072 T:1616650464  NOTICE: [plugin.video.elementum] INFO  library      ▶ CloseLibrary     [0mClosing library...
-2021-01-12 04:45:34.073 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ Close            [0mStopping BT Services...
-2021-01-12 04:45:34.074 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ stopServices     [0mStopping internal proxy
-2021-01-12 04:45:34.147 T:1634672864  NOTICE: [plugin.video.elementum] elementum: exiting jsonrpc service
-2021-01-12 04:45:34.175 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ alertsConsumer   [0mClosing all alert channels...
-2021-01-12 04:45:34.574 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ stopServices     [0mStopping LSD...
-2021-01-12 04:45:34.577 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ stopServices     [0mStopping DHT...
-2021-01-12 04:45:34.580 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ stopServices     [0mStopping UPNP...
-2021-01-12 04:45:34.582 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ stopServices     [0mStopping NATPMP...
-2021-01-12 04:45:34.583 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ stopServices     [0mDeleting port mapping 6896: 2
-2021-01-12 04:45:34.585 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ stopServices     [0mDeleting port mapping 6893: 3
-2021-01-12 04:45:34.586 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ CloseSession     [0mClosing Session
-2021-01-12 04:45:35.017 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ Close            [0mClosed service in 945.603906ms
-2021-01-12 04:45:35.018 T:1616650464  NOTICE: [plugin.video.elementum] INFO  main         ▶ func1            [0mGoodbye
-2021-01-12 04:45:35.026 T:1668243680  NOTICE: [plugin.video.elementum] elementumd: exiting elementumd daemon
-2021-01-12 04:45:35.027 T:1668243680  NOTICE: [plugin.video.elementum] elementumd: elementumd daemon exited
-2021-01-12 04:45:35.028 T:1676636384  NOTICE: [plugin.video.elementum] elementum: exiting elementumd
-2021-01-12 04:45:35.249 T:1900352432  NOTICE: Application stopped
-2021-01-12 04:45:35.477 T:1900352432  NOTICE: XBApplicationEx: destroying...
-2021-01-12 04:45:35.907 T:1900352432  NOTICE: unload skin
-2021-01-12 04:45:36.064 T:1900352432  NOTICE: unload sections
+2021-04-26 08:45:50.640 T:1616650464  NOTICE: [plugin.video.elementum] Binary detection. Source: /root/.kodi/addons/plugin.video.elementum/resources/bin/linux_armv7/elementum, Destination: /root/.kodi/userdata/addon_data/plugin.video.elementum/bin/linux_armv7/elementum
+2021-04-26 08:45:52.207 T:1616650464  NOTICE: [plugin.video.elementum] Deleting stale files set([])
+2021-04-26 08:45:52.207 T:1616650464  NOTICE: [plugin.video.elementum] Binary detection: [ Source: /root/.kodi/addons/plugin.video.elementum/resources/bin/linux_armv7/elementum, Destination: /root/.kodi/userdata/addon_data/plugin.video.elementum/bin/linux_armv7/elementum ]
+2021-04-26 08:45:52.208 T:1616650464  NOTICE: [plugin.video.elementum] Binary dir: /root/.kodi/userdata/addon_data/plugin.video.elementum/bin/linux_armv7, item: /root/.kodi/userdata/addon_data/plugin.video.elementum/bin/linux_armv7/elementum
+2021-04-26 08:45:52.209 T:1616650464 WARNING: [plugin.video.elementum] Existing process found from lockfile, killing...
+2021-04-26 08:45:52.246 T:1616650464  NOTICE: [plugin.video.elementum] elementumd: start args: [u'/root/.kodi/userdata/addon_data/plugin.video.elementum/bin/linux_armv7/elementum'], kw: {'close_fds': True, 'env': {'NO_AT_BRIDGE': '1', '__GL_YIELD': 'USLEEP', 'GODEBUG': 'madvdontneed=1', 'KODI_BIN_HOME': '/usr/lib/arm-linux-gnueabihf/kodi', 'XDG_SESSION_TYPE': 'tty', 'HUSHLOGIN': 'FALSE', 'LOGNAME': 'root', 'USER': 'root', 'HOME': '/root', 'XDG_VTNR': '1', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/folder/myscripts', 'LD_LIBRARY_PATH': u'/root/.kodi/userdata/addon_data/plugin.video.elementum/bin/linux_armv7:', 'TERM': 'linux', 'SHELL': '/bin/bash', 'TZ': ':Europe/London', 'SHLVL': '1', 'LIRC_SOCKET_PATH': '/var/run/lirc/lircd', 'SSL_CERT_FILE': '/usr/share/kodi/system/certs/cacert.pem', 'PYTHONOPTIMIZE': '1', 'XDG_SESSION_CLASS': 'user', 'XDG_RUNTIME_DIR': '/run/user/0', 'KODI_HOME': '/usr/share/kodi', 'LC_ALL': 'C.UTF-8', 'XDG_SESSION_ID': '1', '_': '/usr/bin/kodi', 'MALLOC_MMAP_THRESHOLD_': '131072', 'PWD': '/root', 'MAIL': '/var/mail/root', 'OS': 'Linux', 'XDG_SEAT': 'seat0'}, 'cwd': u'/root/.kodi/userdata/addon_data/plugin.video.elementum/bin/linux_armv7', 'stderr': -2, 'stdout': -1}
+2021-04-26 08:45:52.322 T:1616650464  NOTICE: [plugin.video.elementum] INFO  main         ▶ main             [0mStarting Elementum daemon
+2021-04-26 08:45:52.328 T:1616650464  NOTICE: [plugin.video.elementum] INFO  main         ▶ main             [0mVersion: 0.1.76 LibTorrent: 1.1.14.0 Go: go1.16.2, Threads: 4
+2021-04-26 08:45:52.329 T:1616650464  NOTICE: [plugin.video.elementum] INFO  config       ▶ Reload           [0mReloading configuration...
+2021-04-26 08:45:52.334 T:1616650464  NOTICE: [plugin.video.elementum] INFO  config       ▶ Reload           [0mSetting remote address to 127.0.0.1:65221
+2021-04-26 08:45:52.430 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  config       ▶ Reload           [0mPaths translated by Kodi: Download = /root , Library = /root/.kodi/temp/elementum_library , Torrents = /root/.kodi/temp/elementum_torrents , Storage = 0
+2021-04-26 08:45:52.430 T:1616650464  NOTICE: [plugin.video.elementum] INFO  config       ▶ Reload           [0mUsing download path: /root
+2021-04-26 08:45:52.431 T:1616650464  NOTICE: [plugin.video.elementum] INFO  config       ▶ Reload           [0mUsing library path: /root/.kodi/temp/elementum_library
+2021-04-26 08:45:52.433 T:1616650464  NOTICE: [plugin.video.elementum] INFO  config       ▶ Reload           [0mUsing torrents path: /root/.kodi/temp/elementum_torrents
+2021-04-26 08:45:52.545 T:1616650464  NOTICE: [plugin.video.elementum] INFO  config       ▶ Reload           [0mUsing configuration: &config.Configuration{
+2021-04-26 08:45:52.546 T:1616650464  NOTICE: [plugin.video.elementum]   DownloadPath: "/root",
+2021-04-26 08:45:52.547 T:1616650464  NOTICE: [plugin.video.elementum]   TorrentsPath: "/root/.kodi/temp/elementum_torrents",
+2021-04-26 08:45:52.548 T:1616650464  NOTICE: [plugin.video.elementum]   LibraryPath: "/root/.kodi/temp/elementum_library",
+2021-04-26 08:45:52.548 T:1616650464  NOTICE: [plugin.video.elementum]   Info: &xbmc.AddonInfo{
+2021-04-26 08:45:52.549 T:1616650464  NOTICE: [plugin.video.elementum]     Author: "elgatito",
+2021-04-26 08:45:52.550 T:1616650464  NOTICE: [plugin.video.elementum]     Changelog: "",
+2021-04-26 08:45:52.551 T:1616650464  NOTICE: [plugin.video.elementum]     Description: "Elementum is a torrent finding and streaming engine. It doesn't go on torrent websites for legal reasons. However, it calls specially crafted add-ons (called providers) that are installed separately.[CR]This project is a fork of the well known, but no longer maintained Pulsar/Quasar projects from steeve and scakemyer.",
+2021-04-26 08:45:52.552 T:1616650464  NOTICE: [plugin.video.elementum]     Disclaimer: "The author does not own or host any content found within this Addon. The author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.",
+2021-04-26 08:45:52.552 T:1616650464  NOTICE: [plugin.video.elementum]     Fanart: "/root/.kodi/addons/plugin.video.elementum/fanart.jpg",
+2021-04-26 08:45:52.553 T:1616650464  NOTICE: [plugin.video.elementum]     Home: "/root/.kodi/",
+2021-04-26 08:45:52.553 T:1616650464  NOTICE: [plugin.video.elementum]     Icon: "/root/.kodi/addons/plugin.video.elementum/icon.png",
+2021-04-26 08:45:52.554 T:1616650464  NOTICE: [plugin.video.elementum]     ID: "plugin.video.elementum",
+2021-04-26 08:45:52.554 T:1616650464  NOTICE: [plugin.video.elementum]     Name: "Elementum",
+2021-04-26 08:45:52.554 T:1616650464  NOTICE: [plugin.video.elementum]     Path: "/root/.kodi/addons/plugin.video.elementum",
+2021-04-26 08:45:52.555 T:1616650464  NOTICE: [plugin.video.elementum]     Profile: "/root/.kodi/userdata/addon_data/plugin.video.elementum/",
+2021-04-26 08:45:52.555 T:1616650464  NOTICE: [plugin.video.elementum]     TempPath: "/root/.kodi/temp/elementum",
+2021-04-26 08:45:52.556 T:1616650464  NOTICE: [plugin.video.elementum]     Stars: "-1",
+2021-04-26 08:45:52.556 T:1616650464  NOTICE: [plugin.video.elementum]     Summary: "Elementum: Media streaming",
+2021-04-26 08:45:52.557 T:1616650464  NOTICE: [plugin.video.elementum]     Type: "xbmc.python.pluginsource",
+2021-04-26 08:45:52.557 T:1616650464  NOTICE: [plugin.video.elementum]     Version: "0.1.76",
+2021-04-26 08:45:52.558 T:1616650464  NOTICE: [plugin.video.elementum]     Xbmc: "/usr/share/kodi/",
+2021-04-26 08:45:52.558 T:1616650464  NOTICE: [plugin.video.elementum]   },
+2021-04-26 08:45:52.558 T:1616650464  NOTICE: [plugin.video.elementum]   Platform: &xbmc.Platform{
+2021-04-26 08:45:52.559 T:1616650464  NOTICE: [plugin.video.elementum]     OS: "linux",
+2021-04-26 08:45:52.559 T:1616650464  NOTICE: [plugin.video.elementum]     Arch: "armv7",
+2021-04-26 08:45:52.560 T:1616650464  NOTICE: [plugin.video.elementum]     Version: "",
+2021-04-26 08:45:52.560 T:1616650464  NOTICE: [plugin.video.elementum]     Kodi: 18,
+2021-04-26 08:45:52.561 T:1616650464  NOTICE: [plugin.video.elementum]     Build: "18.7 Git:20200612-e2aefdbee4",
+2021-04-26 08:45:52.562 T:1616650464  NOTICE: [plugin.video.elementum]   },
+2021-04-26 08:45:52.562 T:1616650464  NOTICE: [plugin.video.elementum]   Language: "en",
+2021-04-26 08:45:52.562 T:1616650464  NOTICE: [plugin.video.elementum]   Region: "US",
+2021-04-26 08:45:52.563 T:1616650464  NOTICE: [plugin.video.elementum]   TemporaryPath: "/root/.kodi/temp/elementum",
+2021-04-26 08:45:52.563 T:1616650464  NOTICE: [plugin.video.elementum]   ProfilePath: "/root/.kodi/userdata/addon_data/plugin.video.elementum/",
+2021-04-26 08:45:52.563 T:1616650464  NOTICE: [plugin.video.elementum]   HomePath: "/root/.kodi/",
+2021-04-26 08:45:52.564 T:1616650464  NOTICE: [plugin.video.elementum]   XbmcPath: "/usr/share/kodi/",
+2021-04-26 08:45:52.564 T:1616650464  NOTICE: [plugin.video.elementum]   SpoofUserAgent: 0,
+2021-04-26 08:45:52.564 T:1616650464  NOTICE: [plugin.video.elementum]   DownloadFileStrategy: 0,
+2021-04-26 08:45:52.565 T:1616650464  NOTICE: [plugin.video.elementum]   KeepDownloading: 1,
+2021-04-26 08:45:52.565 T:1616650464  NOTICE: [plugin.video.elementum]   KeepFilesPlaying: 0,
+2021-04-26 08:45:52.566 T:1616650464  NOTICE: [plugin.video.elementum]   KeepFilesFinished: 0,
+2021-04-26 08:45:52.566 T:1616650464  NOTICE: [plugin.video.elementum]   UseTorrentHistory: true,
+2021-04-26 08:45:52.567 T:1616650464  NOTICE: [plugin.video.elementum]   TorrentHistorySize: 200,
+2021-04-26 08:45:52.567 T:1616650464  NOTICE: [plugin.video.elementum]   UseFanartTv: false,
+2021-04-26 08:45:52.568 T:1616650464  NOTICE: [plugin.video.elementum]   DisableBgProgress: false,
+2021-04-26 08:45:52.572 T:1616650464  NOTICE: [plugin.video.elementum]   DisableBgProgressPlayback: true,
+2021-04-26 08:45:52.577 T:1616650464  NOTICE: [plugin.video.elementum]   ForceUseTrakt: false,
+2021-04-26 08:45:52.578 T:1616650464  NOTICE: [plugin.video.elementum]   UseCacheSelection: true,
+2021-04-26 08:45:52.580 T:1616650464  NOTICE: [plugin.video.elementum]   UseCacheSearch: false,
+2021-04-26 08:45:52.588 T:1616650464  NOTICE: [plugin.video.elementum]   UseCacheTorrents: true,
+2021-04-26 08:45:52.593 T:1616650464  NOTICE: [plugin.video.elementum]   CacheSearchDuration: 180,
+2021-04-26 08:45:52.594 T:1643065568 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:45:52.599 T:1616650464 WARNING: Previous line repeats 1 times.
+2021-04-26 08:45:52.599 T:1616650464  NOTICE: [plugin.video.elementum]   ShowFilesWatched: true,
+2021-04-26 08:45:52.601 T:1616650464  NOTICE: [plugin.video.elementum]   ResultsPerPage: 9,
+2021-04-26 08:45:52.601 T:1616650464  NOTICE: [plugin.video.elementum]   GreetingEnabled: true,
+2021-04-26 08:45:52.602 T:1616650464  NOTICE: [plugin.video.elementum]   EnableOverlayStatus: true,
+2021-04-26 08:45:52.603 T:1616650464  NOTICE: [plugin.video.elementum]   SilentStreamStart: false,
+2021-04-26 08:45:52.605 T:1616650464  NOTICE: [plugin.video.elementum]   AutoYesEnabled: false,
+2021-04-26 08:45:52.605 T:1643065568 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:45:52.606 T:1616650464 WARNING: Previous line repeats 1 times.
+2021-04-26 08:45:52.606 T:1616650464  NOTICE: [plugin.video.elementum]   AutoYesTimeout: 5,
+2021-04-26 08:45:52.610 T:1616650464  NOTICE: [plugin.video.elementum]   ChooseStreamAutoMovie: false,
+2021-04-26 08:45:52.614 T:1616650464  NOTICE: [plugin.video.elementum]   ChooseStreamAutoShow: false,
+2021-04-26 08:45:52.616 T:1616650464  NOTICE: [plugin.video.elementum]   ChooseStreamAutoSearch: false,
+2021-04-26 08:45:52.617 T:1616650464  NOTICE: [plugin.video.elementum]   ForceLinkType: false,
+2021-04-26 08:45:52.617 T:1616650464  NOTICE: [plugin.video.elementum]   UseOriginalTitle: false,
+2021-04-26 08:45:52.618 T:1616650464  NOTICE: [plugin.video.elementum]   UseAnimeEnTitle: true,
+2021-04-26 08:45:52.618 T:1616650464  NOTICE: [plugin.video.elementum]   UseLowestReleaseDate: true,
+2021-04-26 08:45:52.618 T:1616650464  NOTICE: [plugin.video.elementum]   AddSpecials: false,
+2021-04-26 08:45:52.619 T:1616650464  NOTICE: [plugin.video.elementum]   AddEpisodeNumbers: false,
+2021-04-26 08:45:52.619 T:1616650464  NOTICE: [plugin.video.elementum]   ShowUnairedSeasons: false,
+2021-04-26 08:45:52.619 T:1616650464  NOTICE: [plugin.video.elementum]   ShowUnairedEpisodes: false,
+2021-04-26 08:45:52.620 T:1616650464  NOTICE: [plugin.video.elementum]   ShowSeasonsAll: true,
+2021-04-26 08:45:52.622 T:1616650464  NOTICE: [plugin.video.elementum]   ShowSeasonsOrder: 0,
+2021-04-26 08:45:52.623 T:1616650464  NOTICE: [plugin.video.elementum]   ShowSeasonsSpecials: true,
+2021-04-26 08:45:52.624 T:1616650464  NOTICE: [plugin.video.elementum]   SmartEpisodeStart: false,
+2021-04-26 08:45:52.625 T:1616650464  NOTICE: [plugin.video.elementum]   SmartEpisodeMatch: false,
+2021-04-26 08:45:52.626 T:1616650464  NOTICE: [plugin.video.elementum]   SmartEpisodeChoose: false,
+2021-04-26 08:45:52.627 T:1616650464  NOTICE: [plugin.video.elementum]   LibraryEnabled: true,
+2021-04-26 08:45:52.628 T:1616650464  NOTICE: [plugin.video.elementum]   LibrarySyncEnabled: true,
+2021-04-26 08:45:52.628 T:1900450736 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:45:52.629 T:1900450736 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:45:52.634 T:1726992608  NOTICE: [plugin.video.elementum] Cleaning up dialogs
+2021-04-26 08:45:52.638 T:1616650464  NOTICE: [plugin.video.elementum]   LibrarySyncPlaybackEnabled: true,
+2021-04-26 08:45:52.646 T:1581506784  NOTICE: [plugin.video.elementum] Resetting RPC objects...
+2021-04-26 08:45:52.657 T:1616650464  NOTICE: [plugin.video.elementum]   LibraryUpdate: 0,
+2021-04-26 08:45:52.657 T:1616650464  NOTICE: [plugin.video.elementum]   StrmLanguage: "en",
+2021-04-26 08:45:52.658 T:1616650464  NOTICE: [plugin.video.elementum]   LibraryNFOMovies: true,
+2021-04-26 08:45:52.659 T:1616650464  NOTICE: [plugin.video.elementum]   LibraryNFOShows: true,
+2021-04-26 08:45:52.659 T:1616650464  NOTICE: [plugin.video.elementum]   PlaybackPercent: 85,
+2021-04-26 08:45:52.660 T:1616650464  NOTICE: [plugin.video.elementum]   DownloadStorage: 0,
+2021-04-26 08:45:52.661 T:1616650464  NOTICE: [plugin.video.elementum]   SkipBurstSearch: false,
+2021-04-26 08:45:52.667 T:1616650464  NOTICE: [plugin.video.elementum]   AutoMemorySize: true,
+2021-04-26 08:45:52.669 T:1616650464  NOTICE: [plugin.video.elementum]   AutoKodiBufferSize: true,
+2021-04-26 08:45:52.670 T:1616650464  NOTICE: [plugin.video.elementum]   AutoAdjustMemorySize: true,
+2021-04-26 08:45:52.671 T:1616650464  NOTICE: [plugin.video.elementum]   AutoMemorySizeStrategy: 2,
+2021-04-26 08:45:52.673 T:1616650464  NOTICE: [plugin.video.elementum]   MemorySize: 104857600,
+2021-04-26 08:45:52.673 T:1616650464  NOTICE: [plugin.video.elementum]   AutoAdjustBufferSize: false,
+2021-04-26 08:45:52.674 T:1616650464  NOTICE: [plugin.video.elementum]   MinCandidateSize: 104857600,
+2021-04-26 08:45:52.675 T:1616650464  NOTICE: [plugin.video.elementum]   MinCandidateShowSize: 1048576,
+2021-04-26 08:45:52.676 T:1616650464  NOTICE: [plugin.video.elementum]   BufferTimeout: 60,
+2021-04-26 08:45:52.677 T:1616650464  NOTICE: [plugin.video.elementum]   BufferSize: 20971520,
+2021-04-26 08:45:52.678 T:1616650464  NOTICE: [plugin.video.elementum]   EndBufferSize: 4194304,
+2021-04-26 08:45:52.679 T:1616650464  NOTICE: [plugin.video.elementum]   KodiBufferSize: 0,
+2021-04-26 08:45:52.682 T:1616650464  NOTICE: [plugin.video.elementum]   UploadRateLimit: 10240,
+2021-04-26 08:45:52.683 T:1616650464  NOTICE: [plugin.video.elementum]   DownloadRateLimit: 0,
+2021-04-26 08:45:52.685 T:1616650464  NOTICE: [plugin.video.elementum]   AutoloadTorrents: true,
+2021-04-26 08:45:52.686 T:1616650464  NOTICE: [plugin.video.elementum]   AutoloadTorrentsPaused: true,
+2021-04-26 08:45:52.687 T:1616650464  NOTICE: [plugin.video.elementum]   LimitAfterBuffering: false,
+2021-04-26 08:45:52.688 T:1616650464  NOTICE: [plugin.video.elementum]   ConnectionsLimit: 0,
+2021-04-26 08:45:52.689 T:1616650464  NOTICE: [plugin.video.elementum]   ConnTrackerLimit: 0,
+2021-04-26 08:45:52.690 T:1616650464  NOTICE: [plugin.video.elementum]   ConnTrackerLimitAuto: true,
+2021-04-26 08:45:52.692 T:1616650464  NOTICE: [plugin.video.elementum]   SessionSave: 15,
+2021-04-26 08:45:52.693 T:1616650464  NOTICE: [plugin.video.elementum]   SeedForever: false,
+2021-04-26 08:45:52.694 T:1616650464  NOTICE: [plugin.video.elementum]   ShareRatioLimit: 25,
+2021-04-26 08:45:52.695 T:1616650464  NOTICE: [plugin.video.elementum]   SeedTimeRatioLimit: 200,
+2021-04-26 08:45:52.697 T:1616650464  NOTICE: [plugin.video.elementum]   SeedTimeLimit: 7200,
+2021-04-26 08:45:52.698 T:1616650464  NOTICE: [plugin.video.elementum]   DisableUpload: false,
+2021-04-26 08:45:52.698 T:1616650464  NOTICE: [plugin.video.elementum]   DisableLSD: false,
+2021-04-26 08:45:52.699 T:1616650464  NOTICE: [plugin.video.elementum]   DisableDHT: false,
+2021-04-26 08:45:52.701 T:1616650464  NOTICE: [plugin.video.elementum]   DisableTCP: false,
+2021-04-26 08:45:52.704 T:1616650464  NOTICE: [plugin.video.elementum]   DisableUTP: false,
+2021-04-26 08:45:52.705 T:1616650464  NOTICE: [plugin.video.elementum]   DisableUPNP: false,
+2021-04-26 08:45:52.707 T:1616650464  NOTICE: [plugin.video.elementum]   EncryptionPolicy: 0,
+2021-04-26 08:45:52.708 T:1616650464  NOTICE: [plugin.video.elementum]   ListenPortMin: 6891,
+2021-04-26 08:45:52.709 T:1616650464  NOTICE: [plugin.video.elementum]   ListenPortMax: 6899,
+2021-04-26 08:45:52.710 T:1616650464  NOTICE: [plugin.video.elementum]   ListenInterfaces: "",
+2021-04-26 08:45:52.711 T:1616650464  NOTICE: [plugin.video.elementum]   ListenAutoDetectIP: true,
+2021-04-26 08:45:52.712 T:1616650464  NOTICE: [plugin.video.elementum]   ListenAutoDetectPort: true,
+2021-04-26 08:45:52.714 T:1616650464  NOTICE: [plugin.video.elementum]   OutgoingInterfaces: "",
+2021-04-26 08:45:52.715 T:1616650464  NOTICE: [plugin.video.elementum]   TunedStorage: false,
+2021-04-26 08:45:52.716 T:1616650464  NOTICE: [plugin.video.elementum]   DiskCacheSize: 12582912,
+2021-04-26 08:45:52.718 T:1616650464  NOTICE: [plugin.video.elementum]   UseLibtorrentConfig: true,
+2021-04-26 08:45:52.720 T:1616650464  NOTICE: [plugin.video.elementum]   UseLibtorrentLogging: false,
+2021-04-26 08:45:52.722 T:1616650464  NOTICE: [plugin.video.elementum]   UseLibtorrentDeadlines: false,
+2021-04-26 08:45:52.724 T:1616650464  NOTICE: [plugin.video.elementum]   UseLibtorrentPauseResume: false,
+2021-04-26 08:45:52.727 T:1616650464  NOTICE: [plugin.video.elementum]   LibtorrentProfile: 0,
+2021-04-26 08:45:52.728 T:1616650464  NOTICE: [plugin.video.elementum]   MagnetTrackers: 0,
+2021-04-26 08:45:52.730 T:1616650464  NOTICE: [plugin.video.elementum]   MagnetResolveTimeout: 20,
+2021-04-26 08:45:52.731 T:1616650464  NOTICE: [plugin.video.elementum]   Scrobble: false,
+2021-04-26 08:45:52.733 T:1616650464  NOTICE: [plugin.video.elementum]   AutoScrapeEnabled: false,
+2021-04-26 08:45:52.734 T:1616650464  NOTICE: [plugin.video.elementum]   AutoScrapeLibraryEnabled: false,
+2021-04-26 08:45:52.735 T:1616650464  NOTICE: [plugin.video.elementum]   AutoScrapeStrategy: 0,
+2021-04-26 08:45:52.738 T:1616650464  NOTICE: [plugin.video.elementum]   AutoScrapeStrategyExpect: 3,
+2021-04-26 08:45:52.740 T:1616650464  NOTICE: [plugin.video.elementum]   AutoScrapePerHours: 12,
+2021-04-26 08:45:52.742 T:1616650464  NOTICE: [plugin.video.elementum]   AutoScrapeLimitMovies: 50,
+2021-04-26 08:45:52.743 T:1616650464  NOTICE: [plugin.video.elementum]   AutoScrapeInterval: 30,
+2021-04-26 08:45:52.745 T:1616650464  NOTICE: [plugin.video.elementum]   TraktAuthorized: false,
+2021-04-26 08:45:52.747 T:1616650464  NOTICE: [plugin.video.elementum]   TraktUsername: "",
+2021-04-26 08:45:52.748 T:1616650464  NOTICE: [plugin.video.elementum]   TraktToken: "",
+2021-04-26 08:45:52.750 T:1616650464  NOTICE: [plugin.video.elementum]   TraktRefreshToken: "",
+2021-04-26 08:45:52.751 T:1616650464  NOTICE: [plugin.video.elementum]   TraktTokenExpiry: 0,
+2021-04-26 08:45:52.751 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncEnabled: true,
+2021-04-26 08:45:52.752 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncPlaybackEnabled: true,
+2021-04-26 08:45:52.752 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncFrequencyMin: 5,
+2021-04-26 08:45:52.752 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncCollections: true,
+2021-04-26 08:45:52.752 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncWatchlist: true,
+2021-04-26 08:45:52.753 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncUserlists: true,
+2021-04-26 08:45:52.753 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncPlaybackProgress: true,
+2021-04-26 08:45:52.753 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncHidden: true,
+2021-04-26 08:45:52.754 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncWatched: true,
+2021-04-26 08:45:52.754 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncWatchedBack: true,
+2021-04-26 08:45:52.754 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncAddedMovies: true,
+2021-04-26 08:45:52.755 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncAddedMoviesLocation: 0,
+2021-04-26 08:45:52.755 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncAddedMoviesList: 0,
+2021-04-26 08:45:52.755 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncAddedShows: true,
+2021-04-26 08:45:52.756 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncAddedShowsLocation: 0,
+2021-04-26 08:45:52.756 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncAddedShowsList: 0,
+2021-04-26 08:45:52.756 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncRemovedMovies: true,
+2021-04-26 08:45:52.757 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncRemovedMoviesLocation: 0,
+2021-04-26 08:45:52.757 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncRemovedMoviesList: 0,
+2021-04-26 08:45:52.758 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncRemovedShows: true,
+2021-04-26 08:45:52.758 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncRemovedShowsLocation: 0,
+2021-04-26 08:45:52.759 T:1616650464  NOTICE: [plugin.video.elementum]   TraktSyncRemovedShowsList: 0,
+2021-04-26 08:45:52.759 T:1616650464  NOTICE: [plugin.video.elementum]   TraktProgressUnaired: true,
+2021-04-26 08:45:52.759 T:1616650464  NOTICE: [plugin.video.elementum]   TraktProgressSort: 0,
+2021-04-26 08:45:52.760 T:1616650464  NOTICE: [plugin.video.elementum]   TraktProgressDateFormat: "yyyy-mm-dd",
+2021-04-26 08:45:52.760 T:1616650464  NOTICE: [plugin.video.elementum]   TraktProgressColorDate: "yellow",
+2021-04-26 08:45:52.760 T:1616650464  NOTICE: [plugin.video.elementum]   TraktProgressColorShow: "none",
+2021-04-26 08:45:52.761 T:1616650464  NOTICE: [plugin.video.elementum]   TraktProgressColorEpisode: "skyblue",
+2021-04-26 08:45:52.761 T:1616650464  NOTICE: [plugin.video.elementum]   TraktProgressColorUnaired: "deeppink",
+2021-04-26 08:45:52.761 T:1616650464  NOTICE: [plugin.video.elementum]   TraktCalendarsDateFormat: "yyyy-mm-dd",
+2021-04-26 08:45:52.761 T:1616650464  NOTICE: [plugin.video.elementum]   TraktCalendarsColorDate: "yellow",
+2021-04-26 08:45:52.762 T:1616650464  NOTICE: [plugin.video.elementum]   TraktCalendarsColorShow: "none",
+2021-04-26 08:45:52.762 T:1616650464  NOTICE: [plugin.video.elementum]   TraktCalendarsColorEpisode: "skyblue",
+2021-04-26 08:45:52.763 T:1616650464  NOTICE: [plugin.video.elementum]   TraktCalendarsColorUnaired: "deeppink",
+2021-04-26 08:45:52.763 T:1616650464  NOTICE: [plugin.video.elementum]   UpdateFrequency: 6,
+2021-04-26 08:45:52.763 T:1616650464  NOTICE: [plugin.video.elementum]   UpdateDelay: 300,
+2021-04-26 08:45:52.764 T:1616650464  NOTICE: [plugin.video.elementum]   UpdateAutoScan: true,
+2021-04-26 08:45:52.764 T:1616650464  NOTICE: [plugin.video.elementum]   PlayResumeAction: 1,
+2021-04-26 08:45:52.765 T:1616650464  NOTICE: [plugin.video.elementum]   PlayResumeBack: 0,
+2021-04-26 08:45:52.765 T:1616650464  NOTICE: [plugin.video.elementum]   TMDBApiKey: "",
+2021-04-26 08:45:52.765 T:1616650464  NOTICE: [plugin.video.elementum]   OSDBUser: "",
+2021-04-26 08:45:52.766 T:1616650464  NOTICE: [plugin.video.elementum]   OSDBPass: "",
+2021-04-26 08:45:52.766 T:1616650464  NOTICE: [plugin.video.elementum]   OSDBLanguage: "en",
+2021-04-26 08:45:52.766 T:1616650464  NOTICE: [plugin.video.elementum]   OSDBAutoLanguage: true,
+2021-04-26 08:45:52.767 T:1616650464  NOTICE: [plugin.video.elementum]   OSDBAutoLoad: false,
+2021-04-26 08:45:52.767 T:1616650464  NOTICE: [plugin.video.elementum]   OSDBAutoLoadCount: 1,
+2021-04-26 08:45:52.768 T:1616650464  NOTICE: [plugin.video.elementum]   OSDBAutoLoadDelete: true,
+2021-04-26 08:45:52.768 T:1616650464  NOTICE: [plugin.video.elementum]   OSDBAutoLoadSkipExists: true,
+2021-04-26 08:45:52.769 T:1616650464  NOTICE: [plugin.video.elementum]   OSDBIncludedEnabled: true,
+2021-04-26 08:45:52.769 T:1616650464  NOTICE: [plugin.video.elementum]   OSDBIncludedSkipExists: true,
+2021-04-26 08:45:52.769 T:1616650464  NOTICE: [plugin.video.elementum]   SortingModeMovies: 2,
+2021-04-26 08:45:52.770 T:1616650464  NOTICE: [plugin.video.elementum]   SortingModeShows: 2,
+2021-04-26 08:45:52.770 T:1616650464  NOTICE: [plugin.video.elementum]   ResolutionPreferenceMovies: 0,
+2021-04-26 08:45:52.771 T:1616650464  NOTICE: [plugin.video.elementum]   ResolutionPreferenceShows: 0,
+2021-04-26 08:45:52.771 T:1616650464  NOTICE: [plugin.video.elementum]   PercentageAdditionalSeeders: 25,
+2021-04-26 08:45:52.771 T:1616650464  NOTICE: [plugin.video.elementum]   CustomProviderTimeoutEnabled: true,
+2021-04-26 08:45:52.772 T:1616650464  NOTICE: [plugin.video.elementum]   CustomProviderTimeout: 110,
+2021-04-26 08:45:52.776 T:1616650464  NOTICE: [plugin.video.elementum]   InternalDNSEnabled: true,
+2021-04-26 08:45:52.777 T:1616650464  NOTICE: [plugin.video.elementum]   InternalDNSSkipIPv6: true,
+2021-04-26 08:45:52.778 T:1616650464  NOTICE: [plugin.video.elementum]   InternalProxyEnabled: true,
+2021-04-26 08:45:52.778 T:1616650464  NOTICE: [plugin.video.elementum]   InternalProxyLogging: false,
+2021-04-26 08:45:52.778 T:1616650464  NOTICE: [plugin.video.elementum]   InternalProxyLoggingBody: false,
+2021-04-26 08:45:52.779 T:1616650464  NOTICE: [plugin.video.elementum]   ProxyURL: "",
+2021-04-26 08:45:52.779 T:1616650464  NOTICE: [plugin.video.elementum]   ProxyType: 1,
+2021-04-26 08:45:52.779 T:1616650464  NOTICE: [plugin.video.elementum]   ProxyEnabled: false,
+2021-04-26 08:45:52.780 T:1616650464  NOTICE: [plugin.video.elementum]   ProxyHost: "",
+2021-04-26 08:45:52.780 T:1616650464  NOTICE: [plugin.video.elementum]   ProxyPort: 1080,
+2021-04-26 08:45:52.781 T:1616650464  NOTICE: [plugin.video.elementum]   ProxyLogin: "",
+2021-04-26 08:45:52.781 T:1616650464  NOTICE: [plugin.video.elementum]   ProxyPassword: "",
+2021-04-26 08:45:52.781 T:1616650464  NOTICE: [plugin.video.elementum]   ProxyUseHTTP: true,
+2021-04-26 08:45:52.782 T:1616650464  NOTICE: [plugin.video.elementum]   ProxyUseTracker: true,
+2021-04-26 08:45:52.782 T:1616650464  NOTICE: [plugin.video.elementum]   ProxyUseDownload: true,
+2021-04-26 08:45:52.783 T:1616650464  NOTICE: [plugin.video.elementum]   CompletedMove: false,
+2021-04-26 08:45:52.783 T:1616650464  NOTICE: [plugin.video.elementum]   CompletedMoviesPath: "/home/osmc/Movies/",
+2021-04-26 08:45:52.784 T:1616650464  NOTICE: [plugin.video.elementum]   CompletedShowsPath: "/home/osmc/TV Shows/",
+2021-04-26 08:45:52.784 T:1616650464  NOTICE: [plugin.video.elementum]   LocalOnlyClient: false,
+2021-04-26 08:45:52.784 T:1616650464  NOTICE: [plugin.video.elementum]   LogLevel: 2,
+2021-04-26 08:45:52.785 T:1616650464  NOTICE: [plugin.video.elementum] }
+2021-04-26 08:45:52.785 T:1616650464  NOTICE: [plugin.video.elementum] INFO  main         ▶ main             [0mAddon: plugin.video.elementum v0.1.76
+2021-04-26 08:45:52.786 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ configure        [0mConfiguring client...
+2021-04-26 08:45:52.786 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ configure        [0mStarting internal proxy
+2021-04-26 08:45:52.787 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ configure        [0mApplying session settings...
+2021-04-26 08:45:52.787 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ configure        [0mUserAgent: Elementum/0.1.76, PeerID: -GT0001-
+2021-04-26 08:45:52.788 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ configure        [0mRate limiting upload to 10 kB
+2021-04-26 08:45:52.788 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ configure        [0mApplying encryption settings...
+2021-04-26 08:45:52.789 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ configure        [0mDownloadStorage: File
+2021-04-26 08:45:52.789 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ configure        [0mListening on: 0.0.0.0:6899,0.0.0.0:6893
+2021-04-26 08:45:52.790 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ RestoreLimits    [0mRate limiting upload to 10 kB
+2021-04-26 08:45:52.790 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ startServices    [0mStarting LSD...
+2021-04-26 08:45:52.790 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ startServices    [0mStarting DHT...
+2021-04-26 08:45:52.791 T:1616650464  NOTICE: [plugin.video.elementum] INFO  tmdb         ▶ CheckAPIKey      [0mChecking TMDB API key...
+2021-04-26 08:45:52.791 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ startServices    [0mStarting UPNP...
+2021-04-26 08:45:52.792 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ loadTorrentFiles  [0mLoading torrents from: /root/.kodi/temp/elementum_torrents
+2021-04-26 08:45:52.792 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ startServices    [0mStarting NATPMP...
+2021-04-26 08:45:52.793 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ alertsConsumer   [0mConsuming alerts...
+2021-04-26 08:45:52.793 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ cleanStaleFiles  [0mCleaning up stale .parts files at /root ...
+2021-04-26 08:45:52.794 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ func1            [0mService started in 8.789541ms
+2021-04-26 08:45:52.794 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ cleanStaleFiles  [0mCleaning up stale .fastresume files at /root/.kodi/temp/elementum_torrents ...
+2021-04-26 08:45:52.795 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  bittorrent   ▶ logAlerts        [0mlisten_succeeded_alert: successfully listening on [TCP] [::]:6899
+2021-04-26 08:45:52.795 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  bittorrent   ▶ logAlerts        [0mlisten_succeeded_alert: successfully listening on [TCP] 0.0.0.0:6899
+2021-04-26 08:45:52.796 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  bittorrent   ▶ logAlerts        [0mlisten_succeeded_alert: successfully listening on [TCP] [::]:6893
+2021-04-26 08:45:52.796 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  bittorrent   ▶ logAlerts        [0mlisten_succeeded_alert: successfully listening on [TCP] 0.0.0.0:6893
+2021-04-26 08:45:52.797 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  bittorrent   ▶ logAlerts        [0mlisten_succeeded_alert: successfully listening on [UDP] 0.0.0.0:6893
+2021-04-26 08:45:52.798 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ startServices    [0mAdding port mapping 6899: 2
+2021-04-26 08:45:52.798 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ startServices    [0mAdding port mapping 6893: 3
+2021-04-26 08:45:52.799 T:1616650464  NOTICE: [plugin.video.elementum] INFO  main         ▶ main             [0mPrepared in 271.597945ms
+2021-04-26 08:45:52.800 T:1616650464  NOTICE: [plugin.video.elementum] INFO  main         ▶ main             [0mStarting HTTP server
+2021-04-26 08:45:52.800 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  library      ▶ Init             [0mWarming up caches...
+2021-04-26 08:45:52.801 T:1616650464  NOTICE: [plugin.video.elementum] INFO  database     ▶ CreateBackup     [0mSkipping backup due to newer modification date of /root/.kodi/userdata/addon_data/plugin.video.elementum/cache-backup.db
+2021-04-26 08:45:52.802 T:1616650464  NOTICE: [plugin.video.elementum] INFO  database     ▶ CreateBackup     [0mSkipping backup due to newer modification date of /root/.kodi/userdata/addon_data/plugin.video.elementum/storm-backup.db
+2021-04-26 08:45:52.802 T:1616650464  NOTICE: [plugin.video.elementum] INFO  main         ▶ func10           [0mUpdating Kodi add-on repositories...
+2021-04-26 08:45:52.865 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  library      ▶ Init             [0mCaches warmed up in 268.565476ms
+2021-04-26 08:45:56.699 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  tmdb         ▶ CheckAPIKey      [0mTMDB API key check passed, using 8cf43ad...
+2021-04-26 08:45:58.839 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  bittorrent   ▶ logAlerts        [0mexternal_ip_alert: external IP received 132.XX.XX.XX
+2021-04-26 08:46:04.523 T:1616650464  NOTICE: [plugin.video.elementum] INFO  repository   ▶ GetAddonsXMLChecksum  [0mLast available release of plugin.video.elementum: v0.1.76
+2021-04-26 08:46:04.523 T:1616650464  NOTICE: [plugin.video.elementum] INFO  repository   ▶ GetAddonsXMLChecksum  [0mLast available release of script.elementum.burst: v0.0.65
+2021-04-26 08:46:04.524 T:1616650464  NOTICE: [plugin.video.elementum] INFO  repository   ▶ GetAddonsXMLChecksum  [0mLast available release of context.elementum: v0.0.5
+2021-04-26 08:46:04.525 T:1616650464  NOTICE: [plugin.video.elementum] [GIN] 2021/04/26 - 08:46:04 | 200 | 11.882632254s |       127.0.0.1 | GET      "/repository/elgatito/plugin.video.elementum/addons.xml.md5"
+2021-04-26 08:46:25.427 T:1599865056   ERROR: CCurlFile::FillBuffer - Failed: Timeout was reached(28)
+2021-04-26 08:46:28.070 T:1599865056 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:46:28.234 T:1599865056 WARNING: Previous line repeats 1 times.
+2021-04-26 08:46:28.235 T:1599865056 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:46:28.269 T:1599865056 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:46:28.270 T:1599865056 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:46:28.297 T:1599865056 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:46:28.297 T:1599865056 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:46:28.301 T:1599865056 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:46:28.302 T:1599865056 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:47:16.956 T:1775505632 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:47:16.958 T:1775505632 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:47:17.008 T:1775505632 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:47:17.010 T:1775505632 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:47:17.025 T:1775505632 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:47:17.025 T:1775505632 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 08:47:18.065 T:1861214432  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2205)
+2021-04-26 08:50:46.800 T:1900450736  NOTICE: Previous line repeats 4 times.
+2021-04-26 08:50:46.800 T:1900450736  NOTICE: VideoPlayer::OpenFile: /media/UsbStorage/tvshows/gilmore girls/Gilmore Girls - S03E18.mp4
+2021-04-26 08:50:46.802 T:1755861216  NOTICE: Creating InputStream
+2021-04-26 08:50:46.823 T:1755861216  NOTICE: Creating Demuxer
+2021-04-26 08:50:46.891 T:1755861216  NOTICE: Opening stream: 0 source: 256
+2021-04-26 08:50:46.891 T:1755861216  NOTICE: Creating video codec with codec id: 27
+2021-04-26 08:50:46.906 T:1755861216  NOTICE: Creating video thread
+2021-04-26 08:50:46.907 T:1755861216  NOTICE: Opening stream: 1 source: 256
+2021-04-26 08:50:46.907 T:1755861216  NOTICE: Finding audio codec for: 86018
+2021-04-26 08:50:46.908 T:1755861216  NOTICE: CDVDAudioCodecFFmpeg::Open() Successful opened audio decoder aac
+2021-04-26 08:50:46.908 T:1755861216  NOTICE: Creating audio thread
+2021-04-26 08:50:46.909 T:1541083360  NOTICE: running thread: CVideoPlayerAudio::Process()
+2021-04-26 08:50:46.909 T:1755861216  NOTICE: Opening stream: 0 source: 1024
+2021-04-26 08:50:46.910 T:1775505632  NOTICE: running thread: video_thread
+2021-04-26 08:50:47.127 T:1541083360  NOTICE: Creating audio stream (codec id: 86018, channels: 2, sample rate: 48000, no pass-through)
+2021-04-26 08:50:47.209 T:1775505632 WARNING: CRenderManager::WaitForBuffer - timeout waiting for buffer
+2021-04-26 08:50:47.242 T:1869607136 WARNING: ActiveAE - large audio sync error: 5735.507449
+2021-04-26 08:50:47.243 T:1869607136 WARNING: ActiveAE - large audio sync error: 5735.507709
+2021-04-26 08:50:47.243 T:1869607136 WARNING: ActiveAE - large audio sync error: 5735.507917
+2021-04-26 08:50:47.260 T:1775505632 WARNING: CRenderManager::WaitForBuffer - timeout waiting for buffer
+2021-04-26 08:50:47.333 T:1869607136 WARNING: ActiveAE - large audio sync error: 5685.510887
+2021-04-26 08:50:47.384 T:1869607136 WARNING: ActiveAE - large audio sync error: 5684.471928
+2021-04-26 08:50:47.433 T:1869607136 WARNING: ActiveAE - large audio sync error: 5634.211041
+2021-04-26 08:50:47.484 T:1869607136 WARNING: ActiveAE - large audio sync error: 5584.485209
+2021-04-26 08:50:47.533 T:1869607136 WARNING: ActiveAE - large audio sync error: 5534.484324
+2021-04-26 08:50:47.584 T:1869607136 WARNING: ActiveAE - large audio sync error: 5484.454218
+2021-04-26 08:50:47.633 T:1869607136 WARNING: ActiveAE - large audio sync error: 5434.471250
+2021-04-26 08:50:47.684 T:1869607136 WARNING: ActiveAE - large audio sync error: 5384.871147
+2021-04-26 08:50:47.734 T:1869607136 WARNING: ActiveAE - large audio sync error: 5334.496980
+2021-04-26 08:50:47.784 T:1869607136 WARNING: ActiveAE - large audio sync error: 5284.432083
+2021-04-26 08:50:47.833 T:1869607136 WARNING: ActiveAE - large audio sync error: 5234.485781
+2021-04-26 08:50:47.884 T:1869607136 WARNING: ActiveAE - large audio sync error: 5184.506928
+2021-04-26 08:50:47.934 T:1869607136 WARNING: ActiveAE - large audio sync error: 5134.493594
+2021-04-26 08:50:47.983 T:1869607136 WARNING: ActiveAE - large audio sync error: 5084.493021
+2021-04-26 08:50:48.034 T:1869607136 WARNING: ActiveAE - large audio sync error: 5034.462552
+2021-04-26 08:50:49.343 T:1541083360   ERROR: CDVDAudio::AddPacketsRenderer - timeout adding data to renderer
+2021-04-26 08:50:49.684 T:1861214432  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2400)
+2021-04-26 08:50:51.702 T:1616650464  NOTICE: Previous line repeats 1 times.
+2021-04-26 08:50:51.702 T:1616650464  NOTICE: [plugin.video.elementum] [33mWARN  main         ▶ Notification     [0mOnPlay. No active player found
+2021-04-26 08:50:52.596 T:1616650464  NOTICE: [plugin.video.elementum] INFO  library      ▶ updateLibraryShows  [0mLibrary updated in 79.479µs
+2021-04-26 08:50:52.948 T:1566261472  NOTICE: VideoInfoScanner: Starting scan ..
+2021-04-26 08:50:55.260 T:1900450736  NOTICE: CVideoPlayer::CloseFile()
+2021-04-26 08:50:55.269 T:1755861216  NOTICE: CVideoPlayer::OnExit()
+2021-04-26 08:50:55.269 T:1755861216  NOTICE: Closing stream player 1
+2021-04-26 08:50:55.269 T:1755861216  NOTICE: Waiting for audio thread to exit
+2021-04-26 08:50:55.282 T:1900450736  NOTICE: VideoPlayer: waiting for threads to exit
+2021-04-26 08:50:55.285 T:1541083360  NOTICE: thread end: CVideoPlayerAudio::OnExit()
+2021-04-26 08:50:55.285 T:1755861216  NOTICE: Closing audio device
+2021-04-26 08:50:55.336 T:1755861216  NOTICE: Deleting audio codec
+2021-04-26 08:50:55.336 T:1755861216  NOTICE: Closing stream player 2
+2021-04-26 08:50:55.337 T:1755861216  NOTICE: waiting for video thread to exit
+2021-04-26 08:50:55.360 T:1775505632  NOTICE: thread end: video_thread
+2021-04-26 08:50:55.361 T:1755861216  NOTICE: deleting video codec
+2021-04-26 08:50:55.369 T:1755861216  NOTICE: Closing stream player 3
+2021-04-26 08:50:55.376 T:1900450736  NOTICE: VideoPlayer: finished waiting
+2021-04-26 08:50:55.376 T:1900450736  NOTICE: CVideoPlayer::CloseFile()
+2021-04-26 08:50:55.376 T:1900450736  NOTICE: VideoPlayer: waiting for threads to exit
+2021-04-26 08:50:55.376 T:1900450736  NOTICE: VideoPlayer: finished waiting
+2021-04-26 08:51:08.733 T:1566261472   ERROR: GetDirectory - Error getting
+2021-04-26 08:51:08.803 T:1566261472 WARNING: Process directory '/media/UsbStorage/tvshows/spiderman/' does not exist - skipping scan.
+2021-04-26 08:51:08.812 T:1566261472  NOTICE: VideoInfoScanner: Finished scan. Scanning for video info took 00:15
+2021-04-26 09:31:35.315 T:1861214432  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2205)
+2021-04-26 09:31:35.351 T:1900450736  NOTICE: VideoPlayer::OpenFile: /media/UsbStorage/tvshows/gilmore girls/Gilmore Girls - S03E19.mp4
+2021-04-26 09:31:35.357 T:1524297952  NOTICE: Creating InputStream
+2021-04-26 09:31:35.380 T:1524297952  NOTICE: Creating Demuxer
+2021-04-26 09:31:35.392 T:1524297952  NOTICE: Opening stream: 0 source: 256
+2021-04-26 09:31:35.392 T:1524297952  NOTICE: Creating video codec with codec id: 27
+2021-04-26 09:31:35.405 T:1524297952  NOTICE: Creating video thread
+2021-04-26 09:31:35.406 T:1524297952  NOTICE: Opening stream: 1 source: 256
+2021-04-26 09:31:35.406 T:1524297952  NOTICE: Finding audio codec for: 86018
+2021-04-26 09:31:35.406 T:1506615520  NOTICE: running thread: video_thread
+2021-04-26 09:31:35.407 T:1524297952  NOTICE: CDVDAudioCodecFFmpeg::Open() Successful opened audio decoder aac
+2021-04-26 09:31:35.407 T:1524297952  NOTICE: Creating audio thread
+2021-04-26 09:31:35.408 T:1549476064  NOTICE: running thread: CVideoPlayerAudio::Process()
+2021-04-26 09:31:35.408 T:1524297952  NOTICE: Opening stream: 0 source: 1024
+2021-04-26 09:31:35.559 T:1549476064  NOTICE: Creating audio stream (codec id: 86018, channels: 2, sample rate: 48000, no pass-through)
+2021-04-26 09:31:40.269 T:1616650464  NOTICE: [plugin.video.elementum] [33mWARN  main         ▶ Notification     [0mOnPlay. No active player found
+2021-04-26 09:31:40.876 T:1861214432  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2400)
+2021-04-26 09:32:17.486 T:1869607136 WARNING: ActiveAE - large audio sync error: -89436.851303
+2021-04-26 09:36:15.108 T:1869607136 WARNING: ActiveAE - large audio sync error: -89436.005677
+2021-04-26 09:36:19.198 T:1869607136 WARNING: ActiveAE - large audio sync error: -89380.230729
+2021-04-26 09:37:29.051 T:1869607136 WARNING: ActiveAE - large audio sync error: -89432.484428
+2021-04-26 09:40:23.987 T:1869607136 WARNING: ActiveAE - large audio sync error: -89473.547552
+2021-04-26 09:40:28.037 T:1869607136 WARNING: ActiveAE - large audio sync error: -89397.546198
+2021-04-26 09:42:23.465 T:1869607136 WARNING: ActiveAE - large audio sync error: -89443.476875
+2021-04-26 09:42:27.510 T:1869607136 WARNING: ActiveAE - large audio sync error: -89378.469063
+2021-04-26 09:42:36.616 T:1869607136 WARNING: ActiveAE - large audio sync error: -89421.709844
+2021-04-26 09:51:22.516 T:1900450736  NOTICE: CVideoPlayer::CloseFile()
+2021-04-26 09:51:22.516 T:1524297952  NOTICE: CVideoPlayer::OnExit()
+2021-04-26 09:51:22.516 T:1524297952  NOTICE: Closing stream player 1
+2021-04-26 09:51:22.516 T:1524297952  NOTICE: Waiting for audio thread to exit
+2021-04-26 09:51:22.539 T:1900450736  NOTICE: VideoPlayer: waiting for threads to exit
+2021-04-26 09:51:22.558 T:1549476064  NOTICE: thread end: CVideoPlayerAudio::OnExit()
+2021-04-26 09:51:22.559 T:1524297952  NOTICE: Closing audio device
+2021-04-26 09:51:22.606 T:1524297952  NOTICE: Deleting audio codec
+2021-04-26 09:51:22.607 T:1524297952  NOTICE: Closing stream player 2
+2021-04-26 09:51:22.607 T:1524297952  NOTICE: waiting for video thread to exit
+2021-04-26 09:51:22.616 T:1506615520  NOTICE: thread end: video_thread
+2021-04-26 09:51:22.617 T:1524297952  NOTICE: deleting video codec
+2021-04-26 09:51:22.624 T:1524297952  NOTICE: Closing stream player 3
+2021-04-26 09:51:22.636 T:1900450736  NOTICE: VideoPlayer: finished waiting
+2021-04-26 09:51:22.636 T:1900450736  NOTICE: CVideoPlayer::CloseFile()
+2021-04-26 09:51:22.637 T:1900450736  NOTICE: VideoPlayer: waiting for threads to exit
+2021-04-26 09:51:22.637 T:1900450736  NOTICE: VideoPlayer: finished waiting
+2021-04-26 09:51:25.428 T:1861214432  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2205)
+2021-04-26 09:51:25.470 T:1900450736  NOTICE: VideoPlayer::OpenFile: /media/UsbStorage/tvshows/gilmore girls/Gilmore Girls - S03E20.mp4
+2021-04-26 09:51:25.475 T:1549476064  NOTICE: Creating InputStream
+2021-04-26 09:51:25.497 T:1549476064  NOTICE: Creating Demuxer
+2021-04-26 09:51:25.512 T:1549476064  NOTICE: Opening stream: 0 source: 256
+2021-04-26 09:51:25.512 T:1549476064  NOTICE: Creating video codec with codec id: 27
+2021-04-26 09:51:25.525 T:1549476064  NOTICE: Creating video thread
+2021-04-26 09:51:25.525 T:1549476064  NOTICE: Opening stream: 1 source: 256
+2021-04-26 09:51:25.526 T:1549476064  NOTICE: Finding audio codec for: 86018
+2021-04-26 09:51:25.526 T:1566261472  NOTICE: running thread: video_thread
+2021-04-26 09:51:25.528 T:1549476064  NOTICE: CDVDAudioCodecFFmpeg::Open() Successful opened audio decoder aac
+2021-04-26 09:51:25.529 T:1549476064  NOTICE: Creating audio thread
+2021-04-26 09:51:25.529 T:1541083360  NOTICE: running thread: CVideoPlayerAudio::Process()
+2021-04-26 09:51:25.530 T:1541083360  NOTICE: Creating audio stream (codec id: 86018, channels: 2, sample rate: 48000, no pass-through)
+2021-04-26 09:51:30.348 T:1616650464  NOTICE: [plugin.video.elementum] [33mWARN  main         ▶ Notification     [0mOnPlay. No active player found
+2021-04-26 09:51:31.655 T:1566261472 WARNING: CRenderManager::WaitForBuffer - timeout waiting for buffer
+2021-04-26 09:51:35.459 T:1549476064 WARNING: Previous line repeats 7 times.
+2021-04-26 09:51:35.460 T:1549476064  NOTICE: Opening stream: 0 source: 1024
+2021-04-26 09:51:35.722 T:1861214432  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2400)
+2021-04-26 09:51:35.735 T:1566261472 WARNING: CRenderManager::WaitForBuffer - timeout waiting for buffer
+2021-04-26 09:52:17.341 T:1861214432 WARNING: Previous line repeats 1 times.
+2021-04-26 09:52:17.341 T:1861214432  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2400)
+2021-04-26 09:52:35.081 T:1869607136 WARNING: ActiveAE - large audio sync error: -89444.031823
+2021-04-26 09:52:39.534 T:1566261472 WARNING: CRenderManager::WaitForBuffer - timeout waiting for buffer
+2021-04-26 09:52:44.598 T:1861214432 WARNING: Previous line repeats 9 times.
+2021-04-26 09:52:44.599 T:1861214432  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2400)
+2021-04-26 09:52:44.634 T:1566261472 WARNING: CRenderManager::WaitForBuffer - timeout waiting for buffer
+2021-04-26 09:55:08.663 T:1869607136 WARNING: Previous line repeats 26 times.
+2021-04-26 09:55:08.664 T:1869607136 WARNING: ActiveAE - large audio sync error: -89438.268178
+2021-04-26 09:55:25.714 T:1861214432  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2400)
+2021-04-26 09:55:25.731 T:1566261472 WARNING: CRenderManager::WaitForBuffer - timeout waiting for buffer
+2021-04-26 10:00:44.205 T:1616650464 WARNING: Previous line repeats 623 times.
+2021-04-26 10:00:44.205 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  bittorrent   ▶ logAlerts        [0mexternal_ip_alert: external IP received 157.XX.XX.XX
+2021-04-26 10:00:44.652 T:1566261472 WARNING: CRenderManager::WaitForBuffer - timeout waiting for buffer
+2021-04-26 10:33:05.655 T:1651458272 WARNING: Previous line repeats 956 times.
+2021-04-26 10:33:05.655 T:1651458272  NOTICE: ES: Client  from ::ffff:192.168.1.100 timed out
+2021-04-26 10:33:25.063 T:1869607136 WARNING: ActiveAE - large audio sync error: -89465.947813
+2021-04-26 10:33:29.103 T:1869607136 WARNING: ActiveAE - large audio sync error: -89406.166614
+2021-04-26 10:34:59.185 T:1869607136 WARNING: ActiveAE - large audio sync error: -89448.319218
+2021-04-26 10:49:52.275 T:1549476064  NOTICE: CVideoPlayer::OnExit()
+2021-04-26 10:49:52.276 T:1549476064  NOTICE: VideoPlayer: eof, waiting for queues to empty
+2021-04-26 10:49:52.279 T:1549476064  NOTICE: Closing stream player 1
+2021-04-26 10:49:52.279 T:1549476064  NOTICE: CDVDMessageQueue(audio)::WaitUntilEmpty
+2021-04-26 10:49:52.280 T:1549476064  NOTICE: Waiting for audio thread to exit
+2021-04-26 10:49:52.280 T:1541083360   ERROR: Got MSGQ_ABORT or MSGO_IS_ERROR return true
+2021-04-26 10:49:52.280 T:1541083360  NOTICE: thread end: CVideoPlayerAudio::OnExit()
+2021-04-26 10:49:52.280 T:1549476064  NOTICE: Closing audio device
+2021-04-26 10:49:52.460 T:1549476064  NOTICE: Deleting audio codec
+2021-04-26 10:49:52.460 T:1549476064  NOTICE: Closing stream player 2
+2021-04-26 10:49:52.460 T:1549476064  NOTICE: CDVDMessageQueue(video)::WaitUntilEmpty
+2021-04-26 10:49:52.492 T:1549476064  NOTICE: waiting for video thread to exit
+2021-04-26 10:49:52.492 T:1566261472   ERROR: Got MSGQ_ABORT or MSGO_IS_ERROR return true
+2021-04-26 10:49:52.492 T:1566261472  NOTICE: thread end: video_thread
+2021-04-26 10:49:52.492 T:1549476064  NOTICE: deleting video codec
+2021-04-26 10:49:52.496 T:1549476064  NOTICE: Closing stream player 3
+2021-04-26 10:49:52.555 T:1900450736  NOTICE: CVideoPlayer::CloseFile()
+2021-04-26 10:49:52.576 T:1900450736  NOTICE: VideoPlayer: waiting for threads to exit
+2021-04-26 10:49:52.576 T:1900450736  NOTICE: VideoPlayer: finished waiting
+2021-04-26 10:49:52.576 T:1900450736  NOTICE: CVideoPlayer::CloseFile()
+2021-04-26 10:49:52.576 T:1900450736  NOTICE: VideoPlayer: waiting for threads to exit
+2021-04-26 10:49:52.576 T:1900450736  NOTICE: VideoPlayer: finished waiting
+2021-04-26 10:59:01.245 T:1566261472 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 10:59:01.246 T:1566261472 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 10:59:01.293 T:1566261472 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 10:59:01.294 T:1566261472 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 10:59:01.304 T:1566261472 WARNING: Repository add-on repository.anxdpanic uses plain HTTP for add-on downloads in path http://panicked.xyz/repository/anxdpanic/python2/zips/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 10:59:01.304 T:1566261472 WARNING: Repository add-on repository.elementum uses plain HTTP for add-on downloads in path http://127.0.0.1:65220/repository/elgatito/ - this is insecure and will make your Kodi installation vulnerable to attacks if enabled!
+2021-04-26 10:59:02.235 T:1861214432  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2205)
+2021-04-26 11:03:39.806 T:1616650464  NOTICE: Previous line repeats 3 times.
+2021-04-26 11:03:39.806 T:1616650464  NOTICE: [plugin.video.elementum] [32mNOTI  bittorrent   ▶ logAlerts        [0mexternal_ip_alert: external IP received 157.XX.XX.XX
+2021-04-26 11:24:20.395 T:1861214432  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2205)
+2021-04-26 11:24:24.704 T:1549476064  NOTICE: Previous line repeats 7 times.
+2021-04-26 11:24:24.704 T:1549476064   ERROR: DoWork - Direct texture file loading failed for special://masterprofile/Thumbnails/6/654fe578.png
+2021-04-26 11:24:24.705 T:1557868768   ERROR: COMXImageFile::ReadFile special://masterprofile/Thumbnails/d/dcc08b6e.jpg not found
+2021-04-26 11:24:24.706 T:1557868768  NOTICE: LoadJpeg: unable to load special://masterprofile/Thumbnails/d/dcc08b6e.jpg
+2021-04-26 11:24:24.706 T:1557868768   ERROR: DoWork - Direct texture file loading failed for special://masterprofile/Thumbnails/d/dcc08b6e.jpg
+2021-04-26 11:24:24.714 T:1557868768   ERROR: DoWork - Direct texture file loading failed for special://masterprofile/Thumbnails/4/4c5a2700.png
+2021-04-26 11:24:25.637 T:1861214432  NOTICE: CAESinkPi:AddPackets Underrun (delay:0.00 frames:2205)
+2021-04-26 11:24:32.285 T:1900450736  NOTICE: Previous line repeats 7 times.
+2021-04-26 11:24:32.286 T:1900450736  NOTICE: Stopping player
+2021-04-26 11:24:32.286 T:1900450736  NOTICE: Storing total System Uptime
+2021-04-26 11:24:32.286 T:1900450736  NOTICE: Saving settings
+2021-04-26 11:24:32.292 T:1900450736  NOTICE: Saving skin settings
+2021-04-26 11:24:32.294 T:1900450736  NOTICE: Stopping all
+2021-04-26 11:24:32.295 T:1900450736  NOTICE: ES: Stopping event server
+2021-04-26 11:24:32.295 T:1900450736  NOTICE: stopping zeroconf publishing
+2021-04-26 11:24:32.767 T:1651458272  NOTICE: ES: UDP Event server stopped
+2021-04-26 11:24:32.767 T:1900450736  NOTICE: stop dvd detect media
+2021-04-26 11:24:32.804 T:1616650464  NOTICE: [plugin.video.elementum] INFO  main         ▶ func1            [0mShutting down...
+2021-04-26 11:24:32.804 T:1616650464  NOTICE: [plugin.video.elementum] INFO  library      ▶ CloseLibrary     [0mClosing library...
+2021-04-26 11:24:32.805 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ Close            [0mStopping BT Services...
+2021-04-26 11:24:32.805 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ stopServices     [0mStopping internal proxy
+2021-04-26 11:24:32.806 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ stopServices     [0mStopping LSD...
+2021-04-26 11:24:32.807 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ stopServices     [0mStopping DHT...
+2021-04-26 11:24:32.807 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ stopServices     [0mStopping UPNP...
+2021-04-26 11:24:32.808 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ stopServices     [0mStopping NATPMP...
+2021-04-26 11:24:32.808 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ stopServices     [0mDeleting port mapping 6899: 2
+2021-04-26 11:24:32.809 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ stopServices     [0mDeleting port mapping 6893: 3
+2021-04-26 11:24:32.809 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ Close            [0mStopping Libtorrent session...
+2021-04-26 11:24:32.810 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ CloseSession     [0mClosing Session
+2021-04-26 11:24:33.006 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ alertsConsumer   [0mClosing all alert channels...
+2021-04-26 11:24:33.136 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ func1            [0mClosed session in 329.776658ms
+2021-04-26 11:24:33.137 T:1616650464  NOTICE: [plugin.video.elementum] INFO  bittorrent   ▶ func1            [0mClosed service in 332.121548ms
+2021-04-26 11:24:33.137 T:1616650464  NOTICE: [plugin.video.elementum] INFO  main         ▶ func1            [0mGoodbye
+2021-04-26 11:24:33.144 T:1668243680  NOTICE: [plugin.video.elementum] elementumd: exiting elementumd daemon
+2021-04-26 11:24:33.145 T:1668243680  NOTICE: [plugin.video.elementum] elementumd: elementumd daemon exited
+2021-04-26 11:24:33.147 T:1676636384  NOTICE: [plugin.video.elementum] elementum: exiting elementumd
+2021-04-26 11:24:33.731 T:1634672864  NOTICE: [plugin.video.elementum] elementum: exiting jsonrpc service
+2021-04-26 11:24:33.986 T:1900450736  NOTICE: Application stopped
+2021-04-26 11:24:34.186 T:1900450736  NOTICE: XBApplicationEx: destroying...
+2021-04-26 11:24:34.524 T:1900450736  NOTICE: unload skin
+2021-04-26 11:24:34.572 T:1900450736 WARNING: Cleanup: Having to cleanup texture lists/focus.png
+2021-04-26 11:24:34.832 T:1900450736  NOTICE: unload sections
+2021-04-26 11:24:35.411 T:1900450736  NOTICE: XBApplicationEx: application stopped!

@@ -4,7 +4,6 @@ import json
 import binascii
 import xbmc
 from lib.yd_private_libs import util, servicecontrol, jsonqueue
-sys.path.insert(0, util.MODULE_PATH)
 import YDStreamExtractor  # noqa E402
 import threading  # noqa E402
 import AddonSignals
@@ -54,11 +53,13 @@ class Service():
 
         while info and not monitor.abortRequested():
             t = threading.Thread(target=YDStreamExtractor._handleDownload, args=(
-                info['data'],), kwargs={'path': info['path'], 'duration': info['duration'], 'bg': True})
+                info['data'],), kwargs={'path': info['path'], 'filename': info['filename'],
+                                        'duration': info['duration'], 'bg': True})
             t.start()
 
-            while t.isAlive() and not monitor.abortRequested():
-                xbmc.sleep(100)
+            while t.is_alive():
+                if xbmc.waitForAbort(0.1):
+                    break
 
             info = self.getNextQueuedDownload()
 

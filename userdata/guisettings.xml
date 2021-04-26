@@ -79,7 +79,7 @@
     <setting id="input.libinputkeyboardlayout" default="true">us</setting>
     <setting id="input.rumblenotify" default="true">false</setting>
     <setting id="locale.activekeyboardlayout" default="true">English QWERTY</setting>
-    <setting id="locale.audiolanguage" default="true">mediadefault</setting>
+    <setting id="locale.audiolanguage">English</setting>
     <setting id="locale.charset" default="true">DEFAULT</setting>
     <setting id="locale.country" default="true">USA (12h)</setting>
     <setting id="locale.keyboardlayouts" default="true">English QWERTY</setting>
@@ -276,7 +276,7 @@
     <setting id="videoplayer.errorinaspect">20</setting>
     <setting id="videoplayer.hqscalers" default="true">20</setting>
     <setting id="videoplayer.limitguiupdate">0</setting>
-    <setting id="videoplayer.preferdefaultflag" default="true">true</setting>
+    <setting id="videoplayer.preferdefaultflag">false</setting>
     <setting id="videoplayer.quitstereomodeonstop" default="true">true</setting>
     <setting id="videoplayer.rendermethod" default="true">0</setting>
     <setting id="videoplayer.seekdelay" default="true">750</setting>
@@ -406,8 +406,8 @@
             <sortattributes>1</sortattributes>
         </videonavmusicvideos>
         <videonavseasons>
-            <viewmode>65536</viewmode>
-            <sortmethod>1</sortmethod>
+            <viewmode>65586</viewmode>
+            <sortmethod>29</sortmethod>
             <sortorder>1</sortorder>
             <sortattributes>0</sortattributes>
         </videonavseasons>
@@ -436,7 +436,7 @@
             <level>0</level>
             <showhigherlevels>true</showhigherlevels>
         </eventlog>
-        <systemtotaluptime>46494</systemtotaluptime>
+        <systemtotaluptime>58532</systemtotaluptime>
     </general>
     <resolutions>
         <resolution>
@@ -498,6 +498,6 @@
     </myvideos>
     <audio>
         <mute>false</mute>
-        <fvolumelevel>0.800000</fvolumelevel>
+        <fvolumelevel>1.000000</fvolumelevel>
     </audio>
 </settings>

@@ -157,4 +157,6 @@
     <favourite name="Marshmello - Here With Me Feat. CHVRCHES (Official Audio + Lyrics)" thumb="https://i.ytimg.com/vi/coQ7AYQoZ7E/hqdefault.jpg">PlayMedia(&quot;plugin://plugin.video.youtube/play/?video_id=coQ7AYQoZ7E&quot;)</favourite>
     <favourite name="lofi hip hop radio - beats to relax/study to" thumb="https://i.ytimg.com/vi/5qap5aO4i9A/hqdefault_live.jpg?ct=1606793400.0">PlayMedia(&quot;plugin://plugin.video.youtube/play/?video_id=5qap5aO4i9A&quot;)</favourite>
     <favourite name="Gilmore Girls" thumb="https://assets.fanart.tv/fanart/tv/76568/tvposter/gilmore-girls-5b62fc09967af.jpg">ActivateWindow(10025,&quot;plugin://plugin.video.venom/?action=seasons&amp;imdb=tt0238784&amp;tmdb=4586&amp;tvdb=76568&amp;tvshowtitle=Gilmore%20Girls&amp;year=2000&quot;,return)</favourite>
+    <favourite name="Dan + Shay, Justin Bieber - 10,000 Hours (Official Music Video)" thumb="https://i.ytimg.com/vi/Y2E71oe0aSM/hqdefault.jpg">PlayMedia(&quot;plugin://plugin.video.youtube/play/?video_id=Y2E71oe0aSM&quot;)</favourite>
+    <favourite name="POP Music Playlist 2021 - New POP Songs 2021 - Latest Pop Hits" thumb="https://i.ytimg.com/vi/SD2-2A1027g/hqdefault.jpg">ActivateWindow(10025,&quot;plugin://plugin.video.youtube/channel/UCX9oPuvJYZsG8wnHTwOBVPA/playlist/PLDIoUOhQQPlXqz5QZ3dx-lh_p6RcPeKjv/&quot;,return)</favourite>
 </favourites>

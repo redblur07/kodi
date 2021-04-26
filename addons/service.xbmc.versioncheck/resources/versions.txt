@@ -3,6 +3,15 @@
     "releases": {
         "stable": [
             {
+                "major": "19",
+                "minor": "0",
+                "tag": "stable",
+                "tagversion":"",
+                "revision": "20210218-f44fdfbf67",
+                "extrainfo": "final",
+                "addon_support": "yes"
+            },
+            {
                 "major": "18",
                 "minor": "9",
                 "tag": "stable",
@@ -301,6 +310,15 @@
             }
         ],
         "releasecandidate": [
+            {
+                "major": "19",
+                "minor": "0",
+                "tag": "releasecandidate",
+                "tagversion":"1",
+                "revision": "20210115-90a1e12804",
+                "extrainfo": "RC1",
+                "addon_support": "yes"
+            },
             {
                 "major": "18",
                 "minor": "0",

@@ -5,15 +5,55 @@
 [B][COLOR red]Development of *plugin.video.elementum* is stopped! [/COLOR][/B]
     - Do not expect any support, help and other things like that.
     - Source is open, so you can fork everything.
-    - Some bug fixes or updates can come, to keep things working and have the latest versions.    
+    - Some bug fixes or updates can come, to keep things working and have the latest versions.
 
-[B][COLOR red]0.1.65[/COLOR][/B]
+[B][COLOR red]0.1.76[/COLOR][/B]
+    - Fixed creation of repository.elementum.
+    - Changes to information constructors for movie/show/episode.
+
+[B][COLOR red]0.1.75[/COLOR][/B]
+    - Small bug fixes (thanks to @antonsoroko).
+    - Reverting to previous version of Swig, trying to avoid antivirus treat as a trojan. 
+
+[B][COLOR red]0.1.72-74[/COLOR][/B]
+    - Small fixes to existing code (thanks to @antonsoroko).
+    - Added logging of Kodi address, that sends requests, to send responses to that Kodi. (Should pop dialogs on proper Kodi)
+
+[B][COLOR red]0.1.70-71[/COLOR][/B]
+    - Fixed issue with crashing due to empty lists in Trakt. (thanks to @antonsoroko).
+    - Added option to select which files should be queued for download (File storage only).
+
+[B][COLOR red]0.1.69[/COLOR][/B]
+    - Adjusted matchers for filename.
+    - Modified season images selector for FanArt.
+    - Modified Resume playback logic to ask when we think Kodi has already asked and got no response.
+    - Changed the way to add additional trackers to add them to each torrent after addition.
+    - Changed Trakt authorization methods.
+
+[B][COLOR red]0.1.68[/COLOR][/B]
+    - Added 'Trakt', 'TMDB' labels to Movies/Shows index lists to distinguish sources of data.
+    - Returned asking for play resume, when we think Kodi was asking (because Kodi does not ask resume for strm files).
+    - Changed seeds/peers fields source to show more general numbers.
+    - Fixed issue with finding next episode items (when season was not mentioned in file name).
+    - Added Anime:boolean value to search payload.
+
+[B][COLOR red]0.1.67[/COLOR][/B]
+    - Added storing fetched metadata for magnets. 
+    - Added concatenation of torrents into one entry.
+    - Added getting popular public trackers from internet and adding them to each added torrent.
+    - Modified libtorrent usage to lower requesting information from it.
+    - Reorganized Resume playback to properly treat Kodi's response to resume from position.
+
+[B][COLOR red]0.1.65-66[/COLOR][/B]
     - Added handling of Kodi region for proper certification detection.
     - Changed permissions management for lockfile on Windows to use ACL.
     - Added languages for images requests on TMDB.
     - Added MPAA/Countries information.
     - Removed memory leaks with libtorrent usage.
     - Added Bitrate information to pause status printer.
+    - Fixes for file selectors.
+    - Fixes for fanart selection for seasons.
+    - Fixed for Kodi 16 ListItem construction.
 
 [B][COLOR red]0.1.63-64[/COLOR][/B]
     - Added initial integration with UpNext addon to notify about next episode/file.

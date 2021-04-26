@@ -97,7 +97,7 @@ class main():
         util.LOG(repr(info), debug=True)
 
         from lib import YDStreamExtractor
-        YDStreamExtractor.handleDownload(info, bg=True)
+        YDStreamExtractor.handleDownload(info, filename=title, bg=True)
 
     def stopDownload(self):
         yes = xbmcgui.Dialog().yesno(T(32039), T(32040))
@@ -132,4 +132,4 @@ class main():
         version = youtube_dl.version.__version__
         line2 = T(32044).format('[B]{0}[/B]'.format(version))
 
-        xbmcgui.Dialog().ok(T(32045), line1, '', line2)
+        xbmcgui.Dialog().ok(T(32045), line1 + ' ' + line2)

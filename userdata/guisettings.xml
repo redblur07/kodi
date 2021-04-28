@@ -376,7 +376,7 @@
             <sortattributes>0</sortattributes>
         </programs>
         <videofiles>
-            <viewmode>65536</viewmode>
+            <viewmode>65591</viewmode>
             <sortmethod>1</sortmethod>
             <sortorder>1</sortorder>
             <sortattributes>1</sortattributes>
@@ -436,7 +436,7 @@
             <level>0</level>
             <showhigherlevels>true</showhigherlevels>
         </eventlog>
-        <systemtotaluptime>58532</systemtotaluptime>
+        <systemtotaluptime>59324</systemtotaluptime>
     </general>
     <resolutions>
         <resolution>
@@ -498,6 +498,6 @@
     </myvideos>
     <audio>
         <mute>false</mute>
-        <fvolumelevel>1.000000</fvolumelevel>
+        <fvolumelevel>0.800000</fvolumelevel>
     </audio>
 </settings>

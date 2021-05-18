@@ -1,22 +1,21 @@
-<addon id="plugin.video.venom" name="[COLOR red]Venom[/COLOR]" provider-name="Venom" version="4.2.6">
+<addon id="plugin.video.venom" name="[COLOR red]Venom[/COLOR]" provider-name="Venom" version="5.0.5">
 	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="context.venom" version="1.0.0" />
-		<import addon="script.module.myaccounts" version="1.0.0" />
-		<import addon="script.module.fenomscrapers" version="1.0.0" />
-		<import addon="script.module.requests" version="2.19.1" />
-		<import addon="script.module.beautifulsoup4" version="4.5.3" />
-		<import addon="script.module.metahandler" version="2.9.0" />
-		<import addon="plugin.video.youtube" version="6.2.0" />
-		<import addon="script.module.addon.signals" version="0.0.3" />
+		<import addon="context.venom" />
+		<import addon="script.module.myaccounts" />
+		<import addon="script.module.fenomscrapers" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.beautifulsoup4" />
+		<import addon="script.module.metahandler" optional="true" />
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.addon.signals" optional="true" />
 	</requires>
-	<extension point="xbmc.python.pluginsource" library="venom.py">
+	<extension library="venom.py" point="xbmc.python.pluginsource">
 		<provides>video</provides>
 	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.python.module" library="resources/lib/" /> <!-- Must be placed after xbmc.python.pluginsource, otherwise the addon does not show in the repository. -->
+	<extension library="service.py" point="xbmc.service" start="startup" />
+	<extension library="resources/lib/" point="xbmc.python.module" /> 
 	<extension point="xbmc.addon.metadata">
-		<reuselanguageinvoker>true</reuselanguageinvoker> 
+		<reuselanguageinvoker>true</reuselanguageinvoker>
 		<summary lang="en">[B][COLOR red]Venom[/COLOR][/B] - We do not host any of the contents streamed</summary>
 		<description lang="en">[B][COLOR red]Venom[/COLOR][/B][CR] This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR]The author does not host any of the content in this addon and takes no responsibility for content found</description>
 		<platform>all</platform>
@@ -24,7 +23,7 @@
 		<forum />
 		<website>https://github.com/123Venom/plugin.video.venom</website>
 		<source>https://github.com/123Venom/plugin.video.venom</source>
-		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<disclaimer lang="en">The author of this addon does not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
@@ -33,16 +32,15 @@
 			<screenshot>resources/screenshots/screenshot003.jpg</screenshot>
 		</assets>
 		<news>
-[B][COLOR red]Update - v4.2.6 – Oct. 13, 2020[/COLOR][/B]
-[COLOR yellow]--[/COLOR][I] Fixed settings for remove uncached torrents. Under
-    some conditions an item my be unavailable for AD, PM,
-    or RDd torrents.[/I]
-[COLOR yellow]--[/COLOR][I] Fixed AD cache check when a single item from a
-    list request contained an error the cache check process
-    halted.[/I]
-[COLOR yellow]--[/COLOR][I] Reduced the number of visible named scrapers
-    for the progressDialog.  AuraMod skin had a slight overlap
-    with the progress bar.[/I]
+[B][COLOR red]Update - v5.0.5 - May 14, 2021[/COLOR][/B]
+[COLOR yellow]--[/COLOR][I] Fixed RD failed resolving issue when &quot;&amp;&quot; or &quot;%&quot; exists in meta title.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed RD failed resolving issue when &quot;error&quot; existed in the meta title.
+    Thanks noizex!! [/I]
+[COLOR yellow]--[/COLOR][I] Change duplicate source removal that upon hash match will keep
+    the match with longer title portion of the magnet.  This
+    results in reassuring the kept source is the one
+    containing more file info.[/I]
+[COLOR yellow]--[/COLOR][I] Fixed episode count when unwatched counts for multi list is enabled.[/I]
 		</news>
 	</extension>
 </addon>

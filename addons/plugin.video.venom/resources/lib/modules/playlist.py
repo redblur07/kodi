@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-
 """
 	Venom Add-on
 """
 
-import json, xbmc
-
+from json import loads as jsloads
+import xbmc
 from resources.lib.modules import control
 from resources.lib.modules import log_utils
+from resources.lib.modules import py_tools
 
 Id = xbmc.PLAYLIST_VIDEO
 videoplaylist = 10028
@@ -46,10 +46,8 @@ def playlistManager(name=None, url=None, meta=None, art=None):
 		log_utils.error()
 		control.hide()
 
-
 def playlist():
 	return xbmc.PlayList(Id)
-
 
 def playlistShow():
 	if len(playListItems()) > 0:
@@ -60,61 +58,51 @@ def playlistShow():
 		if notification:
 			control.notification(title=35522, message=32119)
 
-
 def playlistClear():
 	playlist().clear()
 	if notification:
 		control.notification(title=35522, message=35521)
 
-
 def playListItems():
 	rpc = '{"jsonrpc": "2.0", "method": "Playlist.GetItems", "params": {"playlistid" : %s}, "id": 1 }' % Id
 	result = control.jsonrpc(rpc)
-	limits =json.loads(result)['result']['limits']
+	limits =jsloads(result)['result']['limits']
 	total = limits['total']
-	if int(total) <= 0:
-		return []
-	result = unicode(result, 'utf-8', errors = 'ignore')
-	result = json.loads(result)['result']['items']
-	try: return [i['label'].encode('utf-8') for i in result]
+	if int(total) <= 0: return []
+	result = py_tools.ensure_text(result, errors='ignore')
+	result = jsloads(result)['result']['items']
+	try: return [i['label'] for i in result]
 	except: return []
-
 
 def position(label):
 	try: return playListItems().index(label)
 	except: return -1
 
-
 def playlistAdd(name, url, meta, art):
-	# if not name is None: name.encode('utf-8')
-	labelPosition = position(label = name)
+	labelPosition = position(label=name)
 	if labelPosition >= 0:
 		return control.notification(title=35522, message=32120)
-	if isinstance(meta, basestring):
-		meta = json.loads(meta)
-	if isinstance(art, basestring):
-		art = json.loads(art)
-	item = control.item(label=name)
+	if isinstance(meta, py_tools.string_types):
+		meta = jsloads(meta)
+	if isinstance(art, py_tools.string_types):
+		art = jsloads(art)
+	try: item = control.item(label=name, offscreen=True)
+	except: item = control.item(label=name)
 	item.setArt(art)
 	item.setProperty('IsPlayable', 'true')
 	item.setInfo(type='video', infoLabels=control.metadataClean(meta))
-	video_streaminfo = {'codec': 'h264'}
-	item.addStreamInfo('video', video_streaminfo)
 	cm = []
 	item.addContextMenuItems(cm)
 	playlist().add(url=url, listitem=item)
 	if notification:
 		control.notification(title=35522, message=control.lang(32121) % str(name))
 
-
 def playlistRemove(name):
 	labelPosition = position(label=name)
 	if labelPosition >= 0:
 		rpc = '{"jsonrpc": "2.0", "method": "Playlist.Remove", "params": {"playlistid": %s, "position": %s}, "id": 1 }' % (Id, labelPosition)
 		control.jsonrpc(rpc)
-		if notification:
-			control.notification(title=35522, message=control.lang(32122) % str(name))
+		if notification: control.notification(title=35522, message=control.lang(32122) % str(name))
 	if labelPosition == -1:
-		if notification:
-			control.notification(title=35522, message=32123)
+		if notification: control.notification(title=35522, message=32123)
 	# control.refresh()

@@ -1,3 +1,18 @@
+v0.5.19
+- add Kodi 19.1 release
+
+v0.5.18
+- Update translations from Weblate
+
+v0.5.17
+- Fix-up exception on non linux platforms due to missing variable definition
+
+v0.5.16
+- Bump minimum Kodi version from Gotham to Leia
+
+v0.5.15
+- Fix exec of linux specific code path on windows
+
 v0.5.14
 - add Kodi 19.0 release
 

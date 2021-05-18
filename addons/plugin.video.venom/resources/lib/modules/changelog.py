@@ -1,20 +1,17 @@
 # -*- coding: utf-8 -*-
-
-'''
+"""
 	Venom Add-on
-'''
+"""
 
-import os.path
-import xbmc
-import xbmcaddon
-import xbmcgui
+from resources.lib.modules import control
+
+venom_path = control.addonPath(control.addonId())
+venom_version = control.getVenomVersion()
+changelogfile = control.joinPath(venom_path, 'changelog.txt')
 
 
 def get():
-	addonInfo = xbmcaddon.Addon().getAddonInfo
-	addonPath = xbmc.translatePath(addonInfo('path'))
-	changelogfile = os.path.join(addonPath, 'changelog.txt')
 	r = open(changelogfile)
 	text = r.read()
 	r.close()
-	xbmcgui.Dialog().textviewer('[COLOR red]Venom[/COLOR] -  v%s - %s' % (xbmcaddon.Addon().getAddonInfo('version'), 'changelog.txt'), text)
+	control.dialog.textviewer('[COLOR red]Venom[/COLOR] -  v%s - ChangeLog' % venom_version, text)

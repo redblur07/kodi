@@ -1,13 +1,16 @@
 # -*- coding: utf-8 -*-
-
 """
 	Venom Add-on
 """
 
-import sys
+from sys import argv, exit as sysexit
 from resources.lib.modules import control
 from resources.lib.modules import log_utils
 from resources.lib.modules import trakt
+try: #Py2
+	from urllib import quote_plus
+except ImportError:  #Py3
+	from urllib.parse import quote_plus
 
 artPath = control.artPath()
 traktCredentials = trakt.getTraktCredentialsInfo()
@@ -22,34 +25,25 @@ class Navigator:
 	def root(self):
 		self.addDirectoryItem(33046, 'movieNavigator', 'movies.png', 'DefaultMovies.png')
 		self.addDirectoryItem(33047, 'tvNavigator', 'tvshows.png', 'DefaultTVShows.png')
-		if control.getMenuEnabled('navi.anime'):
-			self.addDirectoryItem('Anime', 'anime_Navigator', 'boxsets.png', 'DefaultFolder.png')
+		if control.getMenuEnabled('navi.anime'): self.addDirectoryItem('Anime', 'anime_Navigator', 'boxsets.png', 'DefaultFolder.png')
 		if control.getMenuEnabled('mylists.widget'):
-			self.addDirectoryItem(32003, 'mymovieNavigator', 'mymovies.png','DefaultVideoPlaylists.png')
+			self.addDirectoryItem(32003, 'mymovieNavigator', 'mymovies.png', 'DefaultVideoPlaylists.png')
 			self.addDirectoryItem(32004, 'mytvNavigator', 'mytvshows.png', 'DefaultVideoPlaylists.png')
-		if control.setting('furk.api') != '':
-			self.addDirectoryItem('Furk.net', 'furkNavigator', 'movies.png',  'DefaultMovies.png')
-		if control.getMenuEnabled('navi.youtube'):
-			self.addDirectoryItem('You Tube Videos', 'youtube', 'youtube.png', 'youtube.png')
+		if control.setting('furk.api') != '' and control.getMenuEnabled('navi.furk') : self.addDirectoryItem('Furk.net', 'furkNavigator', 'movies.png', 'DefaultMovies.png')
+		if control.getMenuEnabled('navi.youtube'): self.addDirectoryItem('You Tube Videos', 'youtube', 'youtube.png', 'youtube.png')
 		self.addDirectoryItem(32010, 'tools_searchNavigator', 'search.png', 'DefaultAddonsSearch.png')
 		self.addDirectoryItem(32008, 'tools_toolNavigator', 'tools.png', 'DefaultAddonService.png')
 		downloads = True if control.setting('downloads') == 'true' and (len(control.listDir(control.setting('movie.download.path'))[0]) > 0 or len(control.listDir(control.setting('tv.download.path'))[0]) > 0) else False
-		if downloads:
-			self.addDirectoryItem(32009, 'downloadNavigator', 'downloads.png', 'DefaultFolder.png')
-		if control.getMenuEnabled('navi.prem.services'):
-			self.addDirectoryItem('Premium Services', 'premiumNavigator', 'premium.png', 'DefaultFolder.png')
-		if control.getMenuEnabled('navi.news'):
-			self.addDirectoryItem(32013, 'tools_ShowNews', 'icon.png', 'DefaultAddonHelper.png', isFolder=False)
-		if control.getMenuEnabled('navi.changelog'):
-			self.addDirectoryItem(32014, 'tools_ShowChangelog', 'icon.png', 'DefaultAddonsUpdates.png', isFolder=False)
+		if downloads: self.addDirectoryItem(32009, 'downloadNavigator', 'downloads.png', 'DefaultFolder.png')
+		if control.getMenuEnabled('navi.prem.services'): self.addDirectoryItem('Premium Services', 'premiumNavigator', 'premium.png', 'DefaultFolder.png')
+		if control.getMenuEnabled('navi.news'): self.addDirectoryItem(32013, 'tools_ShowNews', 'icon.png', 'DefaultAddonHelper.png', isFolder=False)
+		if control.getMenuEnabled('navi.changelog'): self.addDirectoryItem(32014, 'tools_ShowChangelog', 'icon.png', 'DefaultAddonsUpdates.png', isFolder=False)
 		self.endDirectory()
-
 
 	def furk(self):
-		self.addDirectoryItem('User Files', 'furkUserFiles', 'mytvnavigator.png', 'mytvnavigator.png')
+		self.addDirectoryItem('User Files', 'furkUserFiles', 'userlists.png', 'DefaultVideoPlaylists.png')
 		self.addDirectoryItem('Search', 'furkSearch', 'search.png', 'search.png')
 		self.endDirectory()
-
 
 	def movies(self, lite=False):
 		if control.getMenuEnabled('navi.movie.imdb.intheater'):
@@ -99,12 +93,10 @@ class Navigator:
 		if control.getMenuEnabled('navi.movie.imdb.certificates'):
 			self.addDirectoryItem(32464 if indexLabels else 32463, 'movieCertificates', 'imdb.png' if iconLogos else 'certificates.png', 'DefaultMovies.png')
 		if not lite:
-			if control.getMenuEnabled('mylists.widget'):
-				self.addDirectoryItem(32003, 'mymovieliteNavigator', 'mymovies.png', 'DefaultMovies.png')
+			if control.getMenuEnabled('mylists.widget'): self.addDirectoryItem(32003, 'mymovieliteNavigator', 'mymovies.png', 'DefaultMovies.png')
 			self.addDirectoryItem(33044, 'moviePerson', 'imdb.png' if iconLogos else 'people-search.png', 'DefaultAddonsSearch.png')
 			self.addDirectoryItem(33042, 'movieSearch', 'trakt.png' if iconLogos else 'search.png', 'DefaultAddonsSearch.png')
 		self.endDirectory()
-
 
 	def mymovies(self, lite=False):
 		self.accountCheck()
@@ -115,18 +107,16 @@ class Navigator:
 				self.addDirectoryItem(32036, 'movies&url=trakthistory', 'trakt.png', 'DefaultVideoPlaylists.png', queue=True)
 			self.addDirectoryItem(32683, 'movies&url=traktwatchlist', 'trakt.png', 'DefaultVideoPlaylists.png', queue=True, context=(32551, 'library_moviesToLibrary&url=traktwatchlist&name=traktwatchlist'))
 			self.addDirectoryItem(32032, 'movies&url=traktcollection', 'trakt.png', 'DefaultVideoPlaylists.png', queue=True, context=(32551, 'library_moviesToLibrary&url=traktcollection&name=traktcollection'))
-		if imdbCredentials:
-			self.addDirectoryItem(32682, 'movies&url=imdbwatchlist', 'imdb.png', 'DefaultVideoPlaylists.png', queue=True)
+		if imdbCredentials: self.addDirectoryItem(32682, 'movies&url=imdbwatchlist', 'imdb.png', 'DefaultVideoPlaylists.png', queue=True)
 		if not lite:
 			self.addDirectoryItem(32031, 'movieliteNavigator', 'movies.png', 'DefaultMovies.png')
 			self.addDirectoryItem(33044, 'moviePerson', 'imdb.png' if iconLogos else 'people-search.png', 'DefaultAddonsSearch.png')
 			self.addDirectoryItem(33042, 'movieSearch', 'search.png' if iconLogos else 'search.png', 'DefaultAddonsSearch.png')
 		self.endDirectory()
 
-
 	def tvshows(self, lite=False):
 		if control.getMenuEnabled('navi.originals'):
-			self.addDirectoryItem(40071 if indexLabels else 40070, 'tvOriginals', 'tvmaze.png' if iconLogos else 'networks.png', 'DefaultNetwork.png')
+			self.addDirectoryItem(40077 if indexLabels else 40070, 'tvOriginals', 'tvmaze.png' if iconLogos else 'networks.png', 'DefaultNetwork.png')
 		if control.getMenuEnabled('navi.tv.imdb.popular'):
 			self.addDirectoryItem(32429 if indexLabels else 32428, 'tvshows&url=popular', 'imdb.png' if iconLogos else 'most-popular.png', 'DefaultTVShows.png')
 		if control.getMenuEnabled('navi.tv.tmdb.popular'):
@@ -146,7 +136,7 @@ class Navigator:
 		if control.getMenuEnabled('navi.tv.imdb.genres'):
 			self.addDirectoryItem(32456 if indexLabels else 32455, 'tvGenres', 'imdb.png' if iconLogos else 'genres.png', 'DefaultGenre.png')
 		if control.getMenuEnabled('navi.tv.tvmaze.networks'):
-			self.addDirectoryItem(32470 if indexLabels else 32469, 'tvNetworks', 'tvmaze.png' if iconLogos else 'networks.png', 'DefaultNetwork.png')
+			self.addDirectoryItem(32468 if indexLabels else 32469, 'tvNetworks', 'tvmaze.png' if iconLogos else 'networks.png', 'DefaultNetwork.png')
 		if control.getMenuEnabled('navi.tv.imdb.languages'):
 			self.addDirectoryItem(32462 if indexLabels else 32461, 'tvLanguages', 'imdb.png' if iconLogos else 'languages.png', 'DefaultAddonLanguage.png')
 		if control.getMenuEnabled('navi.tv.imdb.certificates'):
@@ -170,7 +160,6 @@ class Navigator:
 			self.addDirectoryItem(33043, 'tvSearch', 'trakt.png' if iconLogos else 'search.png', 'DefaultAddonsSearch.png')
 		self.endDirectory()
 
-
 	def mytvshows(self, lite=False):
 		self.accountCheck()
 		self.addDirectoryItem(32040, 'tvUserlists', 'userlists.png', 'DefaultVideoPlaylists.png')
@@ -179,24 +168,22 @@ class Navigator:
 				self.addDirectoryItem(35308, 'episodesUnfinished&url=traktunfinished', 'trakt.png', 'DefaultVideoPlaylists.png', queue=True)
 				self.addDirectoryItem(32036, 'calendar&url=trakthistory', 'trakt.png', 'DefaultVideoPlaylists.png', queue=True)
 				self.addDirectoryItem(32037, 'calendar&url=progress', 'trakt.png', 'DefaultVideoPlaylists.png', queue=True)
+				self.addDirectoryItem(32019, 'upcomingProgress&url=progress', 'trakt.png', 'DefaultVideoPlaylists.png', queue=True)
 				self.addDirectoryItem(32027, 'calendar&url=mycalendar', 'trakt.png', 'DefaultYear.png', queue=True)
 			self.addDirectoryItem(32683, 'tvshows&url=traktwatchlist', 'trakt.png', 'DefaultVideoPlaylists.png', context=(32551, 'library_tvshowsToLibrary&url=traktwatchlist&name=traktwatchlist'))
 			self.addDirectoryItem(32032, 'tvshows&url=traktcollection', 'trakt.png', 'DefaultVideoPlaylists.png', context=(32551, 'library_tvshowsToLibrary&url=traktcollection&name=traktcollection'))
 			self.addDirectoryItem(32041, 'episodesUserlists', 'userlists.png', 'DefaultVideoPlaylists.png')
-		if imdbCredentials:
-			self.addDirectoryItem(32682, 'tvshows&url=imdbwatchlist', 'imdb.png', 'DefaultVideoPlaylists.png')
+		if imdbCredentials: self.addDirectoryItem(32682, 'tvshows&url=imdbwatchlist', 'imdb.png', 'DefaultVideoPlaylists.png')
 		if not lite:
 			self.addDirectoryItem(32031, 'tvliteNavigator', 'tvshows.png', 'DefaultTVShows.png')
 			self.addDirectoryItem(33045, 'tvPerson', 'imdb.png' if iconLogos else 'people-search.png', 'DefaultAddonsSearch.png')
 			self.addDirectoryItem(33043, 'tvSearch', 'trakt.png' if iconLogos else 'search.png', 'DefaultAddonsSearch.png')
 		self.endDirectory()
 
-
 	def anime(self, lite=False):
 		self.addDirectoryItem(32001, 'anime_Movies&url=anime', 'movies.png', 'DefaultMovies.png')
 		self.addDirectoryItem(32002, 'anime_TVshows&url=anime', 'tvshows.png', 'DefaultTVShows.png')
 		self.endDirectory()
-
 
 	def tools(self):
 		self.addDirectoryItem(32510, 'cache_Navigator', 'tools.png', 'DefaultAddonService.png', isFolder=True)
@@ -213,31 +200,29 @@ class Navigator:
 		self.addDirectoryItem(32362, 'tools_openSettings&query=1.1', 'tools.png', 'DefaultAddonService.png', isFolder=False)
 		#-- Playback - 3
 		self.addDirectoryItem(32045, 'tools_openSettings&query=3.1', 'tools.png', 'DefaultAddonService.png', isFolder=False)
-		#-- Accounts - 8
-		self.addDirectoryItem(32044, 'tools_openSettings&query=8.0', 'tools.png', 'DefaultAddonService.png', isFolder=False)
-		#-- Downloads - 10
-		self.addDirectoryItem(32048, 'tools_openSettings&query=10.0', 'tools.png', 'DefaultAddonService.png', isFolder=False)
-		#-- Subtitles - 11
-		self.addDirectoryItem(32046, 'tools_openSettings&query=11.0', 'tools.png', 'DefaultAddonService.png', isFolder=False)
+		#-- Accounts - 7
+		self.addDirectoryItem(32044, 'tools_openSettings&query=7.0', 'tools.png', 'DefaultAddonService.png', isFolder=False)
+		#-- Downloads - 9
+		self.addDirectoryItem(32048, 'tools_openSettings&query=9.0', 'tools.png', 'DefaultAddonService.png', isFolder=False)
+		#-- Subtitles - 10
+		self.addDirectoryItem(32046, 'tools_openSettings&query=10.0', 'tools.png', 'DefaultAddonService.png', isFolder=False)
 		self.addDirectoryItem(32556, 'library_Navigator', 'tools.png', 'DefaultAddonService.png', isFolder=True)
 		self.addDirectoryItem(32049, 'tools_viewsNavigator', 'tools.png', 'DefaultAddonService.png', isFolder=True)
 		self.addDirectoryItem(32361, 'tools_resetViewTypes', 'tools.png', 'DefaultAddonService.png', isFolder=False)
 		self.endDirectory()
 
-
 	def cf(self):
-		self.addDirectoryItem(32610, 'cache_clearAll&opensettings=false', 'tools.png', 'DefaultAddonService.png', isFolder=False)
-		self.addDirectoryItem(32611, 'cache_clearSources&opensettings=false', 'tools.png', 'DefaultAddonService.png', isFolder=False)
-		self.addDirectoryItem(32612, 'cache_clearMeta&opensettings=false', 'tools.png', 'DefaultAddonService.png', isFolder=False)
-		self.addDirectoryItem(32613, 'cache_clearCache&opensettings=false', 'tools.png', 'DefaultAddonService.png', isFolder=False)
-		self.addDirectoryItem(32614, 'cache_clearSearch&opensettings=false', 'tools.png', 'DefaultAddonService.png', isFolder=False)
-		self.addDirectoryItem(32615, 'cache_clearBookmarks&opensettings=false', 'tools.png', 'DefaultAddonService.png', isFolder=False)
+		self.addDirectoryItem(32610, 'cache_clearAll', 'tools.png', 'DefaultAddonService.png', isFolder=False)
+		self.addDirectoryItem(32611, 'cache_clearSources', 'tools.png', 'DefaultAddonService.png', isFolder=False)
+		self.addDirectoryItem(32612, 'cache_clearMeta', 'tools.png', 'DefaultAddonService.png', isFolder=False)
+		self.addDirectoryItem(32613, 'cache_clearCache', 'tools.png', 'DefaultAddonService.png', isFolder=False)
+		self.addDirectoryItem(32614, 'cache_clearSearch', 'tools.png', 'DefaultAddonService.png', isFolder=False)
+		self.addDirectoryItem(32615, 'cache_clearBookmarks', 'tools.png', 'DefaultAddonService.png', isFolder=False)
 		self.endDirectory()
 
-
 	def library(self):
-	# -- Library - 9
-		self.addDirectoryItem(32557, 'tools_openSettings&query=9.0', 'tools.png', 'DefaultAddonProgram.png', isFolder=False)
+	# -- Library - 8
+		self.addDirectoryItem(32557, 'tools_openSettings&query=8.0', 'tools.png', 'DefaultAddonProgram.png', isFolder=False)
 		self.addDirectoryItem(32558, 'library_update', 'library_update.png', 'DefaultAddonLibrary.png', isFolder=False)
 		self.addDirectoryItem(32676, 'library_clean', 'library_update.png', 'DefaultAddonLibrary.png', isFolder=False)
 		self.addDirectoryItem(32559, control.setting('library.movie'), 'movies.png', 'DefaultMovies.png', isAction=False)
@@ -262,23 +247,18 @@ class Navigator:
 			self.addDirectoryItem('TMDb: Import TV User list...', 'library_tvshowsListToLibrary&url=tmdb_userlists', 'tmdb.png', 'DefaultMovies.png', isFolder=False)
 		self.endDirectory()
 
-
 	def downloads(self):
 		movie_downloads = control.setting('movie.download.path')
 		tv_downloads = control.setting('tv.download.path')
-		if len(control.listDir(movie_downloads)[0]) > 0:
-			self.addDirectoryItem(32001, movie_downloads, 'movies.png', 'DefaultMovies.png', isAction=False)
-		if len(control.listDir(tv_downloads)[0]) > 0:
-			self.addDirectoryItem(32002, tv_downloads, 'tvshows.png', 'DefaultTVShows.png', isAction=False)
+		if len(control.listDir(movie_downloads)[0]) > 0: self.addDirectoryItem(32001, movie_downloads, 'movies.png', 'DefaultMovies.png', isAction=False)
+		if len(control.listDir(tv_downloads)[0]) > 0: self.addDirectoryItem(32002, tv_downloads, 'tvshows.png', 'DefaultTVShows.png', isAction=False)
 		self.endDirectory()
-
 
 	def premium_services(self):
 		self.addDirectoryItem(40059, 'ad_ServiceNavigator', 'alldebrid.png', 'DefaultAddonService.png')
 		self.addDirectoryItem(40057, 'pm_ServiceNavigator', 'premiumize.png', 'DefaultAddonService.png')
 		self.addDirectoryItem(40058, 'rd_ServiceNavigator', 'realdebrid.png', 'DefaultAddonService.png')
 		self.endDirectory()
-
 
 	def alldebrid_service(self):
 		if control.setting('alldebrid.token'):
@@ -289,7 +269,6 @@ class Navigator:
 			self.addDirectoryItem('[I]Please visit My Accounts for setup[/I]', 'tools_openMyAccount&amp;query=1.4', 'alldebrid.png', 'DefaultAddonService.png', isFolder=False)
 		self.endDirectory()
 
-
 	def premiumize_service(self):
 		if control.setting('premiumize.token'):
 			self.addDirectoryItem('Premiumize: My Files', 'pm_MyFiles', 'premiumize.png', 'DefaultAddonService.png')
@@ -298,7 +277,6 @@ class Navigator:
 		else:
 			self.addDirectoryItem('[I]Please visit My Accounts for setup[/I]', 'tools_openMyAccount&amp;query=1.11', 'premiumize.png', 'DefaultAddonService.png', isFolder=False)
 		self.endDirectory()
-
 
 	def realdebrid_service(self):
 		if control.setting('realdebrid.token'):
@@ -309,7 +287,6 @@ class Navigator:
 			self.addDirectoryItem('[I]Please visit My Accounts for setup[/I]', 'tools_openMyAccount&amp;query=1.18', 'realdebrid.png', 'DefaultAddonService.png', isFolder=False)
 		self.endDirectory()
 
-
 	def search(self):
 		self.addDirectoryItem(33042, 'movieSearch', 'trakt.png' if iconLogos else 'search.png', 'DefaultAddonsSearch.png')
 		self.addDirectoryItem(33043, 'tvSearch', 'trakt.png' if iconLogos else 'search.png', 'DefaultAddonsSearch.png')
@@ -317,176 +294,149 @@ class Navigator:
 		self.addDirectoryItem(33045, 'tvPerson', 'imdb.png' if iconLogos else 'people-search.png', 'DefaultAddonsSearch.png')
 		self.endDirectory()
 
-
 	def views(self):
 		try:
+			syshandle = int(argv[1])
 			control.hide()
-			items = [ (control.lang(32001), 'movies'), (control.lang(32002), 'tvshows'),
-							(control.lang(32054), 'seasons'), (control.lang(32038), 'episodes') ]
+			items = [(control.lang(32001), 'movies'), (control.lang(32002), 'tvshows'), (control.lang(32054), 'seasons'), (control.lang(32038), 'episodes') ]
 			select = control.selectDialog([i[0] for i in items], control.lang(32049))
 			if select == -1: return
 			content = items[select][1]
 			title = control.lang(32059)
-			url = '%s?action=tools_addView&content=%s' % (sys.argv[0], content)
+			url = '%s?action=tools_addView&content=%s' % (argv[0], content)
 			poster, banner, fanart = control.addonPoster(), control.addonBanner(), control.addonFanart()
-			item = control.item(label=title)
+			try: item = control.item(label=title, offscreen=True)
+			except: item = control.item(label=title)
 			item.setInfo(type='video', infoLabels = {'title': title})
 			item.setArt({'icon': poster, 'thumb': poster, 'poster': poster, 'fanart': fanart, 'banner': banner})
 			item.setProperty('IsPlayable', 'false')
-			control.addItem(handle = int(sys.argv[1]), url=url, listitem=item, isFolder=False)
-			control.content(int(sys.argv[1]), content)
-			control.directory(int(sys.argv[1]), cacheToDisc=True)
+			control.addItem(handle=syshandle, url=url, listitem=item, isFolder=False)
+			control.content(syshandle, content)
+			control.directory(syshandle, cacheToDisc=True)
 			from resources.lib.modules import views
 			views.setView(content, {})
 		except:
 			log_utils.error()
 			return
 
-
 	def accountCheck(self):
 		if not traktCredentials and not imdbCredentials:
 			control.hide()
 			control.notification(message=32042, icon='WARNING')
-			sys.exit()
-
+			sysexit()
 
 	def clearCacheAll(self):
 		control.hide()
-		yes = control.yesnoDialog(control.lang(32077), '', '')
-		if not yes: return
+		if not control.yesnoDialog(control.lang(32077), '', ''): return
 		try:
-			from resources.lib.modules import cache
-			cache.cache_clear_all()
-			control.notification(message=32089)
+			def cache_clear_all():
+				try:
+					from resources.lib.database import cache, providerscache, metacache
+					providerscache.cache_clear_providers()
+					metacache.cache_clear_meta()
+					cache.cache_clear()
+					cache.cache_clear_search()
+					cache.cache_clear_bookmarks()
+					return True
+				except:
+					log_utils.error()
+			if cache_clear_all():
+				control.notification(message=32089)
+			else: control.notification(message=33586)
 		except:
 			log_utils.error()
-			pass
-
 
 	def clearCacheProviders(self):
 		control.hide()
-		yes = control.yesnoDialog(control.lang(32056), '', '')
-		if not yes: return
+		if not control.yesnoDialog(control.lang(32056), '', ''): return
 		try:
-			from resources.lib.modules import cache
-			cache.cache_clear_providers()
-			control.notification(message=32090)
+			from resources.lib.database import providerscache
+			if providerscache.cache_clear_providers(): control.notification(message=32090)
+			else: control.notification(message=33586)
 		except:
 			log_utils.error()
-			pass
-
 
 	def clearCacheMeta(self):
 		control.hide()
-		yes = control.yesnoDialog(control.lang(32076), '', '')
-		if not yes: return
+		if not control.yesnoDialog(control.lang(32076), '', ''): return
 		try:
-			from resources.lib.modules import cache
-			cache.cache_clear_meta()
-			control.notification(message=32091)
+			from resources.lib.database import metacache
+			if metacache.cache_clear_meta(): control.notification(message=32091)
+			else: control.notification(message=33586)
 		except:
 			log_utils.error()
-			pass
-
 
 	def clearCache(self):
 		control.hide()
-		yes = control.yesnoDialog(control.lang(32056), '', '')
-		if not yes: return
+		if not control.yesnoDialog(control.lang(32056), '', ''): return
 		try:
-			from resources.lib.modules import cache
-			cache.cache_clear()
-			control.notification(message=32092)
+			from resources.lib.database import cache
+			if cache.cache_clear(): control.notification(message=32092)
+			else: control.notification(message=33586)
 		except:
 			log_utils.error()
-			pass
-
 
 	def clearCacheSearch(self):
 		control.hide()
-		yes = control.yesnoDialog(control.lang(32056), '', '')
-		if not yes: return
+		if not control.yesnoDialog(control.lang(32056), '', ''): return
 		try:
-			from resources.lib.modules import cache
-			cache.cache_clear_search()
-			control.notification(message=32093)
+			from resources.lib.database import cache
+			if cache.cache_clear_search(): control.notification(message=32093)
+			else: control.notification(message=33586)
 		except:
 			log_utils.error()
-			pass
-
 
 	def clearCacheSearchPhrase(self, table, name):
 		control.hide()
-		yes = control.yesnoDialog(control.lang(32056), '', '')
-		if not yes: return
+		if not control.yesnoDialog(control.lang(32056), '', ''): return
 		try:
-			from resources.lib.modules import cache
-			cache.cache_clear_SearchPhrase(table, name)
-			control.notification(message=32094)
+			from resources.lib.database import cache
+			if cache.cache_clear_SearchPhrase(table, name): control.notification(message=32094)
+			else: control.notification(message=33586)
 		except:
 			log_utils.error()
-			pass
-
 
 	def clearBookmarks(self):
 		control.hide()
-		yes = control.yesnoDialog(control.lang(32056), '', '')
-		if not yes: return
+		if not control.yesnoDialog(control.lang(32056), '', ''): return
 		try:
-			from resources.lib.modules import cache
-			cache.cache_clear_bookmarks()
-			control.notification(message=32100)
+			from resources.lib.database import cache
+			if cache.cache_clear_bookmarks(): control.notification(message=32100)
+			else: control.notification(message=33586)
 		except:
 			log_utils.error()
-			pass
-
 
 	def clearBookmark(self, name, year):
 		control.hide()
-		yes = control.yesnoDialog(control.lang(32056), '', '')
-		if not yes: return
+		if not control.yesnoDialog(control.lang(32056), '', ''): return
 		try:
-			from resources.lib.modules import cache
-			cache.cache_clear_bookmark(name, year)
-			control.notification(title=name, message=32102)
+			from resources.lib.database import cache
+			if cache.cache_clear_bookmark(name, year): control.notification(title=name, message=32102)
+			else: control.notification(message=33586)
 		except:
 			log_utils.error()
-			pass
-
 
 	def addDirectoryItem(self, name, query, thumb, icon, context=None, queue=False, isAction=True, isFolder=True, isPlayable=False, isSearch=False, table=''):
-		sysaddon = sys.argv[0]
-		syshandle = int(sys.argv[1])
-		try:
-			if type(name) is str or type(name) is unicode: name = str(name)
-			if type(name) is int: name = control.lang(name)
-		except:
-			log_utils.error()
-
+		sysaddon = argv[0] ; syshandle = int(argv[1])
+		if isinstance(name, int): name = control.lang(name)
 		url = '%s?action=%s' % (sysaddon, query) if isAction else query
 		thumb = control.joinPath(artPath, thumb) if artPath else icon
-		if not icon.startswith('Default'):
-			icon = control.joinPath(artPath, icon)
+		if not icon.startswith('Default'): icon = control.joinPath(artPath, icon)
 		cm = []
 		queueMenu = control.lang(32065)
-		if queue:
-			cm.append((queueMenu, 'RunPlugin(%s?action=playlist_QueueItem)' % sysaddon))
-		if context:
-			cm.append((control.lang(context[0]), 'RunPlugin(%s?action=%s)' % (sysaddon, context[1])))
-		if isSearch:
-			try: from urllib import quote_plus
-			except: from urllib.parse import quote_plus
-			cm.append(('Clear Search Phrase', 'RunPlugin(%s?action=cache_clearSearchPhrase&source=%s&name=%s)' % (sysaddon, table, quote_plus(name))))
+		if queue: cm.append((queueMenu, 'RunPlugin(%s?action=playlist_QueueItem)' % sysaddon))
+		if context: cm.append((control.lang(context[0]), 'RunPlugin(%s?action=%s)' % (sysaddon, context[1])))
+		if isSearch: cm.append(('Clear Search Phrase', 'RunPlugin(%s?action=cache_clearSearchPhrase&source=%s&name=%s)' % (sysaddon, table, quote_plus(name))))
 		cm.append(('[COLOR red]Venom Settings[/COLOR]', 'RunPlugin(%s?action=tools_openSettings)' % sysaddon))
-		item = control.item(label=name)
+		try: item = control.item(label=name, offscreen=True)
+		except: item = control.item(label=name)
 		item.addContextMenuItems(cm)
 		if isPlayable: item.setProperty('IsPlayable', 'true')
 		else: item.setProperty('IsPlayable', 'false')
 		item.setArt({'icon': icon, 'poster': thumb, 'thumb': thumb, 'fanart': control.addonFanart(), 'banner': thumb})
 		control.addItem(handle=syshandle, url=url, listitem=item, isFolder= isFolder)
 
-
 	def endDirectory(self):
-		syshandle = int(sys.argv[1])
+		syshandle = int(argv[1])
 		control.content(syshandle, 'addons')
 		control.directory(syshandle, cacheToDisc=True)

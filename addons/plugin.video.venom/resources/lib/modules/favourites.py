@@ -1,18 +1,14 @@
 # -*- coding: utf-8 -*-
+"""
+	Venom Add-on
+"""
 
-import json
-import xbmc
-import xbmcaddon
-
-try:
-	from sqlite3 import dbapi2 as database
-except:
-	from pysqlite2 import dbapi2 as database
-
+from json import loads as jsloads
+try: from sqlite3 import dbapi2 as database
+except ImportError: from pysqlite2 import dbapi2 as database
 from resources.lib.modules import control
 
-addonInfo = xbmcaddon.Addon().getAddonInfo
-dataPath = xbmc.translatePath(addonInfo('profile')).decode('utf-8')
+dataPath = control.transPath(control.addonInfo('path'))
 favouritesFile = control.joinPath(dataPath, 'favourites.db')
 progressFile = control.joinPath(dataPath, 'progress.db')
 
@@ -21,45 +17,36 @@ def getFavourites(content):
 	try:
 		dbcon = database.connect(favouritesFile)
 		dbcur = dbcon.cursor()
-		dbcur.execute("SELECT * FROM %s" % content)
-		items = dbcur.fetchall()
-		items = [(i[0].encode('utf-8'), eval(i[1].encode('utf-8'))) for i in items]
+		items = dbcur.execute("SELECT * FROM %s" % content).fetchall()
+		items = [(i[0], eval(i[1])) for i in items]
 	except:
 		items = []
-
-	dbcon.close()
+	finally:
+		dbcur.close() ; dbcon.close()
 	return items
-
 
 def getProgress(content):
 	try:
 		dbcon = database.connect(progressFile)
 		dbcur = dbcon.cursor()
-		dbcur.execute("SELECT * FROM %s" % content)
-		items = dbcur.fetchall()
-		items = [(i[0].encode('utf-8'), eval(i[1].encode('utf-8'))) for i in items]
+		items = dbcur.execute("SELECT * FROM %s" % content).fetchall()
+		items = [(i[0], eval(i[1])) for i in items]
 	except:
 		items = []
-
-	dbcon.close()
+	finally:
+		dbcur.close() ; dbcon.close()
 	return items
-
 
 def addFavourite(meta, content):
 	try:
 		item = dict()
-		meta = json.loads(meta)
-		# print("META DUMP FAVOURITES %s" % meta)
-
-		try:
-			id = meta['imdb']
-		except:
-			id = meta['tvdb']
+		meta = jsloads(meta)
+		try: id = meta['imdb']
+		except: id = meta['tvdb']
 
 		if 'title' in meta: title = item['title'] = meta['title']
 		if 'tvshowtitle' in meta: title = item['title'] = meta['tvshowtitle']
 		if 'year' in meta: item['year'] = meta['year']
-		if 'tvshowyear' in meta: item['tvshowyear'] = meta['tvshowyear']
 		if 'poster' in meta: item['poster'] = meta['poster']
 		if 'fanart' in meta: item['fanart'] = meta['fanart']
 		if 'clearart' in meta: item['clearart'] = meta['clearart']
@@ -72,35 +59,26 @@ def addFavourite(meta, content):
 		control.makeFile(dataPath)
 		dbcon = database.connect(favouritesFile)
 		dbcur = dbcon.cursor()
-		dbcur.execute("CREATE TABLE IF NOT EXISTS %s (""id TEXT, ""items TEXT, ""UNIQUE(id)"");" % content)
-		dbcur.execute("DELETE FROM %s WHERE id = '%s'" % (content, id))
-		dbcur.execute("INSERT INTO %s Values (?, ?)" % content, (id, repr(item)))
+		dbcur.execute('''CREATE TABLE IF NOT EXISTS %s (id TEXT, items TEXT, UNIQUE(id));''' % content)
+		dbcur.execute('''DELETE FROM %s WHERE id = "%s"''' % (content, id))
+		dbcur.execute('''INSERT INTO %s Values (?, ?)''' % content, (id, repr(item)))
 		dbcur.connection.commit()
-		dbcon.close()
-
 		control.refresh()
 		control.notification(title=title, message=32117)
-	except:
-		return
-
+	except: return
+	finally:
+		dbcur.close() ; dbcon.close()
 
 def addEpisodes(meta, content):
 	try:
 		item = dict()
-		meta = json.loads(meta)
+		meta = jsloads(meta)
 		content = "episode"
-
-		try:
-			id = meta['imdb']
-			if id == '' or id is None:
-				id = meta['tvdb']
-		except:
-			id = meta['episodeIDS']['trakt']
-
+		try: id = meta.get('imdb', '') or meta.get('tvdb', '')
+		except: id = meta['episodeIDS']['trakt']
 		if 'title' in meta: title = item['title'] = meta['title']
 		if 'tvshowtitle' in meta: title = item['tvshowtitle'] = meta['tvshowtitle']
 		if 'year' in meta: item['year'] = meta['year']
-		if 'tvshowyear' in meta: item['tvshowyear'] = meta['tvshowyear']
 		if 'poster' in meta: item['poster'] = meta['poster']
 		if 'fanart' in meta: item['fanart'] = meta['fanart']
 		if 'clearart' in meta: item['clearart'] = meta['clearart']
@@ -113,56 +91,46 @@ def addEpisodes(meta, content):
 		if 'season' in meta: item['season'] = meta['season']
 		if 'premiered' in meta: item['premiered'] = meta['premiered']
 		if 'original_year' in meta: item['original_year'] = meta['original_year']
-
 		control.makeFile(dataPath)
 		dbcon = database.connect(favouritesFile)
 		dbcur = dbcon.cursor()
-		dbcur.execute("CREATE TABLE IF NOT EXISTS %s (""id TEXT, ""items TEXT, ""UNIQUE(id)"");" % content)
-		dbcur.execute("DELETE FROM %s WHERE id = '%s'" % (content, id))
-		dbcur.execute("INSERT INTO %s Values (?, ?)" % content, (id, repr(item)))
+		dbcur.execute('''CREATE TABLE IF NOT EXISTS %s (id TEXT, items TEXT, UNIQUE(id));''' % content)
+		dbcur.execute('''DELETE FROM %s WHERE id = "%s"''' % (content, id))
+		dbcur.execute('''INSERT INTO %s Values (?, ?)''' % content, (id, repr(item)))
 		dbcur.connection.commit()
-		dbcon.close()
-
 		control.refresh()
 		control.notification(title=title, message=32117)
-	except:
-		return
-
+	except: return
+	finally:
+		dbcur.close() ; dbcon.close()
 
 def deleteFavourite(meta, content):
 	try:
-		meta = json.loads(meta)
-		if 'title' in meta:
-			title = meta['title']
-		if 'tvshowtitle' in meta:
-			title = meta['tvshowtitle']
-
+		meta = jsloads(meta)
+		if 'title' in meta: title = meta['title']
+		if 'tvshowtitle' in meta: title = meta['tvshowtitle']
 		dbcon = database.connect(favouritesFile)
 		dbcur = dbcon.cursor()
-		dbcur.execute("DELETE FROM %s WHERE id = '%s'" % (content, meta['imdb']))
-		dbcur.execute("DELETE FROM %s WHERE id = '%s'" % (content, meta['tvdb']))
-		dbcur.execute("DELETE FROM %s WHERE id = '%s'" % (content, meta['tmdb']))
+		dbcur.execute('''DELETE FROM %s WHERE id = "%s"''' % (content, meta['imdb']))
+		dbcur.execute('''DELETE FROM %s WHERE id = "%s"''' % (content, meta['tvdb']))
+		dbcur.execute('''DELETE FROM %s WHERE id = "%s"''' % (content, meta['tmdb']))
 		dbcur.connection.commit()
-		dbcon.close()
-
 		control.refresh()
 		control.notification(title=title, message=32118)
-	except:
-		return
-
+	except: return
+	finally:
+		dbcur.close() ; dbcon.close()
 
 def deleteProgress(meta, content):
 	try:
-		meta = json.loads(meta)
-
+		meta = jsloads(meta)
 		dbcon = database.connect(progressFile)
 		dbcur = dbcon.cursor()
-		dbcur.execute("DELETE FROM %s WHERE id = '%s'" % (content, meta['imdb']))
-		dbcur.execute("DELETE FROM %s WHERE id = '%s'" % (content, meta['tvdb']))
-		dbcur.execute("DELETE FROM %s WHERE id = '%s'" % (content, meta['tmdb']))
+		dbcur.execute('''DELETE FROM %s WHERE id = "%s"''' % (content, meta['imdb']))
+		dbcur.execute('''DELETE FROM %s WHERE id = "%s"''' % (content, meta['tvdb']))
+		dbcur.execute('''DELETE FROM %s WHERE id = "%s"''' % (content, meta['tmdb']))
 		dbcur.connection.commit()
-		dbcon.close()
-
 		control.refresh()
-	except:
-		return
+	except: return
+	finally:
+		dbcur.close() ; dbcon.close()

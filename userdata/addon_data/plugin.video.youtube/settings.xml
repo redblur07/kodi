@@ -1,7 +1,7 @@
 <settings version="2">
     <setting id="kodion.access_token" default="true"></setting>
     <setting id="kodion.access_token.expires" default="true">0</setting>
-    <setting id="kodion.age.gate">true</setting>
+    <setting id="kodion.age.gate">false</setting>
     <setting id="kodion.alternative_player.web.urls" default="true">false</setting>
     <setting id="kodion.audio_only" default="true">false</setting>
     <setting id="kodion.cache.size">50</setting>
@@ -70,9 +70,9 @@
     <setting id="youtube.folder.history.show">true</setting>
     <setting id="youtube.folder.liked_videos.show">true</setting>
     <setting id="youtube.folder.live.show">true</setting>
-    <setting id="youtube.folder.my_channel.show">true</setting>
-    <setting id="youtube.folder.my_location.show">true</setting>
-    <setting id="youtube.folder.my_subscriptions.show">true</setting>
+    <setting id="youtube.folder.my_channel.show">false</setting>
+    <setting id="youtube.folder.my_location.show">false</setting>
+    <setting id="youtube.folder.my_subscriptions.show">false</setting>
     <setting id="youtube.folder.my_subscriptions_filtered.show" default="true">false</setting>
     <setting id="youtube.folder.playlists.show">true</setting>
     <setting id="youtube.folder.popular_right_now.show">true</setting>

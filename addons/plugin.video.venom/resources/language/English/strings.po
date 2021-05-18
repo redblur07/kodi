@@ -60,7 +60,7 @@ msgid "New Episodes"
 msgstr ""
 
 msgctxt "#32007"
-msgid "Channels"
+msgid ""
 msgstr ""
 
 msgctxt "#32008"
@@ -100,7 +100,7 @@ msgid "Browse Progress"
 msgstr ""
 
 msgctxt "#32017"
-msgid ""
+msgid "check IMDb year for Movies"
 msgstr ""
 
 msgctxt "#32018"
@@ -108,7 +108,7 @@ msgid "Most Popular"
 msgstr ""
 
 msgctxt "#32019"
-msgid ""
+msgid "Upcoming Progress"
 msgstr ""
 
 msgctxt "#32020"
@@ -116,11 +116,11 @@ msgid "Box Office"
 msgstr ""
 
 msgctxt "#32021"
-msgid "group by debrid provider"
+msgid "Do Not Group(quality, size priority)"
 msgstr ""
 
 msgctxt "#32022"
-msgid "ignore debrid provider"
+msgid "Group(Torrents, Acct Sources, Prem Hosters)"
 msgstr ""
 
 msgctxt "#32023"
@@ -232,11 +232,11 @@ msgid "[B]VENOM[/B] : Viewtypes"
 msgstr ""
 
 msgctxt "#32050"
-msgid "Remove CAM and SD Sources"
+msgid "Remove CAM and SD sources"
 msgstr ""
 
 msgctxt "#32051"
-msgid "Remove 3D Sources"
+msgid "Remove 3D sources"
 msgstr ""
 
 msgctxt "#32052"
@@ -328,7 +328,7 @@ msgid "[B]TRAKT[/B] : Authorize"
 msgstr ""
 
 msgctxt "#32074"
-msgid ""
+msgid "Source Options"
 msgstr ""
 
 msgctxt "#32075"
@@ -360,7 +360,7 @@ msgid "Enable"
 msgstr ""
 
 msgctxt "#32082"
-msgid ""
+msgid "Trakt: Scrobble Reset"
 msgstr ""
 
 msgctxt "#32083"
@@ -528,35 +528,72 @@ msgid "Not found in playlist"
 msgstr ""
 
 msgctxt "#32124"
-msgid ""
+msgid "No TVShow lists imports found"
 msgstr ""
 
 msgctxt "#32125"
-msgid ""
+msgid "Scraper Preperation"
 msgstr ""
 
 msgctxt "#32126"
-msgid ""
+msgid "Furk Username"
 msgstr ""
 
 msgctxt "#32127"
-msgid ""
+msgid "Furk Password"
 msgstr ""
 
 msgctxt "#32128"
-msgid ""
+msgid "Furk API Key"
 msgstr ""
 
 msgctxt "#32129"
-msgid ""
+msgid "Enable Furk.net Menu"
 msgstr ""
 
 msgctxt "#32130"
 msgid ""
 msgstr ""
 
+msgctxt "#32131"
+msgid ""
+msgstr ""
 
+msgctxt "#32132"
+msgid ""
+msgstr ""
 
+msgctxt "#32133"
+msgid ""
+msgstr ""
+
+msgctxt "#32134"
+msgid ""
+msgstr ""
+
+msgctxt "#32135"
+msgid ""
+msgstr ""
+
+msgctxt "#32136"
+msgid ""
+msgstr ""
+
+msgctxt "#32137"
+msgid ""
+msgstr ""
+
+msgctxt "#32138"
+msgid ""
+msgstr ""
+
+msgctxt "#32139"
+msgid ""
+msgstr ""
+
+msgctxt "#32140"
+msgid ""
+msgstr ""
 
 
 
@@ -607,7 +644,7 @@ msgid "Icon Package"
 msgstr ""
 
 msgctxt "#32312"
-msgid "Providers Timeout"
+msgid "Scraper Timeout"
 msgstr ""
 
 msgctxt "#32313"
@@ -639,7 +676,7 @@ msgid "Menu"
 msgstr ""
 
 msgctxt "#32320"
-msgid ""
+msgid "Auth Revoked"
 msgstr ""
 
 msgctxt "#32321"
@@ -683,7 +720,7 @@ msgid "Playback"
 msgstr ""
 
 msgctxt "#32331"
-msgid "Default action"
+msgid "Default (movie/episode) select action"
 msgstr ""
 
 msgctxt "#32332"
@@ -699,7 +736,7 @@ msgid "Auto Play"
 msgstr ""
 
 msgctxt "#32335"
-msgid "Progress Dialog"
+msgid "Progress Dialog (Scraping and Resolving)"
 msgstr ""
 
 msgctxt "#32336"
@@ -711,7 +748,7 @@ msgid "Background"
 msgstr ""
 
 msgctxt "#32338"
-msgid "Results filtering options"
+msgid "Sources Filtering Options"
 msgstr ""
 
 msgctxt "#32339"
@@ -811,7 +848,7 @@ msgid "[B]SETTINGS[/B] : Navigation"
 msgstr ""
 
 msgctxt "#32363"
-msgid "Remove HEVC streams"
+msgid "Remove HEVC sources"
 msgstr ""
 
 msgctxt "#32364"
@@ -903,19 +940,19 @@ msgid "All"
 msgstr ""
 
 msgctxt "#32386"
-msgid ""
+msgid "Scraper Progress Dialog"
 msgstr ""
 
 msgctxt "#32387"
-msgid ""
+msgid "Sources Select"
 msgstr ""
 
 msgctxt "#32388"
-msgid ""
+msgid "Remove Dolby Vision sources"
 msgstr ""
 
 msgctxt "#32389"
-msgid ""
+msgid "Remove HDR sources"
 msgstr ""
 
 msgctxt "#32390"
@@ -967,7 +1004,7 @@ msgid "No stream available"
 msgstr ""
 
 msgctxt "#32402"
-msgid "Playback outside Venom is not allowed"
+msgid ""
 msgstr ""
 
 msgctxt "#32403"
@@ -1231,7 +1268,7 @@ msgid "Airing Today (TMDb)"
 msgstr ""
 
 msgctxt "#32468"
-msgid "Trakt On Deck"
+msgid "Networks (TMDb)"
 msgstr ""
 
 msgctxt "#32469"
@@ -1375,7 +1412,7 @@ msgid "Resume"
 msgstr ""
 
 msgctxt "#32504"
-msgid "Clear [B][COLOR red]ResolveURL[/COLOR][/B] Function Cache"
+msgid ""
 msgstr ""
 
 msgctxt "#32505"
@@ -1455,15 +1492,15 @@ msgid ""
 msgstr ""
 
 msgctxt "#32532"
-msgid "Do you want to reset?"
+msgid ""
 msgstr ""
 
 msgctxt "#32533"
-msgid "1) Visit : [COLOR skyblue]%s[/COLOR]"
+msgid ""
 msgstr ""
 
 msgctxt "#32534"
-msgid "2) When prompted enter : [COLOR skyblue]%s[/COLOR]"
+msgid ""
 msgstr ""
 
 msgctxt "#32535"
@@ -1479,15 +1516,15 @@ msgid "Nothing found to play"
 msgstr ""
 
 msgctxt "#32538"
-msgid "DEBRID-SERVICE"
+msgid ""
 msgstr ""
 
 msgctxt "#32539"
-msgid "Configure Debrid Services in ResolveURL Settings."
+msgid ""
 msgstr ""
 
 msgctxt "#32540"
-msgid "[B]RESOLVEURL[/B] : Settings"
+msgid ""
 msgstr ""
 
 msgctxt "#32541"
@@ -1599,23 +1636,51 @@ msgid "Hide movies in cinema"
 msgstr ""
 
 msgctxt "#32572"
+msgid "Trakt Progress Show unaired episodes"
+msgstr ""
+
+msgctxt "#32573"
+msgid "Trakt Upcoming Progress prepend date"
+msgstr ""
+
+msgctxt "#32574"
+msgid ""
+msgstr ""
+
+msgctxt "#32575"
+msgid ""
+msgstr ""
+
+msgctxt "#32576"
+msgid ""
+msgstr ""
+
+msgctxt "#32577"
+msgid ""
+msgstr ""
+
+msgctxt "#32578"
+msgid ""
+msgstr ""
+
+msgctxt "#32579"
 msgid ""
 msgstr ""
 
 msgctxt "#32580"
-msgid "Films/TV Movies"
+msgid ""
 msgstr ""
 
 msgctxt "#32581"
-msgid "Results Limit"
+msgid ""
 msgstr ""
 
 msgctxt "#32582"
-msgid "Personal API keys provide quicker API responses."
+msgid ""
 msgstr ""
 
 msgctxt "#32583"
-msgid "Become a VIP member for many benefits at: https://fanart.tv/vip"
+msgid ""
 msgstr ""
 
 msgctxt "#32584"
@@ -1631,11 +1696,11 @@ msgid "Recently watched"
 msgstr ""
 
 msgctxt "#32587"
-msgid "Show Extra Source Info"
+msgid ""
 msgstr ""
 
 msgctxt "#32588"
-msgid "Debrid Source Identifier Color"
+msgid "Debrid(Hoster) Source Color"
 msgstr ""
 
 msgctxt "#32589"
@@ -1755,15 +1820,15 @@ msgid "Logging Location"
 msgstr ""
 
 msgctxt "#32618"
-msgid "Kodi Log"
+msgid "kodi.log"
 msgstr ""
 
 msgctxt "#32619"
-msgid "Addon Log"
+msgid "venom.log"
 msgstr ""
 
 msgctxt "#32620"
-msgid "Podcasts"
+msgid ""
 msgstr ""
 
 msgctxt "#32621"
@@ -1775,31 +1840,31 @@ msgid "Main Menu"
 msgstr ""
 
 msgctxt "#32623"
-msgid "Reviews and Trailers"
+msgid ""
 msgstr ""
 
 msgctxt "#32624"
-msgid "P[COLOR red]o[/COLOR]dcast[COLOR red]One[/COLOR]"
+msgid ""
 msgstr ""
 
 msgctxt "#32625"
-msgid "Featured Podcasts"
+msgid ""
 msgstr ""
 
 msgctxt "#32626"
-msgid "New Podcasts"
+msgid ""
 msgstr ""
 
 msgctxt "#32627"
-msgid "Categories"
+msgid ""
 msgstr ""
 
 msgctxt "#32628"
-msgid "[B]SETTINGS[/B] : Navigation"
+msgid ""
 msgstr ""
 
 msgctxt "#32629"
-msgid "PodBay"
+msgid ""
 msgstr ""
 
 msgctxt "#32630"
@@ -1811,19 +1876,19 @@ msgid "Documentaries"
 msgstr ""
 
 msgctxt "#32634"
-msgid "Torrent Source Identifier Color"
+msgid "Cached Torrent Source Color"
 msgstr ""
 
 msgctxt "#32635"
-msgid ""
+msgid "UnCached Torrent Source Color"
 msgstr ""
 
 msgctxt "#32636"
-msgid ""
+msgid "Secondary(info) Line Color"
 msgstr ""
 
 msgctxt "#32637"
-msgid ""
+msgid "Secondary Line Content Type"
 msgstr ""
 
 msgctxt "#32638"
@@ -1831,7 +1896,7 @@ msgid "Minimum Seeders"
 msgstr ""
 
 msgctxt "#32639"
-msgid "Sort By Torrent/Premium"
+msgid ""
 msgstr ""
 
 msgctxt "#32640"
@@ -1839,7 +1904,7 @@ msgid ""
 msgstr ""
 
 msgctxt "#32641"
-msgid "TV Shows"
+msgid ""
 msgstr ""
 
 msgctxt "#32642"
@@ -1875,7 +1940,7 @@ msgid "Include Special Episodes (Season 0)"
 msgstr ""
 
 msgctxt "#32650"
-msgid "Powered by..."
+msgid ""
 msgstr ""
 
 msgctxt "#32651"
@@ -1887,7 +1952,7 @@ msgid "Title Already Exists in Library"
 msgstr ""
 
 msgctxt "#32653"
-msgid "Debrid Sources Only"
+msgid ""
 msgstr ""
 
 msgctxt "#32654"
@@ -2102,31 +2167,31 @@ msgid ""
 msgstr ""
 
 msgctxt "#33017"
-msgid ""
+msgid "New value = [B]%s[/B]: Successfully changed."
 msgstr ""
 
 msgctxt "#33018"
-msgid ""
+msgid "[B]Reuse Langauage Invoker[/B] is currently set to [B]%s[/B].\n\nDo you wish to change this setting to [B]%s[/B]?"
 msgstr ""
 
 msgctxt "#33019"
-msgid ""
+msgid "Enabling this setting may cause instability issues.\nTest at your own free will.\nContinue?"
 msgstr ""
 
 msgctxt "#33020"
-msgid ""
+msgid "Venom will reload your profile to refresh the addon.xml"
 msgstr ""
 
 msgctxt "#33021"
-msgid ""
+msgid "Write failed"
 msgstr ""
 
 msgctxt "#33022"
-msgid ""
+msgid "Error setting correct value."
 msgstr ""
 
 msgctxt "#33023"
-msgid ""
+msgid "[B]Reuse Language Invoker[/B] SETTING/XML mismatch"
 msgstr ""
 
 msgctxt "#33024"
@@ -2605,11 +2670,11 @@ msgid ""
 msgstr ""
 
 msgctxt "#33674"
-msgid ""
+msgid "Trakt Throttling Applied, Sleeping for %s seconds"
 msgstr ""
 
 msgctxt "#33675"
-msgid ""
+msgid "Locked User Account - contact Trakt support"
 msgstr ""
 
 msgctxt "#33676"
@@ -3093,15 +3158,15 @@ msgid "Enable Notification Sound"
 msgstr ""
 
 msgctxt "#35528"
-msgid ""
+msgid "Log Level"
 msgstr ""
 
 msgctxt "#35529"
-msgid ""
+msgid "Normal"
 msgstr ""
 
 msgctxt "#35530"
-msgid ""
+msgid "Debug(Extra info)"
 msgstr ""
 
 msgctxt "#35531"
@@ -3693,6 +3758,13 @@ msgid "Select Menu type to hide from"
 msgstr ""
 
 msgctxt "#40075"
-msgid "Hide %s"
+msgid "[COLOR red][B]Hide[/B][/COLOR] %s"
 msgstr ""
 
+msgctxt "#40076"
+msgid "[COLOR red][B]Scrobbble Reset[/B][/COLOR] Item"
+msgstr ""
+
+msgctxt "#40077"
+msgid "Originals (TMDb)"
+msgstr ""

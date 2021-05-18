@@ -1,20 +1,21 @@
 <settings version="2">
-    <setting id="ad.remove.uncached">true</setting>
     <setting id="alldebrid.enable">true</setting>
     <setting id="alldebrid.priority">10</setting>
     <setting id="alldebrid.saveToCloud" default="true">false</setting>
+    <setting id="alldebrid.server.notifications">true</setting>
     <setting id="alldebrid.token" default="true"></setting>
     <setting id="alldebrid.username" default="true"></setting>
     <setting id="api.language" default="true">English</setting>
     <setting id="appearance.1" default="true">Venom</setting>
     <setting id="auto.playlistcreate">true</setting>
-    <setting id="autoplay.sd">true</setting>
+    <setting id="autoplay.sd" default="true">false</setting>
     <setting id="autoTraktOnStart" default="true">false</setting>
     <setting id="bookmarks">true</setting>
     <setting id="bookmarks.auto" default="true">false</setting>
     <setting id="cf.disable" default="true">false</setting>
     <setting id="crefresh" default="true">false</setting>
     <setting id="debug.enabled" default="true">false</setting>
+    <setting id="debug.level">1</setting>
     <setting id="debug.location">1</setting>
     <setting id="dev.disable.season.filter" default="true">false</setting>
     <setting id="dev.disable.season.packs" default="true">false</setting>
@@ -24,7 +25,7 @@
     <setting id="dev.mode.enable" default="true">false</setting>
     <setting id="disable.fanarttv" default="true">false</setting>
     <setting id="disable.player.art" default="true">false</setting>
-    <setting id="downloads">true</setting>
+    <setting id="downloads" default="true">false</setting>
     <setting id="downloads.file.format">1</setting>
     <setting id="downloads.message1" default="true"></setting>
     <setting id="downloads.message2" default="true"></setting>
@@ -34,35 +35,39 @@
     <setting id="fanart.tv.api.key" default="true"></setting>
     <setting id="first.info" default="true">false</setting>
     <setting id="flatten.tvshows" default="true">false</setting>
+    <setting id="furk.api" default="true"></setting>
+    <setting id="furk.password" default="true"></setting>
+    <setting id="furk.username" default="true"></setting>
     <setting id="general.checkAddonUpdates">true</setting>
     <setting id="hidecinema" default="true">false</setting>
     <setting id="hidecinema.rollback">6</setting>
     <setting id="highlight.color">2</setting>
     <setting id="hosts.mode">1</setting>
-    <setting id="hosts.quality">3</setting>
-    <setting id="hosts.sort.provider">true</setting>
+    <setting id="hosts.quality" default="true">0</setting>
     <setting id="icon.logos" default="true">Traditional</setting>
     <setting id="imdb.user" default="true"></setting>
+    <setting id="imdb.year.check">true</setting>
     <setting id="index.labels">true</setting>
     <setting id="indicators" default="true">0</setting>
     <setting id="indicators.alt">1</setting>
     <setting id="library.check">true</setting>
-    <setting id="library.check_episode" default="true">false</setting>
-    <setting id="library.check_movie" default="true">false</setting>
-    <setting id="library.general.notification">true</setting>
+    <setting id="library.general.notification" default="true">false</setting>
     <setting id="library.importdelay">true</setting>
+    <setting id="library.include_specials" default="true">false</setting>
     <setting id="library.include_unknown">true</setting>
     <setting id="library.movie" default="true">special://userdata/addon_data/plugin.video.venom/Movies</setting>
     <setting id="library.service.notification">true</setting>
     <setting id="library.service.update" default="true">false</setting>
+    <setting id="library.strm.use_tmdbhelper" default="true">false</setting>
     <setting id="library.tv" default="true">special://userdata/addon_data/plugin.video.venom/TVShows</setting>
     <setting id="library.update">true</setting>
-    <setting id="movie.download.path">/home/osmc/Movies/</setting>
+    <setting id="movie.download.path" default="true"></setting>
     <setting id="movie.unaired.identify">8</setting>
     <setting id="multi.unwatched.enabled" default="true">false</setting>
     <setting id="mylists.widget">true</setting>
     <setting id="navi.anime" default="true">false</setting>
     <setting id="navi.changelog">true</setting>
+    <setting id="navi.furk">true</setting>
     <setting id="navi.movie.collections">true</setting>
     <setting id="navi.movie.imdb.boxoffice">true</setting>
     <setting id="navi.movie.imdb.certificates">true</setting>
@@ -88,7 +93,7 @@
     <setting id="navi.movie.trakt.trending">true</setting>
     <setting id="navi.news">true</setting>
     <setting id="navi.originals" default="true">false</setting>
-    <setting id="navi.prem.services">false</setting>
+    <setting id="navi.prem.services">true</setting>
     <setting id="navi.tv.imdb.airingtoday">true</setting>
     <setting id="navi.tv.imdb.certificates">true</setting>
     <setting id="navi.tv.imdb.genres">true</setting>
@@ -108,43 +113,42 @@
     <setting id="navi.tv.tvmaze.calendar">true</setting>
     <setting id="navi.tv.tvmaze.networks">true</setting>
     <setting id="navi.xmascollections" default="true">false</setting>
-    <setting id="navi.youtube" default="true">false</setting>
+    <setting id="navi.youtube">true</setting>
     <setting id="notification.sound" default="true">false</setting>
     <setting id="page.item.limit">20</setting>
-    <setting id="pm.remove.uncached">true</setting>
     <setting id="preemptive.limit">25</setting>
     <setting id="preemptive.res">2</setting>
     <setting id="preemptive.termination" default="true">false</setting>
-    <setting id="prem.identify">6</setting>
     <setting id="premiumize.enable">true</setting>
     <setting id="premiumize.priority">10</setting>
     <setting id="premiumize.saveToCloud" default="true">false</setting>
+    <setting id="premiumize.server.notifications">true</setting>
     <setting id="premiumize.token" default="true"></setting>
     <setting id="premiumize.username" default="true"></setting>
     <setting id="progress.dialog" default="true">0</setting>
-    <setting id="progress.dialog.prem.color">5</setting>
-    <setting id="rd.remove.uncached">true</setting>
     <setting id="realdebrid.client_id" default="true"></setting>
     <setting id="realdebrid.enable">true</setting>
     <setting id="realdebrid.priority">10</setting>
     <setting id="realdebrid.refresh" default="true"></setting>
     <setting id="realdebrid.saveToCloud" default="true">false</setting>
     <setting id="realdebrid.secret" default="true"></setting>
+    <setting id="realdebrid.server.notifications">true</setting>
     <setting id="realdebrid.token" default="true"></setting>
     <setting id="realdebrid.username" default="true"></setting>
-    <setting id="remove.3D.sources">false</setting>
+    <setting id="remove.3D.sources">true</setting>
     <setting id="remove.CamSd.sources" default="true">false</setting>
-    <setting id="remove.captcha" default="true">false</setting>
+    <setting id="remove.dolby.vision" default="true">false</setting>
     <setting id="remove.duplicates">true</setting>
     <setting id="remove.duplicates.logging">true</setting>
+    <setting id="remove.hdr" default="true">false</setting>
     <setting id="remove.hevc" default="true">false</setting>
     <setting id="resume.source" default="true">0</setting>
+    <setting id="reuse.languageinvoker" default="true">true</setting>
     <setting id="schedTraktTime" default="true">0</setting>
-    <setting id="scrapers.timeout.1">60</setting>
-    <setting id="sec.identify">4</setting>
-    <setting id="sec.identify2" default="true">magnet title</setting>
+    <setting id="scraper.dialog.color">5</setting>
+    <setting id="scrapers.timeout">60</setting>
     <setting id="seperator" default="true">false</setting>
-    <setting id="showunaired">true</setting>
+    <setting id="showunaired" default="true">false</setting>
     <setting id="sort.calendar.order">1</setting>
     <setting id="sort.calendar.type">4</setting>
     <setting id="sort.movies.order">1</setting>
@@ -152,43 +156,48 @@
     <setting id="sort.movies.watchlist.order">1</setting>
     <setting id="sort.movies.watchlist.type">5</setting>
     <setting id="sort.progress.order">1</setting>
-    <setting id="sort.progress.type">4</setting>
-    <setting id="sort.shows.order">1</setting>
-    <setting id="sort.shows.type">6</setting>
+    <setting id="sort.progress.type">6</setting>
+    <setting id="sort.shows.order" default="true">0</setting>
+    <setting id="sort.shows.type" default="true">0</setting>
     <setting id="sort.shows.watchlist.order">1</setting>
     <setting id="sort.shows.watchlist.type">5</setting>
     <setting id="source.enablesizelimit" default="true">false</setting>
     <setting id="source.sizelimit">10</setting>
-    <setting id="sourcelist.multiline">true</setting>
-    <setting id="sources.extrainfo">true</setting>
-    <setting id="subtitle.message2" default="true"></setting>
+    <setting id="sources.cached.color">5</setting>
+    <setting id="sources.group.sort" default="true">0</setting>
+    <setting id="sources.prem.color">6</setting>
+    <setting id="sources.sec.color">4</setting>
+    <setting id="sources.sec.type" default="true">link title</setting>
+    <setting id="sources.size.sort">true</setting>
+    <setting id="sources.uncached.color">13</setting>
     <setting id="subtitles" default="true">false</setting>
     <setting id="subtitles.lang.1" default="true">English</setting>
     <setting id="subtitles.lang.2" default="true">English</setting>
     <setting id="subtitles.message1" default="true"></setting>
+    <setting id="subtitles.message2" default="true"></setting>
     <setting id="subtitles.utf" default="true">false</setting>
     <setting id="tmdb.api.key" default="true"></setting>
     <setting id="tmdb.password" default="true"></setting>
     <setting id="tmdb.session_id" default="true"></setting>
     <setting id="tmdb.username" default="true"></setting>
-    <setting id="torrent.group.sort">1</setting>
-    <setting id="torrent.identify">5</setting>
     <setting id="torrent.min.seeders">1</setting>
-    <setting id="torrent.size.sort">true</setting>
+    <setting id="torrent.remove.uncached">true</setting>
     <setting id="trakt.general.notifications">true</setting>
     <setting id="trakt.isauthed" default="true"></setting>
     <setting id="trakt.message1" default="true"></setting>
     <setting id="trakt.message2" default="true"></setting>
+    <setting id="trakt.progress.showunaired" default="true">false</setting>
     <setting id="trakt.rating" default="true">0</setting>
     <setting id="trakt.refresh" default="true"></setting>
     <setting id="trakt.scrobble" default="true">false</setting>
     <setting id="trakt.scrobble.notify" default="true">false</setting>
     <setting id="trakt.server.notifications">true</setting>
     <setting id="trakt.token" default="true"></setting>
+    <setting id="trakt.UpcomingProgress.prependDate">true</setting>
     <setting id="trakt.username" default="true"></setting>
-    <setting id="tv.download.path">/home/osmc/TV Shows/</setting>
-    <setting id="tv.specials">true</setting>
-    <setting id="tvdb.api.key">MDZjZmYzMDY5MGY5Yjk2MjI5NTcwNDRmMjE1OWZmYWU=</setting>
+    <setting id="tv.download.path" default="true"></setting>
+    <setting id="tv.specials" default="true">false</setting>
+    <setting id="tvdb.api.key">06cff30690f9b9622957044f2159ffae</setting>
     <setting id="tvdb.jw" default="true"></setting>
     <setting id="tvshows.air.bold">true</setting>
     <setting id="tvshows.air.day">1</setting>

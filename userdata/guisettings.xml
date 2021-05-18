@@ -436,7 +436,7 @@
             <level>0</level>
             <showhigherlevels>true</showhigherlevels>
         </eventlog>
-        <systemtotaluptime>59324</systemtotaluptime>
+        <systemtotaluptime>62915</systemtotaluptime>
     </general>
     <resolutions>
         <resolution>
@@ -498,6 +498,6 @@
     </myvideos>
     <audio>
         <mute>false</mute>
-        <fvolumelevel>0.800000</fvolumelevel>
+        <fvolumelevel>1.000000</fvolumelevel>
     </audio>
 </settings>
